@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3187507146	Play_TEST			\Default Work Unit\Play_TEST	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	57886002	TEST	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\SummerSideshor_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TEST		36739832
+
