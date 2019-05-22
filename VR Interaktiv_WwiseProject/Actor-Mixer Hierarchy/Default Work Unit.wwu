@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="TEST" ID="{7EF18741-AF6B-489D-A160-3E56E2B02F52}" ShortID="328679994">
+				<Sound Name="Moon" ID="{76325EDC-DA10-4DB7-98FB-0400C04F1AFE}" ShortID="280660148">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -13,13 +13,32 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="SummerSideshor" ID="{CEB5A185-873D-4D35-A3EC-BB4419A49062}" ShortID="57886002">
+						<AudioFileSource Name="VR_Moon" ID="{2DF6EED5-D8EE-417D-B514-6AF0CEF79A54}" ShortID="1041339295">
 							<Language>SFX</Language>
-							<AudioFile>SummerSideshor.wav</AudioFile>
+							<AudioFile>VR_Moon.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="SummerSideshor" ID="{CEB5A185-873D-4D35-A3EC-BB4419A49062}" Platform="Linked"/>
+						<ActiveSource Name="VR_Moon" ID="{2DF6EED5-D8EE-417D-B514-6AF0CEF79A54}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ambient" ID="{B1EC71C4-0FF9-4EE9-99C3-E01B395CD6EF}" ShortID="1031386038">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VR_Ambient" ID="{04603075-3FD5-4FD8-97F0-A6DCEB50CAD6}" ShortID="841560329">
+							<Language>SFX</Language>
+							<AudioFile>VR_Ambient.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VR_Ambient" ID="{04603075-3FD5-4FD8-97F0-A6DCEB50CAD6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
