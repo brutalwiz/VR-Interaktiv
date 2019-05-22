@@ -4,7 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Moon" ID="{76325EDC-DA10-4DB7-98FB-0400C04F1AFE}" ShortID="280660148">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Moon" ID="{767521CC-9919-4CD9-93EB-B89E8FA4A158}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
 						</Reference>
@@ -16,6 +22,9 @@
 						<AudioFileSource Name="VR_Moon" ID="{2DF6EED5-D8EE-417D-B514-6AF0CEF79A54}" ShortID="1041339295">
 							<Language>SFX</Language>
 							<AudioFile>VR_Moon.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="977390048"/>
+							</ConvertedFileIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -23,6 +32,14 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Ambient" ID="{B1EC71C4-0FF9-4EE9-99C3-E01B395CD6EF}" ShortID="1031386038">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -41,6 +58,979 @@
 						<ActiveSource Name="VR_Ambient" ID="{04603075-3FD5-4FD8-97F0-A6DCEB50CAD6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<BlendContainer Name="Sphere_1" ID="{4AF9D7A9-FC64-4A69-885F-6378A4E22B3F}" ShortID="146931226">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sphere_1_Background" ID="{816E7B3F-DF84-475B-B23B-6441A173C9A5}" ShortID="191231734">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>530</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="VR_Moon" ID="{8BCD04D3-5B5E-4091-9BE0-143B799B27A6}" ShortID="977390048">
+									<Language>SFX</Language>
+									<AudioFile>VR_Moon.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VR_Moon" ID="{8BCD04D3-5B5E-4091-9BE0-143B799B27A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Sphere_1_Random" ID="{0C52E9AC-B473-4D6A-BAE6-B92E9B0DB091}" ShortID="136057103">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AF5A816A-6966-40DF-8C59-937A94D61790}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="354"/>
+													<Property Name="Min" Type="Real64" Value="-455"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{113D3DAC-9F35-4DA2-916B-A1A97147C048}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Sphere 1 five" ID="{85DC6825-DDAA-4DE9-9E8A-798AF8CE8611}" ShortID="753725002">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 1 five" ID="{B09E84FB-CC43-4258-BF85-FD2E4BB4570C}" ShortID="763511347">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 1 five.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 1 five" ID="{B09E84FB-CC43-4258-BF85-FD2E4BB4570C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 1 four" ID="{79B9FB2C-4703-4F0D-BF3C-0F37319EC493}" ShortID="1014806466">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 1 four" ID="{720E6570-6D9C-4661-8CEB-C710F4472B33}" ShortID="623187325">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 1 four.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 1 four" ID="{720E6570-6D9C-4661-8CEB-C710F4472B33}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 1 one" ID="{2A80BF5E-87FB-496B-A19C-021103096F87}" ShortID="434910416">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 1 one" ID="{FD577776-6522-4F20-B414-C7BCED62C23C}" ShortID="730743241">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 1 one.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 1 one" ID="{FD577776-6522-4F20-B414-C7BCED62C23C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 1 seven" ID="{BB32965F-78B2-48A5-9A5A-67A2A4D95E57}" ShortID="35531951">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 1 seven" ID="{305886AE-34BF-4869-878F-93057A4E136D}" ShortID="64309575">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 1 seven.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 1 seven" ID="{305886AE-34BF-4869-878F-93057A4E136D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 1 six" ID="{33661FB1-8DE5-4204-A8B1-F58D94827D7A}" ShortID="891091967">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 1 six" ID="{1F7D3E81-AB7E-4367-9B8C-16ADC42D121F}" ShortID="284653109">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 1 six.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 1 six" ID="{1F7D3E81-AB7E-4367-9B8C-16ADC42D121F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 1 three" ID="{51CED778-8B8F-4222-9882-4D3BD7C16A58}" ShortID="897194034">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 1 three" ID="{092EE7BD-8DCE-4BE4-BF3E-77B5FAB6F8B7}" ShortID="781036563">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 1 three.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 1 three" ID="{092EE7BD-8DCE-4BE4-BF3E-77B5FAB6F8B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 1 two" ID="{2AE30E5C-448B-4166-8EA0-962A34C6A34C}" ShortID="144324392">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 1 two" ID="{8236E3D7-4495-43E7-9BCA-F08010FF4EBA}" ShortID="158454384">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 1 two.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 1 two" ID="{8236E3D7-4495-43E7-9BCA-F08010FF4EBA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Sphere_2" ID="{682F359D-CA6E-4F49-B0D6-863A742D3B57}" ShortID="881486128">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sphere_2_Backround" ID="{B5DBDFE5-9B61-4138-8C0F-3CFAF0773139}" ShortID="74960215">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>43</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>250</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="VR_Moon" ID="{7ED4DD4A-80FE-4922-9D50-67C4A9797BA4}" ShortID="258116862">
+									<Language>SFX</Language>
+									<AudioFile>VR_Moon.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="977390048"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VR_Moon" ID="{7ED4DD4A-80FE-4922-9D50-67C4A9797BA4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Sphere_2_Random" ID="{9319BFFA-F208-4925-9A5B-F96EF78985E6}" ShortID="433770441">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B2D2F84C-C053-40D1-9ED5-3F3BADE1651F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="606"/>
+													<Property Name="Min" Type="Real64" Value="-632"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2B21E974-E43C-4E03-9DBD-0B7740A0DEBC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Sphere 2 eight" ID="{EF8C3002-602B-4358-B381-E5A0AA8F39FF}" ShortID="380143960">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 eight" ID="{21C8C94F-F590-43AE-89C2-8BB5809C362E}" ShortID="48645291">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 eight.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 eight" ID="{21C8C94F-F590-43AE-89C2-8BB5809C362E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 2 five" ID="{8C6E6132-B826-46AD-96A6-5CF79F844687}" ShortID="699453015">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 five" ID="{1FA11CE1-4544-456B-A4E7-A445910E83BA}" ShortID="498376134">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 five.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 five" ID="{1FA11CE1-4544-456B-A4E7-A445910E83BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 2 four" ID="{EBB8AA66-F926-44B9-A8DC-144419A8587B}" ShortID="267593353">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 four" ID="{B6E81994-193C-412A-A19F-401EE20C6B76}" ShortID="479448335">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 four.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 four" ID="{B6E81994-193C-412A-A19F-401EE20C6B76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 2 nine" ID="{3DC46C48-368C-4774-B376-9BAED1599CE9}" ShortID="380675878">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 nine" ID="{674FAA5C-A78A-4C8E-9655-F63488D3CBBB}" ShortID="711667456">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 nine.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 nine" ID="{674FAA5C-A78A-4C8E-9655-F63488D3CBBB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 2 one" ID="{118AF784-1786-449E-8D7A-4BC21DEB6416}" ShortID="219034359">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 one" ID="{671CE8AD-98E1-4170-9D39-4CF58E2701D4}" ShortID="1009817707">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 one.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 one" ID="{671CE8AD-98E1-4170-9D39-4CF58E2701D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 2 seven" ID="{06287D33-7EB7-4801-9B68-58009398303B}" ShortID="28109474">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 seven" ID="{4D3F096F-A09C-4217-8B50-21035BD247AD}" ShortID="586245849">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 seven.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 seven" ID="{4D3F096F-A09C-4217-8B50-21035BD247AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 2 six" ID="{56F604D7-28AE-4051-ACB4-A3B3FFC04694}" ShortID="291081304">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 six" ID="{37F4E673-0DD0-4EB9-948D-430974876B34}" ShortID="779417841">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 six.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 six" ID="{37F4E673-0DD0-4EB9-948D-430974876B34}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 2 ten" ID="{A3900914-4FFA-4076-AC46-EF3645115329}" ShortID="207164309">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 ten" ID="{90F9EAE2-3251-4A78-92A1-D5B681BD1FA2}" ShortID="143704307">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 ten.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 ten" ID="{90F9EAE2-3251-4A78-92A1-D5B681BD1FA2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 2 three" ID="{B9AC8775-F9A8-4E67-B6C0-192C05922B4E}" ShortID="1065723557">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 three" ID="{B8A46BE7-9A62-4E5C-8734-4E18AB4E6CC9}" ShortID="2984657">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 three.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 three" ID="{B8A46BE7-9A62-4E5C-8734-4E18AB4E6CC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 2 two" ID="{A9C2F698-FD57-4768-A087-5DDCF638B971}" ShortID="239988984">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 2 two" ID="{5C47C8D1-607E-42B9-9F34-A041ADC95085}" ShortID="868454718">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 2 two.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 2 two" ID="{5C47C8D1-607E-42B9-9F34-A041ADC95085}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Sphere_3" ID="{21EBA10B-5EFD-4412-8CC7-904257D0B45C}" ShortID="849779019">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sphere_3_Backround" ID="{23574AE9-ABB0-4DDC-AB8D-BFBEAD71A4EE}" ShortID="489419036">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>52</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-180</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="VR_Moon" ID="{C73F0BF9-2772-423F-AF26-7213DF32594C}" ShortID="127933388">
+									<Language>SFX</Language>
+									<AudioFile>VR_Moon.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="977390048"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VR_Moon" ID="{C73F0BF9-2772-423F-AF26-7213DF32594C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Sphere_3_Random" ID="{79482470-104C-4D04-BD70-038B883EEC67}" ShortID="383625397">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C859C830-D3BF-4180-B300-E6A2FBCC915A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="23"/>
+													<Property Name="Min" Type="Real64" Value="-23"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D4D30125-5D00-4E26-93C6-A304A1B60943}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="36"/>
+													<Property Name="Min" Type="Real64" Value="-33"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B9E85EEC-5910-4A55-A28B-6B13E5A54BF1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="328"/>
+													<Property Name="Min" Type="Real64" Value="-556"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Sphere 3 eight" ID="{6C0E2C94-8813-4125-813D-1D554555DB9E}" ShortID="219552256">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 3 eight" ID="{6276CBBC-BDCC-469A-A5C6-B6083F6160F2}" ShortID="253267792">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 3 eight.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 3 eight" ID="{6276CBBC-BDCC-469A-A5C6-B6083F6160F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 3 five" ID="{12DBC230-697F-44B0-BFD6-AC7A7F287A30}" ShortID="703593452">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 3 five" ID="{3C7DFB85-6CDA-460B-926A-2A755872AE5D}" ShortID="1023574111">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 3 five.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 3 five" ID="{3C7DFB85-6CDA-460B-926A-2A755872AE5D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 3 four" ID="{33FC4149-D291-4E4F-A18B-D2F53855DCC7}" ShortID="971521391">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 3 four" ID="{49C7AC19-4D23-40DD-86EE-452A88245D28}" ShortID="884555054">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 3 four.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 3 four" ID="{49C7AC19-4D23-40DD-86EE-452A88245D28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 3 nine" ID="{03F600F2-FE88-498C-947A-3A7F8598AF8B}" ShortID="489642564">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 3 nine" ID="{28FA633A-FBBC-4317-B03E-804731F36DA7}" ShortID="657156345">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 3 nine.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 3 nine" ID="{28FA633A-FBBC-4317-B03E-804731F36DA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 3 one" ID="{914293A2-194B-465D-9342-FD28A11B642F}" ShortID="377489695">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 3 one" ID="{0056E343-9C2C-4A05-8D73-82EBE1B0358D}" ShortID="949941482">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 3 one.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 3 one" ID="{0056E343-9C2C-4A05-8D73-82EBE1B0358D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 3 seven" ID="{131A2592-B8DE-4314-998D-23EF129D6370}" ShortID="488661362">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 3 seven" ID="{285F4960-FCF9-4776-9CDA-39CF5C9CADDF}" ShortID="273809253">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 3 seven.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 3 seven" ID="{285F4960-FCF9-4776-9CDA-39CF5C9CADDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 3 six" ID="{6019A249-CCAC-471B-99A0-12F7630B4FA6}" ShortID="533502585">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 3 six" ID="{D89A5098-41F0-4208-9EBD-64190F019EA7}" ShortID="192273346">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 3 six.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 3 six" ID="{D89A5098-41F0-4208-9EBD-64190F019EA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 3 three" ID="{A6B7FAB0-D558-408C-9B81-BA9AB845AA41}" ShortID="185259208">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 3 three" ID="{36105FAF-81DF-40E0-9A40-DC5DFB958F2A}" ShortID="203899253">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 3 three.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 3 three" ID="{36105FAF-81DF-40E0-9A40-DC5DFB958F2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sphere 3 two" ID="{6C352788-C6B2-41A6-A757-42F9D7C879BD}" ShortID="1068516108">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sphere 3 two" ID="{90016B2A-0190-488D-BF6D-ABF3B2ABEFE7}" ShortID="1046579650">
+											<Language>SFX</Language>
+											<AudioFile>Sphere 3 two.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sphere 3 two" ID="{90016B2A-0190-488D-BF6D-ABF3B2ABEFE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

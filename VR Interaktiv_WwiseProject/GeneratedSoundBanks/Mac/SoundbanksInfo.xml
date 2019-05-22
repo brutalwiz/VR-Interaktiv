@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,19 +16,136 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="1423992789" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\VR_INT_SoundBank</ObjectPath>
+			<ShortName>VR_INT_SoundBank</ShortName>
+			<Path>VR_INT_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1562304622" Name="Play_Ambient" ObjectPath="\Events\Default Work Unit\Play_Ambient"/>
+				<Event Id="1296833649" Name="Play_Moon" ObjectPath="\Events\Default Work Unit\Play_Moon" MaxAttenuation="150.000000"/>
+				<Event Id="3086544757" Name="Play_Sphere_1" ObjectPath="\Events\Default Work Unit\Play_Sphere_1" MaxAttenuation="30.000000"/>
+				<Event Id="3086544758" Name="Play_Sphere_2" ObjectPath="\Events\Default Work Unit\Play_Sphere_2" MaxAttenuation="30.000000"/>
+				<Event Id="3086544759" Name="Play_Sphere_3" ObjectPath="\Events\Default Work Unit\Play_Sphere_3" MaxAttenuation="30.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="2984657" Language="SFX">
+					<ShortName>Sphere 2 three.wav</ShortName>
+					<Path>SFX\Sphere 2 three_10C4C929.wem</Path>
+				</File>
+				<File Id="48645291" Language="SFX">
+					<ShortName>Sphere 2 eight.wav</ShortName>
+					<Path>SFX\Sphere 2 eight_10C4C929.wem</Path>
+				</File>
+				<File Id="64309575" Language="SFX">
+					<ShortName>Sphere 1 seven.wav</ShortName>
+					<Path>SFX\Sphere 1 seven_10C4C929.wem</Path>
+				</File>
+				<File Id="143704307" Language="SFX">
+					<ShortName>Sphere 2 ten.wav</ShortName>
+					<Path>SFX\Sphere 2 ten_10C4C929.wem</Path>
+				</File>
+				<File Id="158454384" Language="SFX">
+					<ShortName>Sphere 1 two.wav</ShortName>
+					<Path>SFX\Sphere 1 two_10C4C929.wem</Path>
+				</File>
+				<File Id="192273346" Language="SFX">
+					<ShortName>Sphere 3 six.wav</ShortName>
+					<Path>SFX\Sphere 3 six_10C4C929.wem</Path>
+				</File>
+				<File Id="203899253" Language="SFX">
+					<ShortName>Sphere 3 three.wav</ShortName>
+					<Path>SFX\Sphere 3 three_10C4C929.wem</Path>
+				</File>
+				<File Id="253267792" Language="SFX">
+					<ShortName>Sphere 3 eight.wav</ShortName>
+					<Path>SFX\Sphere 3 eight_10C4C929.wem</Path>
+				</File>
+				<File Id="273809253" Language="SFX">
+					<ShortName>Sphere 3 seven.wav</ShortName>
+					<Path>SFX\Sphere 3 seven_10C4C929.wem</Path>
+				</File>
+				<File Id="284653109" Language="SFX">
+					<ShortName>Sphere 1 six.wav</ShortName>
+					<Path>SFX\Sphere 1 six_10C4C929.wem</Path>
+				</File>
+				<File Id="479448335" Language="SFX">
+					<ShortName>Sphere 2 four.wav</ShortName>
+					<Path>SFX\Sphere 2 four_10C4C929.wem</Path>
+				</File>
+				<File Id="498376134" Language="SFX">
+					<ShortName>Sphere 2 five.wav</ShortName>
+					<Path>SFX\Sphere 2 five_10C4C929.wem</Path>
+				</File>
+				<File Id="586245849" Language="SFX">
+					<ShortName>Sphere 2 seven.wav</ShortName>
+					<Path>SFX\Sphere 2 seven_10C4C929.wem</Path>
+				</File>
+				<File Id="623187325" Language="SFX">
+					<ShortName>Sphere 1 four.wav</ShortName>
+					<Path>SFX\Sphere 1 four_10C4C929.wem</Path>
+				</File>
+				<File Id="657156345" Language="SFX">
+					<ShortName>Sphere 3 nine.wav</ShortName>
+					<Path>SFX\Sphere 3 nine_10C4C929.wem</Path>
+				</File>
+				<File Id="711667456" Language="SFX">
+					<ShortName>Sphere 2 nine.wav</ShortName>
+					<Path>SFX\Sphere 2 nine_10C4C929.wem</Path>
+				</File>
+				<File Id="730743241" Language="SFX">
+					<ShortName>Sphere 1 one.wav</ShortName>
+					<Path>SFX\Sphere 1 one_10C4C929.wem</Path>
+				</File>
+				<File Id="763511347" Language="SFX">
+					<ShortName>Sphere 1 five.wav</ShortName>
+					<Path>SFX\Sphere 1 five_10C4C929.wem</Path>
+				</File>
+				<File Id="779417841" Language="SFX">
+					<ShortName>Sphere 2 six.wav</ShortName>
+					<Path>SFX\Sphere 2 six_10C4C929.wem</Path>
+				</File>
+				<File Id="781036563" Language="SFX">
+					<ShortName>Sphere 1 three.wav</ShortName>
+					<Path>SFX\Sphere 1 three_10C4C929.wem</Path>
+				</File>
+				<File Id="841560329" Language="SFX">
+					<ShortName>VR_Ambient.wav</ShortName>
+					<Path>SFX\VR_Ambient_D79FB2B7.wem</Path>
+				</File>
+				<File Id="868454718" Language="SFX">
+					<ShortName>Sphere 2 two.wav</ShortName>
+					<Path>SFX\Sphere 2 two_10C4C929.wem</Path>
+				</File>
+				<File Id="884555054" Language="SFX">
+					<ShortName>Sphere 3 four.wav</ShortName>
+					<Path>SFX\Sphere 3 four_10C4C929.wem</Path>
+				</File>
+				<File Id="949941482" Language="SFX">
+					<ShortName>Sphere 3 one.wav</ShortName>
+					<Path>SFX\Sphere 3 one_10C4C929.wem</Path>
+				</File>
+				<File Id="977390048" Language="SFX">
+					<ShortName>VR_Moon.wav</ShortName>
+					<Path>SFX\VR_Moon_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1009817707" Language="SFX">
+					<ShortName>Sphere 2 one.wav</ShortName>
+					<Path>SFX\Sphere 2 one_10C4C929.wem</Path>
+				</File>
+				<File Id="1023574111" Language="SFX">
+					<ShortName>Sphere 3 five.wav</ShortName>
+					<Path>SFX\Sphere 3 five_10C4C929.wem</Path>
+				</File>
+				<File Id="1046579650" Language="SFX">
+					<ShortName>Sphere 3 two.wav</ShortName>
+					<Path>SFX\Sphere 3 two_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2469504869" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master_SoundBank</ObjectPath>
 			<ShortName>Master_SoundBank</ShortName>
 			<Path>Master_SoundBank.bnk</Path>
-			<IncludedEvents>
-				<Event Id="3187507146" Name="Play_TEST" ObjectPath="\Events\Default Work Unit\Play_TEST"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="57886002" Language="SFX">
-					<ShortName>SummerSideshor.wav</ShortName>
-					<Path>SFX\SummerSideshor_10C4C929.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

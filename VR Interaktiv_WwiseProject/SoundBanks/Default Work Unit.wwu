@@ -4,8 +4,17 @@
 		<WorkUnit Name="Default Work Unit" ID="{DDFE5840-9FBA-4166-94B0-7EC100CA0C2F}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Master_SoundBank" ID="{8A51CE11-0F1D-45FC-AA5B-E2F7BF3B26A5}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="VR_INT_SoundBank" ID="{0618E2D4-CCB7-4C3E-B012-FB78F5FC495E}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_TEST" ID="{F105DF72-E227-40B2-A6CA-219977892DC4}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Sphere_1" ID="{BB7AD96F-E900-43EA-98F8-151339E1ECB7}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Sphere_2" ID="{BDE11C9F-9027-4696-8D9B-DC784AEE1080}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ambient" ID="{893BA329-5605-47AA-AEF2-166E8587626B}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Sphere_3" ID="{543346B4-580F-4852-BDAD-3A8CBB25275E}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Moon" ID="{F6B37028-4FCC-4CBC-BE8C-3C272CC4AE25}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

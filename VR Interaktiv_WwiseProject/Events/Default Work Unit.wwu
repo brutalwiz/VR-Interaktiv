@@ -3,12 +3,56 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_TEST" ID="{F105DF72-E227-40B2-A6CA-219977892DC4}">
+				<Event Name="Play_Sphere_1" ID="{BB7AD96F-E900-43EA-98F8-151339E1ECB7}">
 					<ChildrenList>
-						<Action Name="" ID="{C13BBB3D-FAFA-42A4-AE92-C9AC8BA65C88}" ShortID="312695114">
+						<Action Name="" ID="{077BBE26-9A49-4FFF-8988-F523BAA17911}" ShortID="673055602">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TEST" ID="{7EF18741-AF6B-489D-A160-3E56E2B02F52}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Sphere_1" ID="{4AF9D7A9-FC64-4A69-885F-6378A4E22B3F}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sphere_2" ID="{BDE11C9F-9027-4696-8D9B-DC784AEE1080}">
+					<ChildrenList>
+						<Action Name="" ID="{30C97699-37C5-443E-8CA1-89C0EE5CF05A}" ShortID="724527635">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sphere_2" ID="{682F359D-CA6E-4F49-B0D6-863A742D3B57}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sphere_3" ID="{543346B4-580F-4852-BDAD-3A8CBB25275E}">
+					<ChildrenList>
+						<Action Name="" ID="{CD5C137E-1EA1-4D9C-B930-2DBFC5C9B29D}" ShortID="460944809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sphere_3" ID="{21EBA10B-5EFD-4412-8CC7-904257D0B45C}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Moon" ID="{F6B37028-4FCC-4CBC-BE8C-3C272CC4AE25}">
+					<ChildrenList>
+						<Action Name="" ID="{D43C8E08-417B-4865-80EB-2A090C8BA3DB}" ShortID="1057545744">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moon" ID="{76325EDC-DA10-4DB7-98FB-0400C04F1AFE}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambient" ID="{893BA329-5605-47AA-AEF2-166E8587626B}">
+					<ChildrenList>
+						<Action Name="" ID="{80C627B1-803D-405E-B86B-F83B70A3D6E8}" ShortID="557240978">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient" ID="{B1EC71C4-0FF9-4EE9-99C3-E01B395CD6EF}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
