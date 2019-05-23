@@ -22,7 +22,7 @@
 			<Path>VR_INT_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1562304622" Name="Play_Ambient" ObjectPath="\Events\Default Work Unit\Play_Ambient"/>
-				<Event Id="1296833649" Name="Play_Moon" ObjectPath="\Events\Default Work Unit\Play_Moon" MaxAttenuation="300.000000"/>
+				<Event Id="1296833649" Name="Play_Moon" ObjectPath="\Events\Default Work Unit\Play_Moon" MaxAttenuation="320.000000"/>
 				<Event Id="3086544757" Name="Play_Sphere_1" ObjectPath="\Events\Default Work Unit\Play_Sphere_1" MaxAttenuation="30.000000"/>
 				<Event Id="3086544758" Name="Play_Sphere_2" ObjectPath="\Events\Default Work Unit\Play_Sphere_2" MaxAttenuation="30.000000"/>
 				<Event Id="3086544759" Name="Play_Sphere_3" ObjectPath="\Events\Default Work Unit\Play_Sphere_3" MaxAttenuation="30.000000"/>

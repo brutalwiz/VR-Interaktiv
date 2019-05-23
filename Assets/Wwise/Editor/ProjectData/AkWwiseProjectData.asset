@@ -79,7 +79,7 @@ MonoBehaviour:
       - ElementName: Play_Moon
         ObjectType: 3
       Path: Default Work Unit\Play_Moon
-      maxAttenuation: 300000000
+      maxAttenuation: 320000000
       maxDuration: 0
       minDuration: 0
     - name: Play_Sphere_1

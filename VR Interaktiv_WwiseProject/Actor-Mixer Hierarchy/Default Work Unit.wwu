@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<Sound Name="Moon" ID="{76325EDC-DA10-4DB7-98FB-0400C04F1AFE}" ShortID="280660148">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -64,6 +65,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<BlendContainer Name="Sphere_1" ID="{4AF9D7A9-FC64-4A69-885F-6378A4E22B3F}" ShortID="146931226">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
@@ -339,6 +343,9 @@
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Sphere_2" ID="{682F359D-CA6E-4F49-B0D6-863A742D3B57}" ShortID="881486128">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
@@ -692,6 +699,9 @@
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Sphere_3" ID="{21EBA10B-5EFD-4412-8CC7-904257D0B45C}" ShortID="849779019">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
