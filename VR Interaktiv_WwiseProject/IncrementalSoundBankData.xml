@@ -5,12 +5,12 @@
 			<Language ID="393239870">
 				<File Name="Init" Hash="1182415902" Timestamp="1558595440"/>
 				<File Name="Master_SoundBank" Hash="4235102824" Timestamp="1558595440"/>
-				<File Name="VR_INT_SoundBank" Hash="1821437904" Timestamp="1558603178"/>
+				<File Name="VR_INT_SoundBank" Hash="3412053016" Timestamp="1558612867"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4085895609" Timestamp="1558603178"/>
+				<File Name="" Hash="4085895609" Timestamp="1558612867"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -19,12 +19,12 @@
 			<Language ID="393239870">
 				<File Name="Init" Hash="2279659568" Timestamp="1558595440"/>
 				<File Name="Master_SoundBank" Hash="4235102824" Timestamp="1558595440"/>
-				<File Name="VR_INT_SoundBank" Hash="1821437904" Timestamp="1558603178"/>
+				<File Name="VR_INT_SoundBank" Hash="3412053016" Timestamp="1558612867"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3172469211" Timestamp="1558603178"/>
+				<File Name="" Hash="3172469211" Timestamp="1558612867"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
