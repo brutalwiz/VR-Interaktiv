@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 4058feddba9f664194b07ec100ca0c2f
     GuidInternal: 
-    m_lastTime: -8586432352471664226
+    m_lastTime: -8586430429578233887
     List:
     - name: Master_SoundBank
       guid: 11ce518a1d0ffc45aa5be2f7bf3b26a5
@@ -42,22 +42,79 @@ MonoBehaviour:
       - ElementName: Master_SoundBank
         ObjectType: 7
       Path: Default Work Unit\Master_SoundBank
+    - name: VR_INT_SoundBank
+      guid: d4e21806b7cc3e4cb012fb78f5fc495e
+      id: 1423992789
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VR_INT_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\VR_INT_SoundBank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 06aafc41df9f05499a326ef2f3d1b1bc
     GuidInternal: 
-    m_lastTime: -8586432352483632211
+    m_lastTime: -8586430429596926691
     List:
-    - name: Play_TEST
-      guid: 72df05f127e2b240a6ca219977892dc4
-      id: 3187507146
+    - name: Play_Ambient
+      guid: 29a33b890556aa47aef2166e8587626b
+      id: 1562304622
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_TEST
+      - ElementName: Play_Ambient
         ObjectType: 3
-      Path: Default Work Unit\Play_TEST
+      Path: Default Work Unit\Play_Ambient
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Moon
+      guid: 2870b3f6cc4fbc4cbe8c3c272cc4ae25
+      id: 1296833649
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Moon
+        ObjectType: 3
+      Path: Default Work Unit\Play_Moon
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Sphere_1
+      guid: 6fd97abb00e9ea4398f8151339e1ecb7
+      id: 3086544757
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sphere_1
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sphere_1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Sphere_2
+      guid: 9f1ce1bd279096468d9bdc784aee1080
+      id: 3086544758
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sphere_2
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sphere_2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Sphere_3
+      guid: b44633540f585248bdad3a8cbb25275e
+      id: 3086544759
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sphere_3
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sphere_3
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -91,5 +148,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /VR Interaktiv_WwiseProject
+  - /VR Interaktiv_WwiseProject/Events
+  - /VR Interaktiv_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

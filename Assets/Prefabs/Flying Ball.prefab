@@ -108,8 +108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minThrust: 0
   maxThrust: 0
-  freq: 0.5
-  magnitude: 0.0005
+  freq: 0.7
+  magnitude: 0.001
 --- !u!54 &5483110628979793553
 Rigidbody:
   m_ObjectHideFlags: 0

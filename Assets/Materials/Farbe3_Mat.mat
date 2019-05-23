@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ground
-  m_Shader: {fileID: -6465566751694194690, guid: 8db44249c0ec1c34289bdb28467a349a,
+  m_Name: Farbe3_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 51ccfc59ccae1f04fb946277bd04d002,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -56,19 +56,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_EE7153CF_Texture:
-        m_Texture: {fileID: 2800000, guid: 58a059b07b093a745b47c2191525ddce, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _GlossMapScale: 0.113
-    - _Glossiness: 0.346
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0.081
+    - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -78,5 +74,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - Color_B913A271: {r: 1.6644013, g: 0.26058808, b: 0.31943056, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
