@@ -79,7 +79,7 @@ MonoBehaviour:
       - ElementName: Play_Moon
         ObjectType: 3
       Path: Default Work Unit\Play_Moon
-      maxAttenuation: 0
+      maxAttenuation: 300000000
       maxDuration: 0
       minDuration: 0
     - name: Play_Sphere_1
@@ -91,7 +91,7 @@ MonoBehaviour:
       - ElementName: Play_Sphere_1
         ObjectType: 3
       Path: Default Work Unit\Play_Sphere_1
-      maxAttenuation: 0
+      maxAttenuation: 30000000
       maxDuration: 0
       minDuration: 0
     - name: Play_Sphere_2
@@ -103,7 +103,7 @@ MonoBehaviour:
       - ElementName: Play_Sphere_2
         ObjectType: 3
       Path: Default Work Unit\Play_Sphere_2
-      maxAttenuation: 0
+      maxAttenuation: 30000000
       maxDuration: 0
       minDuration: 0
     - name: Play_Sphere_3
@@ -115,7 +115,7 @@ MonoBehaviour:
       - ElementName: Play_Sphere_3
         ObjectType: 3
       Path: Default Work Unit\Play_Sphere_3
-      maxAttenuation: 0
+      maxAttenuation: 30000000
       maxDuration: 0
       minDuration: 0
   RtpcWwu:

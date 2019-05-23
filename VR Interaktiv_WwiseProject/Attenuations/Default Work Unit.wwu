@@ -71,7 +71,7 @@
 				</Attenuation>
 				<Attenuation Name="Moon" ID="{767521CC-9919-4CD9-93EB-B89E8FA4A158}" ShortID="842989747">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="150"/>
+						<Property Name="RadiusMax" Type="Real64" Value="300"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -87,22 +87,32 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>33.62069</XPos>
-											<YPos>-0.69265</YPos>
+											<XPos>86.9906</XPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>73.11912</XPos>
-											<YPos>-8.04488</YPos>
+											<XPos>110.50157</XPos>
+											<YPos>-0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>111.2069</XPos>
-											<YPos>-17.04476</YPos>
+											<XPos>157.99372</XPos>
+											<YPos>-0.49265</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>150</XPos>
+											<XPos>197.49216</XPos>
+											<YPos>-16.67175</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>220.062705</XPos>
+											<YPos>-26.44211</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>300</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

@@ -3,28 +3,28 @@
 	<Platform GUID="{77B68024-2B52-4D9C-AC31-DAE6770E0506}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="1182415902" Timestamp="1558536344"/>
-				<File Name="Master_SoundBank" Hash="4235102824" Timestamp="1558536352"/>
-				<File Name="VR_INT_SoundBank" Hash="3225990792" Timestamp="1558536365"/>
+				<File Name="Init" Hash="1182415902" Timestamp="1558595440"/>
+				<File Name="Master_SoundBank" Hash="4235102824" Timestamp="1558595440"/>
+				<File Name="VR_INT_SoundBank" Hash="2763067360" Timestamp="1558596357"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2158164800" Timestamp="1558536365"/>
+				<File Name="" Hash="676458531" Timestamp="1558596357"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{C5A96E27-F7D6-4F74-A154-71A698FAA33C}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2279659568" Timestamp="1558536343"/>
-				<File Name="Master_SoundBank" Hash="4235102824" Timestamp="1558536352"/>
-				<File Name="VR_INT_SoundBank" Hash="3225990792" Timestamp="1558536365"/>
+				<File Name="Init" Hash="2279659568" Timestamp="1558595440"/>
+				<File Name="Master_SoundBank" Hash="4235102824" Timestamp="1558595440"/>
+				<File Name="VR_INT_SoundBank" Hash="2763067360" Timestamp="1558596357"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4023195386" Timestamp="1558536365"/>
+				<File Name="" Hash="354200113" Timestamp="1558596357"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
