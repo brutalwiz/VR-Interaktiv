@@ -8,6 +8,8 @@ public class MoveToMoon : MonoBehaviour
     GameObject moon;
     Transform moonTransform;
     Vector3 moonDir;
+
+    public bool moving = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +32,13 @@ public class MoveToMoon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position + moonDir*moveSpeed*Time.deltaTime;
+        if(moving){
+            transform.position = transform.position + moonDir*moveSpeed*Time.deltaTime;
+        }
+    }
+
+    void moveTo() {
+        moving = true;
     }
 
     
