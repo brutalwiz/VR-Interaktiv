@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class MoveToMoon : MonoBehaviour
 {
-    float moveSpeed = 4;
+    float moveSpeed = 0.1f;
     GameObject moon;
     Transform moonTransform;
     Vector3 moonDir;
 
-    public bool moving = false;
+    public bool moving;
     // Start is called before the first frame update
     void Start()
     {
+        moving = false;
         moon = GameObject.Find("Moon");
         if(moon != null){
             Transform moonTransform = moon.transform;
@@ -33,12 +34,18 @@ public class MoveToMoon : MonoBehaviour
     void Update()
     {
         if(moving){
-            transform.position = transform.position + moonDir*moveSpeed*Time.deltaTime;
+            transform.position = Vector3.Lerp(transform.position,moon.transform.position,Time.deltaTime*moveSpeed);
         }
     }
 
     void moveTo() {
         moving = true;
+    }
+    void enableMaterial(){
+        //TODO CHANGE MATERIAL
+    }
+    void disableMaterial(){
+        //TODO: CHANGE MATERIAL
     }
 
     
