@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 193.0, 211.0, 986.0, 689.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -484,21 +484,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
 									"mode" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
 									"quality" : [ "basic" ],
 									"pitchcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"slurtime" : [ 0.0 ],
-									"formant" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"play" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"formant" : [ 1.0 ],
 									"basictuning" : [ 440 ],
-									"pitchshift" : [ 1.0 ]
+									"originaltempo" : [ 120.0 ],
+									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"slurtime" : [ 0.0 ]
 								}
 
 							}
@@ -524,21 +524,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
 									"mode" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
 									"quality" : [ "basic" ],
 									"pitchcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"slurtime" : [ 0.0 ],
-									"formant" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"play" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"formant" : [ 1.0 ],
 									"basictuning" : [ 440 ],
-									"pitchshift" : [ 1.0 ]
+									"originaltempo" : [ 120.0 ],
+									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"slurtime" : [ 0.0 ]
 								}
 
 							}
@@ -564,21 +564,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
 									"mode" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
 									"quality" : [ "basic" ],
 									"pitchcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"slurtime" : [ 0.0 ],
-									"formant" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"play" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"formant" : [ 1.0 ],
 									"basictuning" : [ 440 ],
-									"pitchshift" : [ 1.0 ]
+									"originaltempo" : [ 120.0 ],
+									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"slurtime" : [ 0.0 ]
 								}
 
 							}
@@ -642,7 +642,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.312134, 89.5, 97.0, 22.0 ],
+					"patching_rect" : [ 149.312134, 82.5, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "udpreceive 6566"
 				}
@@ -1083,16 +1083,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-13" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-14" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-9" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-16" : [ "live.gain~[9]", "live.gain~", 0 ],
-			"obj-10" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-14" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"obj-6" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-11" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-10" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-8" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-9" : [ "live.gain~[5]", "live.gain~", 0 ]
+			"obj-13" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-4" : [ "live.gain~[2]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

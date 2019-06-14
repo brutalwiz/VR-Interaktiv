@@ -8,6 +8,8 @@ public class MoveToMoon : MonoBehaviour
     GameObject moon;
     Transform moonTransform;
     Vector3 moonDir;
+    public OSC osc;
+    public int loopNmbr;
 
     public bool moving;
     // Start is called before the first frame update
@@ -15,6 +17,8 @@ public class MoveToMoon : MonoBehaviour
     {
         moving = false;
         moon = GameObject.Find("Moon");
+        //Sucht OSC Game Object mit OSC Script
+        osc = GameObject.Find("OSC").GetComponent<OSC>();
         if(moon != null){
             Transform moonTransform = moon.transform;
             moonDir = moonTransform.position - transform.position;
@@ -26,7 +30,19 @@ public class MoveToMoon : MonoBehaviour
 
     void OnTriggerEnter(Collider c){
         if(c.gameObject.tag == "Moon"){
-            Debug.Log("Touched MOON!");
+            //Wenn OSC Objectscript gefunden wurde -> Sende Fadein befehl an Max
+            if (osc != null)
+            {
+                OscMessage message = new OscMessage();
+                message.address = "/StartLoop";
+                message.values.Add(loopNmbr);
+            }
+            else
+            {
+                Debug.Log("OSC Object for " + gameObject.name + " not found!");
+            }
+
+            //Zerstöre THIS 2 sek nach berühren des Mondes
             Destroy(gameObject,2);
         }
     }
@@ -34,6 +50,7 @@ public class MoveToMoon : MonoBehaviour
     void Update()
     {
         if(moving){
+            //Bewegung zum Mond
             transform.position = Vector3.Lerp(transform.position,moon.transform.position,Time.deltaTime*moveSpeed);
         }
     }
@@ -42,7 +59,7 @@ public class MoveToMoon : MonoBehaviour
         moving = true;
     }
     void enableMaterial(){
-        //TODO CHANGE MATERIAL
+        //TODO: CHANGE MATERIAL
     }
     void disableMaterial(){
         //TODO: CHANGE MATERIAL
