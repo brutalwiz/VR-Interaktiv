@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 193.0, 211.0, 986.0, 689.0 ],
+		"rect" : [ 1954.0, 77.0, 1298.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,20 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 25.0, 100.5, 50.0, 36.0 ],
+					"style" : "",
+					"text" : "/StartLoop 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-38",
 					"linecount" : 2,
@@ -484,20 +498,20 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"play" : [ 0 ],
 									"mode" : [ "basic" ],
-									"quality" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"play" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"pitchshift" : [ 1.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"originaltempo" : [ 120.0 ],
-									"timestretch" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ]
 								}
 
@@ -524,20 +538,20 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"play" : [ 0 ],
 									"mode" : [ "basic" ],
-									"quality" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"play" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"pitchshift" : [ 1.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"originaltempo" : [ 120.0 ],
-									"timestretch" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ]
 								}
 
@@ -564,20 +578,20 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"play" : [ 0 ],
 									"mode" : [ "basic" ],
-									"quality" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"play" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"pitchshift" : [ 1.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"originaltempo" : [ 120.0 ],
-									"timestretch" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ]
 								}
 
@@ -834,6 +848,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"order" : 2,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"order" : 0,
 					"source" : [ "obj-19", 0 ]
@@ -1083,16 +1105,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-9" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-16" : [ "live.gain~[9]", "live.gain~", 0 ],
 			"obj-14" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-6" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-16" : [ "live.gain~[9]", "live.gain~", 0 ],
 			"obj-11" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-6" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-10" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-8" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-13" : [ "live.gain~[7]", "live.gain~", 0 ],
 			"obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-4" : [ "live.gain~[2]", "live.gain~", 0 ]
+			"obj-9" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-8" : [ "live.gain~[4]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

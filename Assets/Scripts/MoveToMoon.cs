@@ -8,7 +8,7 @@ public class MoveToMoon : MonoBehaviour
     GameObject moon;
     Transform moonTransform;
     Vector3 moonDir;
-    public OSC osc;
+    private OSC osc;
     public int loopNmbr;
 
     public bool moving;
@@ -18,7 +18,7 @@ public class MoveToMoon : MonoBehaviour
         moving = false;
         moon = GameObject.Find("Moon");
         //Sucht OSC Game Object mit OSC Script
-        //osc = GameObject.Find("OSC").GetComponent<OSC>();
+        osc = GameObject.Find("OSC").GetComponent<OSC>();
         if(moon != null){
             Transform moonTransform = moon.transform;
             moonDir = moonTransform.position - transform.position;
@@ -33,9 +33,11 @@ public class MoveToMoon : MonoBehaviour
             //Wenn OSC Objectscript gefunden wurde -> Sende Fadein befehl an Max
             if (osc != null)
             {
+                Debug.Log("FIRE OSC!");
                 OscMessage message = new OscMessage();
                 message.address = "/StartLoop";
                 message.values.Add(loopNmbr);
+                osc.Send(message);
             }
             else
             {
