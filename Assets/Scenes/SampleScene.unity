@@ -1701,7 +1701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  osc: {fileID: 0}
+  osc: {fileID: 766124803}
   loopNmbr: 0
   moving: 0
 --- !u!1001 &1096407684018493766

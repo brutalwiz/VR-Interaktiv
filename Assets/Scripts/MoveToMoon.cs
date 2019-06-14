@@ -18,7 +18,7 @@ public class MoveToMoon : MonoBehaviour
         moving = false;
         moon = GameObject.Find("Moon");
         //Sucht OSC Game Object mit OSC Script
-        osc = GameObject.Find("OSC").GetComponent<OSC>();
+        //osc = GameObject.Find("OSC").GetComponent<OSC>();
         if(moon != null){
             Transform moonTransform = moon.transform;
             moonDir = moonTransform.position - transform.position;
