@@ -17,21 +17,21 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2376ea692c27814c8850e1c918845586
     GuidInternal: 
-    m_lastTime: -8586435955057318741
+    m_lastTime: -8586431391750072663
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 59580cf9be389540b204ed8db4484fc3
     GuidInternal: 
-    m_lastTime: -8586435955057378580
+    m_lastTime: -8586431391756993059
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 4058feddba9f664194b07ec100ca0c2f
     GuidInternal: 
-    m_lastTime: -8586430429578233887
+    m_lastTime: -8586409539377530448
     List:
     - name: Master_SoundBank
       guid: 11ce518a1d0ffc45aa5be2f7bf3b26a5
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 06aafc41df9f05499a326ef2f3d1b1bc
     GuidInternal: 
-    m_lastTime: -8586430429596926691
+    m_lastTime: -8586409539377580451
     List:
     - name: Play_Ambient
       guid: 29a33b890556aa47aef2166e8587626b
@@ -70,6 +70,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Blue_Form_Loop
+      guid: 2850dd0cc2880847825206050cc36062
+      id: 1538401928
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Blue_Form_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Play_Blue_Form_Loop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Green_Form_Loop
+      guid: e3e23d714225314b9a47b3fd92dc6bd5
+      id: 803215197
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Green_Form_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Play_Green_Form_Loop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Moon
       guid: 2870b3f6cc4fbc4cbe8c3c272cc4ae25
       id: 1296833649
@@ -79,43 +103,79 @@ MonoBehaviour:
       - ElementName: Play_Moon
         ObjectType: 3
       Path: Default Work Unit\Play_Moon
-      maxAttenuation: 320000000
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Play_Sphere_1
+    - name: Play_Red_Form_Loop
+      guid: a9e9612b1221c247acc9cb8643068955
+      id: 3822423617
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Red_Form_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Play_Red_Form_Loop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Sphere_1_Idle
       guid: 6fd97abb00e9ea4398f8151339e1ecb7
-      id: 3086544757
+      id: 3241573334
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Sphere_1
+      - ElementName: Play_Sphere_1_Idle
         ObjectType: 3
-      Path: Default Work Unit\Play_Sphere_1
-      maxAttenuation: 30000000
+      Path: Default Work Unit\Play_Sphere_1_Idle
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Play_Sphere_2
+    - name: Play_Sphere_1_Loop
+      guid: 798a7f197c3cb545b18b809dfe521251
+      id: 129300442
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sphere_1_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sphere_1_Loop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Sphere_2_Idle
       guid: 9f1ce1bd279096468d9bdc784aee1080
-      id: 3086544758
+      id: 427578007
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Sphere_2
+      - ElementName: Play_Sphere_2_Idle
         ObjectType: 3
-      Path: Default Work Unit\Play_Sphere_2
-      maxAttenuation: 30000000
+      Path: Default Work Unit\Play_Sphere_2_Idle
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Play_Sphere_3
+    - name: Play_Sphere_3_Idle
       guid: b44633540f585248bdad3a8cbb25275e
-      id: 3086544759
+      id: 2822930456
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Sphere_3
+      - ElementName: Play_Sphere_3_Idle
         ObjectType: 3
-      Path: Default Work Unit\Play_Sphere_3
-      maxAttenuation: 30000000
+      Path: Default Work Unit\Play_Sphere_3_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Yellow_Pyramide_Loop
+      guid: fa70b06cb6bef549af8106d7903997ef
+      id: 2661204961
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Yellow_Pyramide_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Play_Yellow_Pyramide_Loop
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
@@ -123,32 +183,31 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 17941806b2c4bf4b912a4fc95c93971b
     GuidInternal: 
-    m_lastTime: -8586435955057388557
+    m_lastTime: -8586431391765243531
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2245af45ae7a1742bf590cbd7eb87a28
     GuidInternal: 
-    m_lastTime: -8586435955057348657
+    m_lastTime: -8586431391750142667
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 7e892bc627ae874f81b0a5a50b03074c
     GuidInternal: 
-    m_lastTime: -8586435955057348657
+    m_lastTime: -8586431391750132666
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: b839f982da4b784ebb046f6a7606cfef
     GuidInternal: 
-    m_lastTime: -8586435955057348657
+    m_lastTime: -8586431391750132666
     List: []
   ExpandedItems:
   - /VR Interaktiv_WwiseProject
   - /VR Interaktiv_WwiseProject/Events
-  - /VR Interaktiv_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

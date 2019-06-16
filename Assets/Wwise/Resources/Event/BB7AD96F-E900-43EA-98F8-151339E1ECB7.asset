@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9542df836bd34f74aa5be5c24d222975, type: 3}
   m_Name: BB7AD96F-E900-43EA-98F8-151339E1ECB7
   m_EditorClassIdentifier: 
-  objectName: Play_Sphere_1
-  id: 3086544757
+  objectName: Play_Sphere_1_Idle
+  id: 3241573334
   guid: BB7AD96F-E900-43EA-98F8-151339E1ECB7
