@@ -1047,6 +1047,11 @@
 					</ChildrenList>
 				</BlendContainer>
 				<RandomSequenceContainer Name="Yellow Pyramide Loop" ID="{86CEB961-9A27-4753-8965-74991435337D}" ShortID="151566909">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1056,7 +1061,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Duduk 1" ID="{BD9EEC05-9ACF-4A91-B12E-2772EF483517}" ShortID="712651604">
+						<Sound Name="Duduk 1" ID="{ECBDBB6C-6749-4CD9-98AC-590F3AE67AD9}" ShortID="647479052">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1066,16 +1071,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Duduk 1" ID="{6BB8E0CF-A448-4F9C-8967-B5ABBD9947B5}" ShortID="437009063">
+								<AudioFileSource Name="Duduk 1" ID="{7EEA4EA0-CE51-4F3E-8244-AF62D5691C57}" ShortID="733576940">
 									<Language>SFX</Language>
 									<AudioFile>Duduk 1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Duduk 1" ID="{6BB8E0CF-A448-4F9C-8967-B5ABBD9947B5}" Platform="Linked"/>
+								<ActiveSource Name="Duduk 1" ID="{7EEA4EA0-CE51-4F3E-8244-AF62D5691C57}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Duduk 2" ID="{5E0E01FC-F648-4D5F-8A76-4896A124FB13}" ShortID="314527001">
+						<Sound Name="Duduk 2" ID="{FF496224-3275-4296-BC26-2EF5B576DD3C}" ShortID="704505642">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1085,18 +1090,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Duduk 2" ID="{F27CCAB2-F35D-4180-AA57-050FBC45FBEA}" ShortID="491086536">
+								<AudioFileSource Name="Duduk 2" ID="{5F44E2B8-418B-4A0C-B196-FA983171D2BA}" ShortID="840852509">
 									<Language>SFX</Language>
 									<AudioFile>Duduk 2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Duduk 2" ID="{F27CCAB2-F35D-4180-AA57-050FBC45FBEA}" Platform="Linked"/>
+								<ActiveSource Name="Duduk 2" ID="{5F44E2B8-418B-4A0C-B196-FA983171D2BA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Blue Form Loop" ID="{B99702CD-D223-49AC-9A7A-B9BB20BFE5B2}" ShortID="611452408">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1106,7 +1116,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Cello 1" ID="{D9C2322C-8ED7-49DE-A599-F798D4FF0B70}" ShortID="244138819">
+						<Sound Name="Cello 1" ID="{8C6518AD-A52D-4B84-8E27-42966142B89B}" ShortID="274895295">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1116,16 +1126,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Cello 1" ID="{1F0444A3-55A0-44CC-B0D2-1C90644630D0}" ShortID="909809051">
+								<AudioFileSource Name="Cello 1" ID="{6D660DFF-C2A8-462A-83C5-027B591928A5}" ShortID="387845678">
 									<Language>SFX</Language>
 									<AudioFile>Cello 1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Cello 1" ID="{1F0444A3-55A0-44CC-B0D2-1C90644630D0}" Platform="Linked"/>
+								<ActiveSource Name="Cello 1" ID="{6D660DFF-C2A8-462A-83C5-027B591928A5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Cello 2" ID="{DA09221E-CC54-4920-9303-D6E4BDA6C4B2}" ShortID="522504239">
+						<Sound Name="Cello 2" ID="{8723DEB6-F70C-4F7D-8CF9-3D73CD2BB19D}" ShortID="1015149700">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1135,18 +1145,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Cello 2" ID="{EA2D72BB-620D-47E2-B202-7C90BCC7CAD7}" ShortID="217947260">
+								<AudioFileSource Name="Cello 2" ID="{E8475FE3-536F-4053-A75E-5A3E422902A5}" ShortID="1030783568">
 									<Language>SFX</Language>
 									<AudioFile>Cello 2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Cello 2" ID="{EA2D72BB-620D-47E2-B202-7C90BCC7CAD7}" Platform="Linked"/>
+								<ActiveSource Name="Cello 2" ID="{E8475FE3-536F-4053-A75E-5A3E422902A5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Red Form Loop" ID="{26EF3480-FACC-4B37-B67D-6A5F898813E1}" ShortID="894205894">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1156,7 +1171,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Piano 1" ID="{0316DD96-C694-4364-8ADE-CDA87FD960F2}" ShortID="100886396">
+						<Sound Name="Piano 1" ID="{1C058477-1D3B-4EDD-A8B3-98DE78277002}" ShortID="139204749">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1166,16 +1181,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Piano 1" ID="{EDA243CA-9566-4A1A-9C7A-50C66B890B5C}" ShortID="834738228">
+								<AudioFileSource Name="Piano 1" ID="{B346B89E-A100-44C4-95E9-6B39B042343F}" ShortID="859629225">
 									<Language>SFX</Language>
 									<AudioFile>Piano 1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Piano 1" ID="{EDA243CA-9566-4A1A-9C7A-50C66B890B5C}" Platform="Linked"/>
+								<ActiveSource Name="Piano 1" ID="{B346B89E-A100-44C4-95E9-6B39B042343F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Piano 2" ID="{AD44B245-3F88-4B58-852E-B7B35E5BAED3}" ShortID="359885741">
+						<Sound Name="Piano 2" ID="{24495913-DCAB-4820-B7EC-EA84379758EC}" ShortID="537191143">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1185,18 +1200,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Piano 2" ID="{2365BD01-AC9F-4DD4-ADF3-E7AE47947469}" ShortID="880974386">
+								<AudioFileSource Name="Piano 2" ID="{F6B4B2FA-2F0A-43BB-8257-F79CA7220A2F}" ShortID="498780886">
 									<Language>SFX</Language>
 									<AudioFile>Piano 2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Piano 2" ID="{2365BD01-AC9F-4DD4-ADF3-E7AE47947469}" Platform="Linked"/>
+								<ActiveSource Name="Piano 2" ID="{F6B4B2FA-2F0A-43BB-8257-F79CA7220A2F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Green Form Loop" ID="{42678A3B-9FC2-4A02-B097-EA4053B071E2}" ShortID="731306016">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1206,7 +1226,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<BlendContainer Name="Marim" ID="{E112934B-8F4C-400E-A83F-25E37458AB34}" ShortID="832389235">
+						<Sound Name="Marim 1" ID="{3EA71D6D-84E4-4ECE-8156-D8B3083AAE15}" ShortID="253994923">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1216,125 +1236,262 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Marim 1" ID="{DA2AAF28-940F-488F-8327-690251D9DD47}" ShortID="464516991">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Marim 1" ID="{1D8A24F0-3A5C-493C-A052-C9DCC12BFBD3}" ShortID="132452267">
-											<Language>SFX</Language>
-											<AudioFile>Marim 1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Marim 1" ID="{1D8A24F0-3A5C-493C-A052-C9DCC12BFBD3}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Marim 2" ID="{4F79A057-A04B-4168-8F80-5DB640759412}" ShortID="25519324">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Marim 2" ID="{2E1A0982-FA35-47BE-8ECE-CA9BFAD9278D}" ShortID="826999391">
-											<Language>SFX</Language>
-											<AudioFile>Marim 2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Marim 2" ID="{2E1A0982-FA35-47BE-8ECE-CA9BFAD9278D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</BlendContainer>
-						<BlendContainer Name="Glock" ID="{64CE9C3D-26AA-46F7-8977-9F6932C2053C}" ShortID="228881154">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Glock 1" ID="{4B255B01-EA1B-4ED6-BC34-42971470B18D}" ShortID="841284078">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Glock 1" ID="{840A3EAE-4A0F-4077-9285-EC63A9CA8CF5}" ShortID="534324619">
-											<Language>SFX</Language>
-											<AudioFile>Glock 1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Glock 1" ID="{840A3EAE-4A0F-4077-9285-EC63A9CA8CF5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Glock 2" ID="{A1CE6BA1-5C6F-43F7-B2AD-E4673966A29E}" ShortID="559198989">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Glock 2" ID="{F79BA753-7D7D-4F2D-B9E1-48F19BCBBD95}" ShortID="627972113">
-											<Language>SFX</Language>
-											<AudioFile>Glock 2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Glock 2" ID="{F79BA753-7D7D-4F2D-B9E1-48F19BCBBD95}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</BlendContainer>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Sphere 1 Loop" ID="{061763E5-565A-4F80-B5A0-CDA80BFF9C84}" ShortID="751917878">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Sphere 1 Loop 1" ID="{83AA7467-00DC-4015-95AC-9ABC24341C57}" ShortID="1032436431">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Sphere 1 Loop 1" ID="{53E8661F-A5A0-4AAE-BAA5-AE689262D48E}" ShortID="696145647">
+								<AudioFileSource Name="Marim 1" ID="{F9722EAA-4F3D-4CCC-9E92-FFD28AEABAC1}" ShortID="446498284">
 									<Language>SFX</Language>
-									<AudioFile>Sphere 1 Loop 1.wav</AudioFile>
+									<AudioFile>Marim 1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Sphere 1 Loop 1" ID="{53E8661F-A5A0-4AAE-BAA5-AE689262D48E}" Platform="Linked"/>
+								<ActiveSource Name="Marim 1" ID="{F9722EAA-4F3D-4CCC-9E92-FFD28AEABAC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Marim 2" ID="{6500D27F-5C64-4E66-9CAD-960E60A8360A}" ShortID="930867754">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Marim 2" ID="{D3B4ED2B-974D-42E0-AF0D-536181C23585}" ShortID="771920741">
+									<Language>SFX</Language>
+									<AudioFile>Marim 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Marim 2" ID="{D3B4ED2B-974D-42E0-AF0D-536181C23585}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Sphere 1 Loop" ID="{061763E5-565A-4F80-B5A0-CDA80BFF9C84}" ShortID="751917878">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sphere 1" ID="{6135AEBD-1D2A-4C58-B675-99D524A8866B}" ShortID="183139004">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sphere 1" ID="{EAC61428-FBA5-46A7-A32B-9415E53A53C3}" ShortID="713841833">
+									<Language>SFX</Language>
+									<AudioFile>Sphere 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sphere 1" ID="{EAC61428-FBA5-46A7-A32B-9415E53A53C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sphere 2" ID="{657733CC-0C4B-4F02-A02E-3971E584621F}" ShortID="569091757">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sphere 2" ID="{B713B0D7-02F4-4BD7-9A2A-DF49EBEDE32E}" ShortID="646349425">
+									<Language>SFX</Language>
+									<AudioFile>Sphere 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sphere 2" ID="{B713B0D7-02F4-4BD7-9A2A-DF49EBEDE32E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Some Form" ID="{80DA969C-C3E6-4BDB-A1D8-1058007BBD3F}" ShortID="537858408">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Glock 1" ID="{ECE06D6D-5B5A-4B32-B684-B3C9B9E684F6}" ShortID="392958562">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glock 1" ID="{4DA8D57B-EC1F-434C-A3F9-392EBE116CAE}" ShortID="806535787">
+									<Language>SFX</Language>
+									<AudioFile>Glock 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glock 1" ID="{4DA8D57B-EC1F-434C-A3F9-392EBE116CAE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Glock 2" ID="{6AC07FF3-2851-4794-915B-08FB0A64C9EF}" ShortID="533614271">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glock 2" ID="{7E8949E3-D3AB-4422-95E1-4280247F789F}" ShortID="162902184">
+									<Language>SFX</Language>
+									<AudioFile>Glock 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glock 2" ID="{7E8949E3-D3AB-4422-95E1-4280247F789F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Wave Loop" ID="{3783B22F-CB80-4578-BF09-0F018311142C}" ShortID="762360531">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wave 1" ID="{ED755D4F-434B-4B21-BFA2-A0F9EDA2601E}" ShortID="39561062">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wave 1" ID="{04607A8B-D5EF-4B97-A488-D7588635093E}" ShortID="46133414">
+									<Language>SFX</Language>
+									<AudioFile>Wave 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wave 1" ID="{04607A8B-D5EF-4B97-A488-D7588635093E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wave 2" ID="{DF7012D1-CB70-42D3-A790-4E6A167ED898}" ShortID="714258739">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wave 2" ID="{3E8BE748-5A5A-4FB9-9324-14DF7C6838C1}" ShortID="520184491">
+									<Language>SFX</Language>
+									<AudioFile>Wave 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wave 2" ID="{3E8BE748-5A5A-4FB9-9324-14DF7C6838C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Wobble Loop" ID="{700233AA-0EF6-4BF2-AAE4-ABC10FA7DF16}" ShortID="98283801">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wobble 1" ID="{2C3BE9C3-C685-4B5F-9B71-591067749859}" ShortID="495209080">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wobble 1" ID="{30836003-86A0-426D-8C29-6B7F20C43D00}" ShortID="1039046511">
+									<Language>SFX</Language>
+									<AudioFile>Wobble 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wobble 1" ID="{30836003-86A0-426D-8C29-6B7F20C43D00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wobble 2" ID="{7FD59259-14DF-4DCD-B1C1-476BB177801A}" ShortID="125508141">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wobble 2" ID="{DFF46E25-E779-4EAB-8D39-866BCD7416F8}" ShortID="72910802">
+									<Language>SFX</Language>
+									<AudioFile>Wobble 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wobble 2" ID="{DFF46E25-E779-4EAB-8D39-866BCD7416F8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
