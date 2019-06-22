@@ -9,18 +9,7 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="VR_INT_SoundBank" ID="{0618E2D4-CCB7-4C3E-B012-FB78F5FC495E}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_Sphere_1_Idle" ID="{BB7AD96F-E900-43EA-98F8-151339E1ECB7}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Sphere_1_Loop" ID="{197F8A79-3C7C-45B5-B18B-809DFE521251}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Sphere_2_Idle" ID="{BDE11C9F-9027-4696-8D9B-DC784AEE1080}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Blue_Form_Loop" ID="{0CDD5028-88C2-4708-8252-06050CC36062}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Ambient" ID="{893BA329-5605-47AA-AEF2-166E8587626B}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Red_Form_Loop" ID="{2B61E9A9-2112-47C2-ACC9-CB8643068955}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Sphere_3_Idle" ID="{543346B4-580F-4852-BDAD-3A8CBB25275E}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Yellow_Pyramide_Loop" ID="{6CB070FA-BEB6-49F5-AF81-06D7903997EF}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Green_Form_Loop" ID="{713DE2E3-2542-4B31-9A47-B3FD92DC6BD5}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Moon" ID="{F6B37028-4FCC-4CBC-BE8C-3C272CC4AE25}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
