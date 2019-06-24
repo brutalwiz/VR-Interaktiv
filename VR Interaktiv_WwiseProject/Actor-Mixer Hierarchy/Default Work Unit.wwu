@@ -4337,6 +4337,599 @@
 						</Sound>
 					</ChildrenList>
 				</BlendContainer>
+				<Folder Name="OneShots" ID="{041FBFC7-0FC4-4CA4-A9CD-CFEEB3918A6E}" ShortID="327723942">
+					<ChildrenList>
+						<Sound Name="Cello01_OneShot" ID="{FC41E29F-2555-4202-BA4F-17F3C0161091}" ShortID="221784316">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cello01_OneShot" ID="{2E42FBCD-4D95-4974-8856-9D1EDDB0DE84}" ShortID="529291730">
+									<Language>SFX</Language>
+									<AudioFile>Cello01_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cello01_OneShot" ID="{2E42FBCD-4D95-4974-8856-9D1EDDB0DE84}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cello02_OneShot" ID="{DF6EC988-7BB0-41E3-828C-A8EB0F8F54DB}" ShortID="513657468">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cello02_OneShot" ID="{F216E5E3-B0F8-4920-9633-A55ED4109A1A}" ShortID="495882161">
+									<Language>SFX</Language>
+									<AudioFile>Cello02_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cello02_OneShot" ID="{F216E5E3-B0F8-4920-9633-A55ED4109A1A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cello03_OneShot" ID="{09CA8BD1-14B6-4DA4-890D-1E0C80AE7406}" ShortID="949784417">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cello03_OneShot" ID="{612AE1D7-4EBC-4DFB-9FAD-46AD33B30F54}" ShortID="618133686">
+									<Language>SFX</Language>
+									<AudioFile>Cello03_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cello03_OneShot" ID="{612AE1D7-4EBC-4DFB-9FAD-46AD33B30F54}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cello04_OneShot" ID="{DFB0495E-5A1F-43B4-A048-C3AF8A5C05C9}" ShortID="916014036">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cello04_OneShot" ID="{68D569BE-DA83-438B-A4E0-CB02C71CE937}" ShortID="822125532">
+									<Language>SFX</Language>
+									<AudioFile>Cello04_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cello04_OneShot" ID="{68D569BE-DA83-438B-A4E0-CB02C71CE937}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cello05_OneShot" ID="{9C257021-1462-417F-9413-CDF77FA07C1A}" ShortID="868954839">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cello05_OneShot" ID="{2BD52E87-1E6E-41AF-8232-00222CF23D10}" ShortID="895248130">
+									<Language>SFX</Language>
+									<AudioFile>Cello05_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cello05_OneShot" ID="{2BD52E87-1E6E-41AF-8232-00222CF23D10}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cello06_OneShot" ID="{1CDB5FB0-0EA7-487F-A04B-95727027960D}" ShortID="924672859">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cello06_OneShot" ID="{3879DBDA-2CED-4460-9C22-86A52DDB3653}" ShortID="431761815">
+									<Language>SFX</Language>
+									<AudioFile>Cello06_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cello06_OneShot" ID="{3879DBDA-2CED-4460-9C22-86A52DDB3653}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Duduk01_OneShot" ID="{DA6B5B2B-3DBC-4732-A132-FC3C8C7DECD4}" ShortID="537525854">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Duduk01_OneShot" ID="{2C6551BE-0E48-4976-A12B-92054FAEC3A9}" ShortID="107051675">
+									<Language>SFX</Language>
+									<AudioFile>Duduk01_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Duduk01_OneShot" ID="{2C6551BE-0E48-4976-A12B-92054FAEC3A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Duduk02_OneShot" ID="{BBFB8D17-5576-4EF0-8D2B-560FEA70F3B1}" ShortID="440212445">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Duduk02_OneShot" ID="{14935797-6D8F-482D-BE97-43E4F85FC7B0}" ShortID="123705625">
+									<Language>SFX</Language>
+									<AudioFile>Duduk02_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Duduk02_OneShot" ID="{14935797-6D8F-482D-BE97-43E4F85FC7B0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Duduk03_OneShot" ID="{E3276D99-28E0-4359-AB88-9DEDDD34D13B}" ShortID="3648657">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Duduk03_OneShot" ID="{532B652B-FEF8-4673-9761-DDC133B303FF}" ShortID="998682960">
+									<Language>SFX</Language>
+									<AudioFile>Duduk03_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Duduk03_OneShot" ID="{532B652B-FEF8-4673-9761-DDC133B303FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Duduk04_OneShot" ID="{4784FCE6-8673-40E3-961A-0ED8D18C5C91}" ShortID="777311773">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Duduk04_OneShot" ID="{6B3F5BE5-9743-4887-A9A9-1A5FDAD92D9B}" ShortID="736028139">
+									<Language>SFX</Language>
+									<AudioFile>Duduk04_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Duduk04_OneShot" ID="{6B3F5BE5-9743-4887-A9A9-1A5FDAD92D9B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Duduk05_OneShot" ID="{33C640AB-4543-4C9E-9251-E8C84E5B7911}" ShortID="362999558">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Duduk05_OneShot" ID="{B26FEB6A-E53B-4B40-B3BA-CCD60CE6881C}" ShortID="668242375">
+									<Language>SFX</Language>
+									<AudioFile>Duduk05_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Duduk05_OneShot" ID="{B26FEB6A-E53B-4B40-B3BA-CCD60CE6881C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Duduk06_OneShot" ID="{D38DF9C3-6866-43F3-B772-555B80C05E1A}" ShortID="716486043">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Duduk06_OneShot" ID="{8A30EE28-55D9-4BC2-9C84-08F7EB7FD024}" ShortID="303352871">
+									<Language>SFX</Language>
+									<AudioFile>Duduk06_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Duduk06_OneShot" ID="{8A30EE28-55D9-4BC2-9C84-08F7EB7FD024}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Glock01_OneShot" ID="{680623C3-8F51-4F4B-86B6-C236B1547356}" ShortID="163626722">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glock01_OneShot" ID="{7CDD2E2D-7170-418B-A1CE-95DD8B853861}" ShortID="544328648">
+									<Language>SFX</Language>
+									<AudioFile>Glock01_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glock01_OneShot" ID="{7CDD2E2D-7170-418B-A1CE-95DD8B853861}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Glock02_OneShot" ID="{62F564C0-AB5E-4EF7-A47A-7352ABD57D02}" ShortID="283013802">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glock02_OneShot" ID="{DC9369E8-EC0C-42DE-935F-61A603400DAD}" ShortID="844671320">
+									<Language>SFX</Language>
+									<AudioFile>Glock02_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glock02_OneShot" ID="{DC9369E8-EC0C-42DE-935F-61A603400DAD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Glock03_OneShot" ID="{59043250-8B31-457E-9B3B-29F34F31C681}" ShortID="744968197">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glock03_OneShot" ID="{D1328E06-55D8-4C5C-8A0C-A2F1197FB0DD}" ShortID="668233115">
+									<Language>SFX</Language>
+									<AudioFile>Glock03_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glock03_OneShot" ID="{D1328E06-55D8-4C5C-8A0C-A2F1197FB0DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Glock04_OneShot" ID="{DE354CCF-3CA0-40E1-97A8-AD1F484347DB}" ShortID="567274000">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glock04_OneShot" ID="{E7D0F4FB-FCB3-4005-AD93-F6079ABFF9B0}" ShortID="274203232">
+									<Language>SFX</Language>
+									<AudioFile>Glock04_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glock04_OneShot" ID="{E7D0F4FB-FCB3-4005-AD93-F6079ABFF9B0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Glock05_OneShot" ID="{F5DD4FC4-F37E-4F7D-8DFC-2AF0D918A59D}" ShortID="645548685">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glock05_OneShot" ID="{887BEAB3-3904-4BD0-81EA-9CD8E3A42CE1}" ShortID="1000340277">
+									<Language>SFX</Language>
+									<AudioFile>Glock05_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glock05_OneShot" ID="{887BEAB3-3904-4BD0-81EA-9CD8E3A42CE1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Glock06_OneShot" ID="{5341AD19-8A54-473B-A0ED-2C8783E6DEB7}" ShortID="564813627">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glock06_OneShot" ID="{8CE73FD8-1743-41A3-AA52-8B6B2C3492B2}" ShortID="638773412">
+									<Language>SFX</Language>
+									<AudioFile>Glock06_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glock06_OneShot" ID="{8CE73FD8-1743-41A3-AA52-8B6B2C3492B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piano01_OneShot" ID="{C2C8158E-4FD6-4244-AC81-A65F9FF275DD}" ShortID="685570263">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piano01_OneShot" ID="{8EE44DA9-5698-47A7-9C08-29E0412F049B}" ShortID="517122232">
+									<Language>SFX</Language>
+									<AudioFile>Piano01_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piano01_OneShot" ID="{8EE44DA9-5698-47A7-9C08-29E0412F049B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piano02_OneShot" ID="{E4E2D81A-D807-4519-87BA-3718C77A89D2}" ShortID="223765449">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piano02_OneShot" ID="{B25CADB3-71CC-4D92-AB2C-4245E3CDACB4}" ShortID="217639783">
+									<Language>SFX</Language>
+									<AudioFile>Piano02_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piano02_OneShot" ID="{B25CADB3-71CC-4D92-AB2C-4245E3CDACB4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piano03_OneShot" ID="{6679623A-C1E0-4CA7-83D7-ADBC98023484}" ShortID="468593740">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piano03_OneShot" ID="{EB1F1F7B-19FF-459D-A539-F458E4ABFAF4}" ShortID="894761558">
+									<Language>SFX</Language>
+									<AudioFile>Piano03_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piano03_OneShot" ID="{EB1F1F7B-19FF-459D-A539-F458E4ABFAF4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piano04_OneShot" ID="{69E7A2D5-43D2-4659-B2DB-47856A78F3D6}" ShortID="280897088">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piano04_OneShot" ID="{894BA52C-00D4-4738-9C7E-4966809AC3BE}" ShortID="79996278">
+									<Language>SFX</Language>
+									<AudioFile>Piano04_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piano04_OneShot" ID="{894BA52C-00D4-4738-9C7E-4966809AC3BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piano05_OneShot" ID="{76CEEB5E-4BAC-4440-858A-5849C8FF48E5}" ShortID="296187769">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piano05_OneShot" ID="{203EA7A4-A79C-40CF-9CB0-BA664D7A6E6C}" ShortID="621024928">
+									<Language>SFX</Language>
+									<AudioFile>Piano05_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piano05_OneShot" ID="{203EA7A4-A79C-40CF-9CB0-BA664D7A6E6C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PianoF06_OneShot" ID="{FC1ECF15-FCA7-4031-9F29-88A93CA61540}" ShortID="873630484">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PianoF06_OneShot" ID="{511C7BE8-2ED7-4AB3-A41A-7B2AC469D685}" ShortID="721047405">
+									<Language>SFX</Language>
+									<AudioFile>PianoF06_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PianoF06_OneShot" ID="{511C7BE8-2ED7-4AB3-A41A-7B2AC469D685}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Xylo01_OneShot" ID="{E89FAB94-40C6-43A4-A68D-672FDB9D9644}" ShortID="241323636">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Xylo01_OneShot" ID="{7B2BEA3E-AB5D-41DD-BAC5-627D561B5502}" ShortID="459572607">
+									<Language>SFX</Language>
+									<AudioFile>Xylo01_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Xylo01_OneShot" ID="{7B2BEA3E-AB5D-41DD-BAC5-627D561B5502}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Xylo02_OneShot" ID="{DFD5104B-7576-412D-B85E-9AA8BEC113B1}" ShortID="435063875">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Xylo02_OneShot" ID="{B63438A0-6F37-49CA-9103-E3C344A6C2EB}" ShortID="176727413">
+									<Language>SFX</Language>
+									<AudioFile>Xylo02_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Xylo02_OneShot" ID="{B63438A0-6F37-49CA-9103-E3C344A6C2EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Xylo03_OneShot" ID="{FE577B2E-EF4E-49CA-A414-4148B8532476}" ShortID="537236186">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Xylo03_OneShot" ID="{8A11ECA2-B652-407D-B6B9-146C38529B58}" ShortID="992549004">
+									<Language>SFX</Language>
+									<AudioFile>Xylo03_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Xylo03_OneShot" ID="{8A11ECA2-B652-407D-B6B9-146C38529B58}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Xylo04_OneShot" ID="{3718DC90-E3EE-44A0-91E7-7BE317999A19}" ShortID="736703678">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Xylo04_OneShot" ID="{C9975A76-BCFE-4A27-9950-917E419178C2}" ShortID="876462326">
+									<Language>SFX</Language>
+									<AudioFile>Xylo04_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Xylo04_OneShot" ID="{C9975A76-BCFE-4A27-9950-917E419178C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Xylo05_OneShot" ID="{5BEDCC91-7B53-4CD3-AD24-970A4C8E1F32}" ShortID="998681953">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Xylo05_OneShot" ID="{5657B9C8-5501-43D0-840B-79C7904AB906}" ShortID="870433392">
+									<Language>SFX</Language>
+									<AudioFile>Xylo05_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Xylo05_OneShot" ID="{5657B9C8-5501-43D0-840B-79C7904AB906}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Xylo06_OneShot" ID="{A55AAD0F-594F-456F-B1D0-998F8835E6F8}" ShortID="857167717">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Xylo06_OneShot" ID="{60C44650-FE10-4817-A3D4-E004EE1CDA13}" ShortID="708421901">
+									<Language>SFX</Language>
+									<AudioFile>Xylo06_OneShot.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Xylo06_OneShot" ID="{60C44650-FE10-4817-A3D4-E004EE1CDA13}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Moon_response" ID="{290482CD-2094-43D2-80DA-832A2811E8E8}" ShortID="54515106">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Moon_response" ID="{058DA93E-2393-4C62-96F0-1EFC60B7DB0F}" ShortID="701294446">
+							<Language>SFX</Language>
+							<AudioFile>Moon_response.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Moon_response" ID="{058DA93E-2393-4C62-96F0-1EFC60B7DB0F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
