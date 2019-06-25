@@ -27,7 +27,7 @@
 						<ObjectRef Name="Play_Moon" ID="{FDDC230D-1963-4CF9-96AC-BFFA7AC10289}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Orange_Blanket_Loop" ID="{794C810B-E81D-4F33-B474-DB84101630EE}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Blue_Wave_Aktive" ID="{45DD2F74-63E5-4F85-A28C-ACFE386B2E76}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Red_Quadrat_Loop" ID="{ECA59989-90F1-4F90-8358-EBAF5215978E}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Red_Cube_Loop" ID="{ECA59989-90F1-4F90-8358-EBAF5215978E}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
