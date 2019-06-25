@@ -20,7 +20,7 @@ public class ControllerScript : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(transform.position,transform.forward,out hit)){
             if(hit.collider != null){
-                if(go != hit.collider.gameObject){
+                if(go != hit.collider.gameObject && go.tag == "LoopObject"){
                     go.transform.SendMessage("disableMaterial");
                     go = hit.collider.gameObject;
                     go.transform.SendMessage("enableMaterial");
@@ -32,7 +32,7 @@ public class ControllerScript : MonoBehaviour
                 }
             }
         }else{
-            if(go != null){
+            if(go != null && go.tag =="LoopObject"){
                 //Raycast Exit
                 go.transform.SendMessage("disableMaterial");
                 go = empty;
