@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1962.0, 85.0, 1298.0, 617.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,38 +38,66 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-39",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 126.0, 641.0, 150.0, 20.0 ],
+					"id" : "obj-68",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 125.25, 286.0, 29.5, 22.0 ],
 					"style" : "",
-					"text" : "Load Audio at start"
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 100.0, 235.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 83.0, 284.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 671.0, 55.0, 22.0 ],
-					"style" : "",
-					"text" : "dac~ 1 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-24",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 42.5, 575.0, 24.0, 24.0 ],
+					"patching_rect" : [ 31.0, 221.0, 24.0, 24.0 ],
 					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 31.0, 260.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "loop $1"
 				}
 
 			}
@@ -78,15 +106,15 @@
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 42.5, 615.0, 57.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "bang" ],
+					"patching_rect" : [ 83.0, 371.0, 59.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
+						"originallength" : [ 224770.02449, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -94,46 +122,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "sfplay~ 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.0, 588.0, 174.0, 22.0 ],
-					"style" : "",
-					"text" : "DATEIPFAD HIER EINF�GEN"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 49.0, 536.0, 108.0, 22.0 ],
-					"style" : "",
-					"text" : "t b b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 49.0, 493.0, 58.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
+					"text" : "sfplay~ 1"
 				}
 
 			}
@@ -261,7 +250,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1764.5, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 1764.5, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[9]",
@@ -287,7 +276,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1230.0, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 1230.0, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[8]",
@@ -313,7 +302,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1408.166626, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 1408.166626, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[7]",
@@ -339,7 +328,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 873.666687, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 873.666687, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[6]",
@@ -365,7 +354,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1586.333374, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 1586.333374, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[5]",
@@ -391,7 +380,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 695.5, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 695.5, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
@@ -417,7 +406,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1051.833374, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 1051.833374, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -443,7 +432,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 517.333313, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 517.333313, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -469,7 +458,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 339.166656, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 339.166656, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -572,7 +561,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 161.0, 314.0, 48.0, 136.0 ],
+					"patching_rect" : [ 161.0, 459.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -587,126 +576,6 @@
 					}
 ,
 					"varname" : "live.gain~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "cello-f2.aif",
-								"filekind" : "audiofile",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"followglobaltempo" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"play" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-7",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 362.0, 231.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "bosch.256.rom.aif",
-								"filekind" : "audiofile",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"followglobaltempo" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"play" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-5",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 182.0, 231.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "anton.aif",
-								"filekind" : "audiofile",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"followglobaltempo" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"play" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-3",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 2.0, 231.0, 150.0, 30.0 ],
-					"style" : ""
 				}
 
 			}
@@ -932,6 +801,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"midpoints" : [ 343.912476, 74.0, 343.912476, 74.0 ],
 					"source" : [ "obj-18", 0 ]
@@ -1077,21 +953,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
-					"source" : [ "obj-25", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1099,6 +961,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"order" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1114,13 +985,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1156,34 +1020,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"source" : [ "obj-34", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -1207,6 +1043,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"order" : 0,
 					"source" : [ "obj-6", 0 ]
@@ -1218,6 +1068,20 @@
 					"destination" : [ "obj-15", 0 ],
 					"order" : 1,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-68", 0 ]
 				}
 
 			}
@@ -1255,37 +1119,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-8" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-16" : [ "live.gain~[9]", "live.gain~", 0 ],
-			"obj-13" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-10" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-9" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-14" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-6" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-16" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-11" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-2" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-8" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-13" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-9" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-6" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-14" : [ "live.gain~[8]", "live.gain~", 0 ]
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "anton.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bosch.256.rom.aif",
-				"bootpath" : "C74:/packages/Beap/misc",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cello-f2.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
