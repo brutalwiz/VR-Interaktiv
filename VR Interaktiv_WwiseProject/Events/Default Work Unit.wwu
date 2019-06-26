@@ -256,6 +256,146 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Blue_3_Waves_Loop" ID="{60AC5405-9CBB-413A-BE7E-48101225B4F9}">
+					<ChildrenList>
+						<Action Name="" ID="{64FD5615-D92E-4E86-933C-6AFE839E8773}" ShortID="208009334">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Blue 3 Waves Loop" ID="{2C6BBF4E-D22D-4E23-88D4-EC701DDFFD10}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Blue_Wave_Loop" ID="{305F2603-2D26-4C7F-8711-80A1FA1FA1B9}">
+					<ChildrenList>
+						<Action Name="" ID="{1E8179B5-4ECF-42D4-9DBD-B4C90863908F}" ShortID="600670961">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Blue Wave Loop" ID="{3783B22F-CB80-4578-BF09-0F018311142C}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Dark_Blue_Sphere_Loop" ID="{64780F2F-19F4-4E53-8D97-E734E4151FBE}">
+					<ChildrenList>
+						<Action Name="" ID="{32C394E4-9ADA-4CEA-B275-931716E0DE19}" ShortID="991695250">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dark Blue Sphere Loop" ID="{B99702CD-D223-49AC-9A7A-B9BB20BFE5B2}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Green_Noodle_Loop" ID="{5BF6DB04-6D94-456F-BD81-FE49E8C4A0BF}">
+					<ChildrenList>
+						<Action Name="" ID="{FD4D4387-92CA-4EBD-A2E1-9579300EDC70}" ShortID="4538991">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Green Noodle Loop" ID="{42678A3B-9FC2-4A02-B097-EA4053B071E2}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Green_Pulsating_Sphere_Cluster_Loop" ID="{1976AB11-FF66-4448-BFFD-3421EDB60D9F}">
+					<ChildrenList>
+						<Action Name="" ID="{030DC5D0-7138-4D82-9046-48CBA4BD22FE}" ShortID="624924188">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Green Pulsating Sphere Cluster Loop" ID="{700233AA-0EF6-4BF2-AAE4-ABC10FA7DF16}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Orange_Pulsating_Sphere_Cluster_Loop" ID="{E576EB70-7E4F-4A5E-B9C6-526BFD7865FC}">
+					<ChildrenList>
+						<Action Name="" ID="{91FA7418-C979-455B-A817-A709A3838098}" ShortID="999754680">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Orange Pulsating Sphere Cluster Loop" ID="{80DA969C-C3E6-4BDB-A1D8-1058007BBD3F}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Red_Cube_Loop" ID="{01820F84-47BF-421D-A0A0-85166C719138}">
+					<ChildrenList>
+						<Action Name="" ID="{85771305-6439-4CB1-A326-6E986B166F8E}" ShortID="929597587">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Red Cube Loop" ID="{26EF3480-FACC-4B37-B67D-6A5F898813E1}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Red_Sphere_Loop" ID="{61CC61AE-F360-4869-93FA-D19825A1BA89}">
+					<ChildrenList>
+						<Action Name="" ID="{4B85D1E3-C615-46B9-A65E-E65CF720DD56}" ShortID="891013883">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Red Sphere Loop" ID="{061763E5-565A-4F80-B5A0-CDA80BFF9C84}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Yellow_Pyramide_Loop" ID="{EB9A0359-9C45-4C0C-8E0E-A169988F1B1F}">
+					<ChildrenList>
+						<Action Name="" ID="{8B43FD1B-3091-4072-8CCD-99353B5459B7}" ShortID="611531104">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Yellow Pyramide Loop" ID="{86CEB961-9A27-4753-8965-74991435337D}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Orange_Blanket_Loop" ID="{CD868C9B-4345-4FCE-9C54-B0730E8BBCE9}">
+					<ChildrenList>
+						<Action Name="" ID="{470CED0E-CABC-4158-A4C7-B0D65AADB44E}" ShortID="84005689">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Orange Blanket Loop" ID="{4F3B4D84-E340-490A-B426-E0AAAD271738}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

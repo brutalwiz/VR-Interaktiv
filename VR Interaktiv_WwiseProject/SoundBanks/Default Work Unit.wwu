@@ -9,7 +9,41 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="VR_INT_SoundBank" ID="{0618E2D4-CCB7-4C3E-B012-FB78F5FC495E}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Ambient" ID="{3CD2861B-4CE0-4060-AD61-E4894AA01C5E}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Orange_Blanket_Idle" ID="{EFBCE7D0-8132-4094-BB5F-830FC8748053}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Orange_Pulsating_Sphere_Cluster_idle" ID="{03704031-B8FB-40DC-953F-D392E9EC739A}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Red_Sphere_Aktive" ID="{DE456FAB-7FA2-4129-A429-1A63C331CA41}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Blue_3_Waves_Loop" ID="{60AC5405-9CBB-413A-BE7E-48101225B4F9}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Red_Cube_Loop" ID="{01820F84-47BF-421D-A0A0-85166C719138}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Red_Sphere_Idle" ID="{6E9E022D-447E-43B6-94D4-D1717F7E2E1D}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Yellow_Pyramide_Aktive" ID="{2D7EA4D7-D552-4427-B298-4270BA91DDBB}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Green_Pulsating_Sphere_Cluster_Loop" ID="{1976AB11-FF66-4448-BFFD-3421EDB60D9F}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Green_Noodle_Loop" ID="{5BF6DB04-6D94-456F-BD81-FE49E8C4A0BF}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Red_Cube_Idle" ID="{69377499-DC3E-45BD-8DCC-50DEDB322D70}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Orange_Pulsating_Sphere_Cluster_Aktive" ID="{0FD7FA78-3447-4641-8E6A-3CAF205FD4CB}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Blue_3_Waves_Aktive" ID="{05F7440A-CD72-4684-B02D-CD472BE1589C}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Green_Noodle_Aktive" ID="{009C1E79-014B-471A-AAC0-12BF9360D25D}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Dark_Blue_Aktive" ID="{5AB0896E-BCA7-4815-9694-F508F1DCBE2D}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Red_Sphere_Loop" ID="{61CC61AE-F360-4869-93FA-D19825A1BA89}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Yellow_Pyramide_Idle" ID="{0CB89C04-09C6-48AE-B8D0-B1C56869B1E0}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Moon" ID="{03AC34CF-01C8-490A-A439-F361D0FF3F4C}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Orange_Blanket_Aktive" ID="{B795F083-FB15-4962-94EE-E947DC263F69}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Red_Cube_Aktive" ID="{92E033C8-D2AF-4973-B9C5-5C923A554D8C}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Blue_Wave_Idle" ID="{126100D9-E1C1-4A04-8E5C-EF5FC5AD2ED7}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Orange_Pulsating_Sphere_Cluster_Loop" ID="{E576EB70-7E4F-4A5E-B9C6-526BFD7865FC}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Moon_response" ID="{6708F8CA-E092-4B3B-A2FA-49A4D345B562}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Yellow_Pyramide_Loop" ID="{EB9A0359-9C45-4C0C-8E0E-A169988F1B1F}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Blue_Wave_Loop" ID="{305F2603-2D26-4C7F-8711-80A1FA1FA1B9}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Blue_3_Waves_Idle" ID="{DA809714-3BD1-4C9D-AB7C-F4ABCA9DF4D9}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Dark_Blue_Idle" ID="{BFD676B5-0E71-4CC4-8223-4D0C2B6B9658}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Green_Pulsating_Sphere_Cluster_Aktiv" ID="{C5DE5C98-0B62-4D1C-AE87-653F279CC87E}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Blue_Wave_Aktive" ID="{22F434F5-C7A4-4E11-BA88-BCE5CD5B2F39}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Dark_Blue_Sphere_Loop" ID="{64780F2F-19F4-4E53-8D97-E734E4151FBE}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Green_Pulsating_Sphere_Cluster_Idle" ID="{55DD3764-5AA2-4E82-BBA3-CDBBF75B7CDE}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Green_Noodle_Idle" ID="{42EBD825-BDB6-4F85-BBDC-2E437C180899}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Orange_Blanket_Loop" ID="{CD868C9B-4345-4FCE-9C54-B0730E8BBCE9}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
