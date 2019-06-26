@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 0
+  loopNmbr: 3
   RTPCName: 
   ActionEvent:
     idInternal: 0
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 0
+  loopNmbr: 5
   RTPCName: 
   ActionEvent:
     idInternal: 0
@@ -1820,7 +1820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 0
+  loopNmbr: 1
   RTPCName: 
   ActionEvent:
     idInternal: 0
@@ -2106,7 +2106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 0
+  loopNmbr: 4
   RTPCName: 
   ActionEvent:
     idInternal: 0
@@ -2382,7 +2382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 0
+  loopNmbr: 7
   RTPCName: 
   ActionEvent:
     idInternal: 0
@@ -3701,7 +3701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 0
+  loopNmbr: 10
   RTPCName: 
   ActionEvent:
     idInternal: 0
@@ -9921,7 +9921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 0
+  loopNmbr: 8
   RTPCName: 
   ActionEvent:
     idInternal: 0
@@ -10354,7 +10354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 0
+  loopNmbr: 9
   RTPCName: 
   ActionEvent:
     idInternal: 0
@@ -10548,7 +10548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 1
+  loopNmbr: 2
   RTPCName: 
   ActionEvent:
     idInternal: 0
@@ -10928,7 +10928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9b47c91878d8409fdbbe06987bc4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopNmbr: 0
+  loopNmbr: 6
   RTPCName: 
   ActionEvent:
     idInternal: 0
