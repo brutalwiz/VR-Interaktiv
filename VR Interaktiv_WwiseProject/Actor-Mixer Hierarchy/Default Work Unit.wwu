@@ -2988,7 +2988,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Duduk01_OneShot" ID="{DA6B5B2B-3DBC-4732-A132-FC3C8C7DECD4}" ShortID="537525854">
+								<Sound Name="Duduk01_OneShot" ID="{0528DC0F-9EA9-48FE-A432-22FD298B6FBA}" ShortID="316070028">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2998,16 +2998,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk01_OneShot" ID="{2C6551BE-0E48-4976-A12B-92054FAEC3A9}" ShortID="107051675">
+										<AudioFileSource Name="Duduk01_OneShot" ID="{927A5BAA-BE45-46AD-8B60-6AB1605CAEB7}" ShortID="489213911">
 											<Language>SFX</Language>
 											<AudioFile>Duduk01_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="107051675"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk01_OneShot" ID="{2C6551BE-0E48-4976-A12B-92054FAEC3A9}" Platform="Linked"/>
+										<ActiveSource Name="Duduk01_OneShot" ID="{927A5BAA-BE45-46AD-8B60-6AB1605CAEB7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk02_OneShot" ID="{BBFB8D17-5576-4EF0-8D2B-560FEA70F3B1}" ShortID="440212445">
+								<Sound Name="Duduk02_OneShot" ID="{FC77180E-C083-4F09-9517-73175AAD5919}" ShortID="835124390">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3017,16 +3020,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk02_OneShot" ID="{14935797-6D8F-482D-BE97-43E4F85FC7B0}" ShortID="123705625">
+										<AudioFileSource Name="Duduk02_OneShot" ID="{121B4CBF-ECDF-48BD-B124-BC5737CBD4BF}" ShortID="81424085">
 											<Language>SFX</Language>
 											<AudioFile>Duduk02_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="123705625"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk02_OneShot" ID="{14935797-6D8F-482D-BE97-43E4F85FC7B0}" Platform="Linked"/>
+										<ActiveSource Name="Duduk02_OneShot" ID="{121B4CBF-ECDF-48BD-B124-BC5737CBD4BF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk03_OneShot" ID="{E3276D99-28E0-4359-AB88-9DEDDD34D13B}" ShortID="3648657">
+								<Sound Name="Duduk03_OneShot" ID="{0B9E893B-26EC-4358-9227-0E86EB1643E4}" ShortID="599734100">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3036,16 +3042,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk03_OneShot" ID="{532B652B-FEF8-4673-9761-DDC133B303FF}" ShortID="998682960">
+										<AudioFileSource Name="Duduk03_OneShot" ID="{F9FAAE77-B4C5-4E47-BF03-0939A4AEEC86}" ShortID="1019654429">
 											<Language>SFX</Language>
 											<AudioFile>Duduk03_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="998682960"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk03_OneShot" ID="{532B652B-FEF8-4673-9761-DDC133B303FF}" Platform="Linked"/>
+										<ActiveSource Name="Duduk03_OneShot" ID="{F9FAAE77-B4C5-4E47-BF03-0939A4AEEC86}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk04_OneShot" ID="{4784FCE6-8673-40E3-961A-0ED8D18C5C91}" ShortID="777311773">
+								<Sound Name="Duduk04_OneShot" ID="{1ABE95AC-5E32-44A7-8231-65B9D3079FAC}" ShortID="960247398">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3055,16 +3064,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk04_OneShot" ID="{6B3F5BE5-9743-4887-A9A9-1A5FDAD92D9B}" ShortID="736028139">
+										<AudioFileSource Name="Duduk04_OneShot" ID="{5B835877-045F-47DD-AE3C-7EA27AA8AF14}" ShortID="22210684">
 											<Language>SFX</Language>
 											<AudioFile>Duduk04_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="736028139"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk04_OneShot" ID="{6B3F5BE5-9743-4887-A9A9-1A5FDAD92D9B}" Platform="Linked"/>
+										<ActiveSource Name="Duduk04_OneShot" ID="{5B835877-045F-47DD-AE3C-7EA27AA8AF14}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk05_OneShot" ID="{33C640AB-4543-4C9E-9251-E8C84E5B7911}" ShortID="362999558">
+								<Sound Name="Duduk05_OneShot" ID="{B103BADC-E67D-439F-895F-A7496F63487D}" ShortID="934362116">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3074,16 +3086,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk05_OneShot" ID="{B26FEB6A-E53B-4B40-B3BA-CCD60CE6881C}" ShortID="668242375">
+										<AudioFileSource Name="Duduk05_OneShot" ID="{F6F7664C-53D5-44C1-AB33-E62BB30EDFAB}" ShortID="159357127">
 											<Language>SFX</Language>
 											<AudioFile>Duduk05_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="668242375"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk05_OneShot" ID="{B26FEB6A-E53B-4B40-B3BA-CCD60CE6881C}" Platform="Linked"/>
+										<ActiveSource Name="Duduk05_OneShot" ID="{F6F7664C-53D5-44C1-AB33-E62BB30EDFAB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk06_OneShot" ID="{D38DF9C3-6866-43F3-B772-555B80C05E1A}" ShortID="716486043">
+								<Sound Name="Duduk06_OneShot" ID="{1B6CA70E-6AFA-4582-A5CD-6EABFACB22C6}" ShortID="30113574">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3093,13 +3108,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk06_OneShot" ID="{8A30EE28-55D9-4BC2-9C84-08F7EB7FD024}" ShortID="303352871">
+										<AudioFileSource Name="Duduk06_OneShot" ID="{716D4AD2-40C2-4B40-AA03-2EE2CDD732DC}" ShortID="970296256">
 											<Language>SFX</Language>
 											<AudioFile>Duduk06_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="303352871"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk06_OneShot" ID="{8A30EE28-55D9-4BC2-9C84-08F7EB7FD024}" Platform="Linked"/>
+										<ActiveSource Name="Duduk06_OneShot" ID="{716D4AD2-40C2-4B40-AA03-2EE2CDD732DC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -3287,7 +3305,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Cello01_OneShot" ID="{FC41E29F-2555-4202-BA4F-17F3C0161091}" ShortID="221784316">
+								<Sound Name="Cello01_OneShot" ID="{47FDA8AE-E42B-41EE-8D0C-9586452C837C}" ShortID="455052423">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3297,16 +3315,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello01_OneShot" ID="{2E42FBCD-4D95-4974-8856-9D1EDDB0DE84}" ShortID="529291730">
+										<AudioFileSource Name="Cello01_OneShot" ID="{7B2AA3B3-FCFE-473A-8F9C-51A7A42D6E88}" ShortID="218702275">
 											<Language>SFX</Language>
 											<AudioFile>Cello01_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="529291730"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello01_OneShot" ID="{2E42FBCD-4D95-4974-8856-9D1EDDB0DE84}" Platform="Linked"/>
+										<ActiveSource Name="Cello01_OneShot" ID="{7B2AA3B3-FCFE-473A-8F9C-51A7A42D6E88}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello02_OneShot" ID="{DF6EC988-7BB0-41E3-828C-A8EB0F8F54DB}" ShortID="513657468">
+								<Sound Name="Cello02_OneShot" ID="{1A72B184-6864-4F6E-816F-32778D23FDD9}" ShortID="913362514">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3316,16 +3337,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello02_OneShot" ID="{F216E5E3-B0F8-4920-9633-A55ED4109A1A}" ShortID="495882161">
+										<AudioFileSource Name="Cello02_OneShot" ID="{B8C7883C-6E20-4145-BB76-4E32AE55EF50}" ShortID="815282094">
 											<Language>SFX</Language>
 											<AudioFile>Cello02_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="495882161"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello02_OneShot" ID="{F216E5E3-B0F8-4920-9633-A55ED4109A1A}" Platform="Linked"/>
+										<ActiveSource Name="Cello02_OneShot" ID="{B8C7883C-6E20-4145-BB76-4E32AE55EF50}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello03_OneShot" ID="{09CA8BD1-14B6-4DA4-890D-1E0C80AE7406}" ShortID="949784417">
+								<Sound Name="Cello03_OneShot" ID="{9BA225BA-2869-4427-A881-EF7DCABB4061}" ShortID="843661328">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3335,16 +3359,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello03_OneShot" ID="{612AE1D7-4EBC-4DFB-9FAD-46AD33B30F54}" ShortID="618133686">
+										<AudioFileSource Name="Cello03_OneShot" ID="{CDCCA403-D80A-423D-A958-398856713BBC}" ShortID="454591138">
 											<Language>SFX</Language>
 											<AudioFile>Cello03_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="618133686"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello03_OneShot" ID="{612AE1D7-4EBC-4DFB-9FAD-46AD33B30F54}" Platform="Linked"/>
+										<ActiveSource Name="Cello03_OneShot" ID="{CDCCA403-D80A-423D-A958-398856713BBC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello04_OneShot" ID="{DFB0495E-5A1F-43B4-A048-C3AF8A5C05C9}" ShortID="916014036">
+								<Sound Name="Cello04_OneShot" ID="{7FBD263D-6D68-4B41-8F97-1799B248A932}" ShortID="340346239">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3354,16 +3381,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello04_OneShot" ID="{68D569BE-DA83-438B-A4E0-CB02C71CE937}" ShortID="822125532">
+										<AudioFileSource Name="Cello04_OneShot" ID="{FF6C0CAD-52DD-4780-B015-4751C669272C}" ShortID="685786464">
 											<Language>SFX</Language>
 											<AudioFile>Cello04_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="822125532"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello04_OneShot" ID="{68D569BE-DA83-438B-A4E0-CB02C71CE937}" Platform="Linked"/>
+										<ActiveSource Name="Cello04_OneShot" ID="{FF6C0CAD-52DD-4780-B015-4751C669272C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello05_OneShot" ID="{9C257021-1462-417F-9413-CDF77FA07C1A}" ShortID="868954839">
+								<Sound Name="Cello05_OneShot" ID="{A7FF4238-9134-4248-84DF-EAA6FF17A60C}" ShortID="787189585">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3373,16 +3403,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello05_OneShot" ID="{2BD52E87-1E6E-41AF-8232-00222CF23D10}" ShortID="895248130">
+										<AudioFileSource Name="Cello05_OneShot" ID="{BA0189BD-BD17-42A1-B688-FD929959501F}" ShortID="1022904846">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.424660851883561"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Cello05_OneShot.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello05_OneShot" ID="{2BD52E87-1E6E-41AF-8232-00222CF23D10}" Platform="Linked"/>
+										<ActiveSource Name="Cello05_OneShot" ID="{BA0189BD-BD17-42A1-B688-FD929959501F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello06_OneShot" ID="{1CDB5FB0-0EA7-487F-A04B-95727027960D}" ShortID="924672859">
+								<Sound Name="Cello06_OneShot" ID="{EDBE5151-3D90-4872-A32C-E1C0C4983F37}" ShortID="88030429">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3392,13 +3427,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello06_OneShot" ID="{3879DBDA-2CED-4460-9C22-86A52DDB3653}" ShortID="431761815">
+										<AudioFileSource Name="Cello06_OneShot" ID="{A3F27D10-F1F2-48C5-9A15-4761D3955C77}" ShortID="161775315">
 											<Language>SFX</Language>
 											<AudioFile>Cello06_OneShot.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="431761815"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello06_OneShot" ID="{3879DBDA-2CED-4460-9C22-86A52DDB3653}" Platform="Linked"/>
+										<ActiveSource Name="Cello06_OneShot" ID="{A3F27D10-F1F2-48C5-9A15-4761D3955C77}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -5360,7 +5398,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Duduk01_OneShot" ID="{E5E87DC1-0528-404A-AD86-A5303765CCE9}" ShortID="322234382">
+								<Sound Name="Duduk01_OneShot" ID="{1A633D1B-48BA-495C-80C2-2EC5DDA0916C}" ShortID="591627763">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5370,7 +5408,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk01_OneShot" ID="{FB0FB174-D144-4BF6-813A-5307667D16BD}" ShortID="794408263">
+										<AudioFileSource Name="Duduk01_OneShot" ID="{27F5A6C0-A4C0-4AE7-B9C1-7839FBB98EB0}" ShortID="683301863">
 											<Language>SFX</Language>
 											<AudioFile>Duduk01_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5379,10 +5417,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk01_OneShot" ID="{FB0FB174-D144-4BF6-813A-5307667D16BD}" Platform="Linked"/>
+										<ActiveSource Name="Duduk01_OneShot" ID="{27F5A6C0-A4C0-4AE7-B9C1-7839FBB98EB0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk02_OneShot" ID="{E29D0140-BDDB-4A06-B8F4-A42C5F96D665}" ShortID="872816538">
+								<Sound Name="Duduk02_OneShot" ID="{7FD938DA-2ACD-46AB-BB49-97600BD20934}" ShortID="821198014">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5392,7 +5430,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk02_OneShot" ID="{CFA6593C-95C6-40AF-AF82-9F5D46EAEF65}" ShortID="944086740">
+										<AudioFileSource Name="Duduk02_OneShot" ID="{ABEEE394-EEA7-436B-9A67-2052B7FAA93D}" ShortID="970896656">
 											<Language>SFX</Language>
 											<AudioFile>Duduk02_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5401,10 +5439,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk02_OneShot" ID="{CFA6593C-95C6-40AF-AF82-9F5D46EAEF65}" Platform="Linked"/>
+										<ActiveSource Name="Duduk02_OneShot" ID="{ABEEE394-EEA7-436B-9A67-2052B7FAA93D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk03_OneShot" ID="{4F87322D-234C-4DA1-B556-91BB6C6F7AB1}" ShortID="1045837917">
+								<Sound Name="Duduk03_OneShot" ID="{B895F3DD-73E1-4616-BE8A-4B4C21D474C2}" ShortID="316490727">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5414,7 +5452,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk03_OneShot" ID="{27A3644C-8BA2-41DD-8671-792A62B685CC}" ShortID="676957127">
+										<AudioFileSource Name="Duduk03_OneShot" ID="{893FF0DC-8F0F-4E7F-80AD-81974560604F}" ShortID="883646731">
 											<Language>SFX</Language>
 											<AudioFile>Duduk03_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5423,10 +5461,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk03_OneShot" ID="{27A3644C-8BA2-41DD-8671-792A62B685CC}" Platform="Linked"/>
+										<ActiveSource Name="Duduk03_OneShot" ID="{893FF0DC-8F0F-4E7F-80AD-81974560604F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk04_OneShot" ID="{91214B21-EF77-464D-8BAE-E337C9F0D0A1}" ShortID="365306959">
+								<Sound Name="Duduk04_OneShot" ID="{36143A9E-649D-4715-98D5-A28A236231B9}" ShortID="180801387">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5436,7 +5474,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk04_OneShot" ID="{232B9035-77FE-4EED-90E7-38CD4B658F21}" ShortID="876945856">
+										<AudioFileSource Name="Duduk04_OneShot" ID="{A99A1751-47A7-4666-BB71-D2EC60B2D8EF}" ShortID="392725218">
 											<Language>SFX</Language>
 											<AudioFile>Duduk04_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5445,10 +5483,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk04_OneShot" ID="{232B9035-77FE-4EED-90E7-38CD4B658F21}" Platform="Linked"/>
+										<ActiveSource Name="Duduk04_OneShot" ID="{A99A1751-47A7-4666-BB71-D2EC60B2D8EF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk05_OneShot" ID="{A6480FCF-378D-4B5C-81AC-BC72642BB013}" ShortID="872608282">
+								<Sound Name="Duduk05_OneShot" ID="{31DD0CDA-4636-4ABC-A912-A82CE586772F}" ShortID="213774038">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5458,7 +5496,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk05_OneShot" ID="{DBE47251-9300-464E-A988-F2483777360C}" ShortID="89575681">
+										<AudioFileSource Name="Duduk05_OneShot" ID="{EE84447F-7864-424A-8AEF-F98CB267B4D5}" ShortID="531209040">
 											<Language>SFX</Language>
 											<AudioFile>Duduk05_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5467,10 +5505,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk05_OneShot" ID="{DBE47251-9300-464E-A988-F2483777360C}" Platform="Linked"/>
+										<ActiveSource Name="Duduk05_OneShot" ID="{EE84447F-7864-424A-8AEF-F98CB267B4D5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk06_OneShot" ID="{97E53152-BCC0-4D1F-85F2-B7E7A115819C}" ShortID="67571482">
+								<Sound Name="Duduk06_OneShot" ID="{FDD1CC65-44CB-474D-9E87-C46FEFD1A157}" ShortID="265146583">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5480,7 +5518,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Duduk06_OneShot" ID="{99EB5B33-CE70-4790-9976-37CBFA6F2F7E}" ShortID="659713119">
+										<AudioFileSource Name="Duduk06_OneShot" ID="{D80FB0B8-AE00-4C81-8033-40D0FD443275}" ShortID="841782516">
 											<Language>SFX</Language>
 											<AudioFile>Duduk06_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5489,7 +5527,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Duduk06_OneShot" ID="{99EB5B33-CE70-4790-9976-37CBFA6F2F7E}" Platform="Linked"/>
+										<ActiveSource Name="Duduk06_OneShot" ID="{D80FB0B8-AE00-4C81-8033-40D0FD443275}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -5674,7 +5712,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Cello01_OneShot" ID="{5CDBBD64-FF49-49CC-AC6A-C0917251D531}" ShortID="625840821">
+								<Sound Name="Cello01_OneShot" ID="{B99B6F85-FA91-4F60-967E-B233BD243DA2}" ShortID="1027779989">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5684,7 +5722,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello01_OneShot" ID="{4FA50E58-8578-428D-B113-A18373396414}" ShortID="604535634">
+										<AudioFileSource Name="Cello01_OneShot" ID="{ECC0CEF2-0528-44CA-ACA0-D1EA0DC88E39}" ShortID="766618356">
 											<Language>SFX</Language>
 											<AudioFile>Cello01_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5693,10 +5731,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello01_OneShot" ID="{4FA50E58-8578-428D-B113-A18373396414}" Platform="Linked"/>
+										<ActiveSource Name="Cello01_OneShot" ID="{ECC0CEF2-0528-44CA-ACA0-D1EA0DC88E39}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello02_OneShot" ID="{294A8522-8C1C-489A-B786-D0917570D115}" ShortID="639409978">
+								<Sound Name="Cello02_OneShot" ID="{E6643563-B49C-479A-872F-ED58F7CB6870}" ShortID="559539444">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5706,7 +5744,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello02_OneShot" ID="{849F0459-3103-4A98-903F-F0A558FED714}" ShortID="37698451">
+										<AudioFileSource Name="Cello02_OneShot" ID="{DB3733E6-0E4E-4CF6-A978-A6D99C0F2495}" ShortID="1038511913">
 											<Language>SFX</Language>
 											<AudioFile>Cello02_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5715,10 +5753,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello02_OneShot" ID="{849F0459-3103-4A98-903F-F0A558FED714}" Platform="Linked"/>
+										<ActiveSource Name="Cello02_OneShot" ID="{DB3733E6-0E4E-4CF6-A978-A6D99C0F2495}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello03_OneShot" ID="{461E211B-2641-4871-95E1-A8D4816004F4}" ShortID="707221923">
+								<Sound Name="Cello03_OneShot" ID="{50CAA346-0000-4506-A70F-E809593E5339}" ShortID="275203990">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5728,7 +5766,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello03_OneShot" ID="{AA94C451-D4BD-49C6-ACB8-DB5A784315ED}" ShortID="875132609">
+										<AudioFileSource Name="Cello03_OneShot" ID="{25E9A510-E3CB-47FD-8875-84F3CDA284C1}" ShortID="129629493">
 											<Language>SFX</Language>
 											<AudioFile>Cello03_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5737,10 +5775,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello03_OneShot" ID="{AA94C451-D4BD-49C6-ACB8-DB5A784315ED}" Platform="Linked"/>
+										<ActiveSource Name="Cello03_OneShot" ID="{25E9A510-E3CB-47FD-8875-84F3CDA284C1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello04_OneShot" ID="{4D498F13-4977-41D1-AF92-C3E9B6A9CFFF}" ShortID="976671336">
+								<Sound Name="Cello04_OneShot" ID="{FDC92AC9-CD29-4E1E-8208-012906AF4622}" ShortID="43396578">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5750,7 +5788,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello04_OneShot" ID="{46F40903-9271-4AF3-94DA-6E828928F2C6}" ShortID="524358187">
+										<AudioFileSource Name="Cello04_OneShot" ID="{861006D6-4362-4114-BC02-A65D79D7C5AD}" ShortID="352249895">
 											<Language>SFX</Language>
 											<AudioFile>Cello04_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5759,10 +5797,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello04_OneShot" ID="{46F40903-9271-4AF3-94DA-6E828928F2C6}" Platform="Linked"/>
+										<ActiveSource Name="Cello04_OneShot" ID="{861006D6-4362-4114-BC02-A65D79D7C5AD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello05_OneShot" ID="{01E6BA9C-946C-45B3-8EFC-B4C4E6346CB7}" ShortID="997394779">
+								<Sound Name="Cello05_OneShot" ID="{953C05A5-9427-4D9D-966B-6F2079F1A293}" ShortID="840104921">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5772,7 +5810,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello05_OneShot" ID="{98D598E5-580D-45F6-9243-B5EB0193055E}" ShortID="631878204">
+										<AudioFileSource Name="Cello05_OneShot" ID="{8A073844-2332-4D13-9793-3E532CED97D2}" ShortID="450405475">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.406395869006849"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Cello05_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5781,10 +5824,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello05_OneShot" ID="{98D598E5-580D-45F6-9243-B5EB0193055E}" Platform="Linked"/>
+										<ActiveSource Name="Cello05_OneShot" ID="{8A073844-2332-4D13-9793-3E532CED97D2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cello06_OneShot" ID="{5963CFF6-9340-4B56-B9C0-3313B970EAFC}" ShortID="613686885">
+								<Sound Name="Cello06_OneShot" ID="{1A44BC1B-8064-42DA-86A3-C347A81EB920}" ShortID="929061283">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5794,7 +5837,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cello06_OneShot" ID="{262D6883-6FF4-43AB-B62E-93CC81EFBEB7}" ShortID="720621531">
+										<AudioFileSource Name="Cello06_OneShot" ID="{9F8240BA-DE71-4E6A-8473-81E9E9319AFD}" ShortID="151252053">
 											<Language>SFX</Language>
 											<AudioFile>Cello06_OneShot.wav</AudioFile>
 											<ConvertedFileIDList>
@@ -5803,7 +5846,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Cello06_OneShot" ID="{262D6883-6FF4-43AB-B62E-93CC81EFBEB7}" Platform="Linked"/>
+										<ActiveSource Name="Cello06_OneShot" ID="{9F8240BA-DE71-4E6A-8473-81E9E9319AFD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -5966,6 +6009,200 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Max Loops" ID="{B12F2CCD-F93A-4F77-8757-BB146A7EC04B}" ShortID="1064939479">
+					<ChildrenList>
+						<Sound Name="Blue 3 Waves Max" ID="{2C8C5B61-05F1-4FFD-81D2-2527E7F98FA1}" ShortID="523228068">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Blue 3 Waves Max" ID="{BFF19C32-79FF-4B9C-9B63-F02D32426FD4}" ShortID="355682266">
+									<Language>SFX</Language>
+									<AudioFile>Blue 3 Waves Max.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Blue 3 Waves Max" ID="{BFF19C32-79FF-4B9C-9B63-F02D32426FD4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Blue Wave Max" ID="{C8CA5EED-3B69-49AB-9475-FA5AF4ACD929}" ShortID="517805165">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Blue Wave Max" ID="{27215A3B-A64F-4D1C-A274-37EEB086D51C}" ShortID="446301442">
+									<Language>SFX</Language>
+									<AudioFile>Blue Wave Max.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Blue Wave Max" ID="{27215A3B-A64F-4D1C-A274-37EEB086D51C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dark Blue Sphere Max" ID="{3B3BA2A6-D472-42E8-9E4C-C7431EA4A717}" ShortID="388521059">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dark Blue Sphere Max" ID="{8F4085F5-652F-4D40-AD61-1A2596BF5043}" ShortID="812780576">
+									<Language>SFX</Language>
+									<AudioFile>Dark Blue Sphere Max.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dark Blue Sphere Max" ID="{8F4085F5-652F-4D40-AD61-1A2596BF5043}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Green Noodle Max" ID="{23164B1F-2C5D-4093-8923-DBBCE18D78EF}" ShortID="775703625">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Green Noodle Max" ID="{5D620DCE-D71B-41A3-AFFF-618DBBEE1377}" ShortID="4749468">
+									<Language>SFX</Language>
+									<AudioFile>Green Noodle Max.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Green Noodle Max" ID="{5D620DCE-D71B-41A3-AFFF-618DBBEE1377}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Green Pulsating Sphere Max" ID="{E7CDFF1B-01BE-4342-9E0F-E8C9D5A4C43F}" ShortID="342973094">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Green Pulsating Sphere Max" ID="{98EEAA53-515B-468E-8251-AE79193577C0}" ShortID="977253951">
+									<Language>SFX</Language>
+									<AudioFile>Green Pulsating Sphere Max.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Green Pulsating Sphere Max" ID="{98EEAA53-515B-468E-8251-AE79193577C0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Orange Blanket Max" ID="{27C6CB7D-1BDE-4CF4-80AB-13357C8ED4CC}" ShortID="918395415">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Orange Blanket Max" ID="{E8342266-6052-4564-A1F8-5D0CF930D915}" ShortID="147345450">
+									<Language>SFX</Language>
+									<AudioFile>Orange Blanket Max.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Orange Blanket Max" ID="{E8342266-6052-4564-A1F8-5D0CF930D915}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Orange Pulsating Sphere Cluster" ID="{E6DFD269-6051-4F2F-9EBF-DCDEAC1D1BC1}" ShortID="857309174">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Orange Pulsating Sphere Cluster" ID="{657AAA2A-2AA9-45E9-B1F2-6E14D2D31A07}" ShortID="263450074">
+									<Language>SFX</Language>
+									<AudioFile>Orange Pulsating Sphere Cluster.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Orange Pulsating Sphere Cluster" ID="{657AAA2A-2AA9-45E9-B1F2-6E14D2D31A07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Red Cube Max" ID="{ED21E084-B426-45BE-9E75-343A99168EF9}" ShortID="400537388">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Red Cube Max" ID="{CF3ED395-D978-47C7-A1B0-A63B17BAC2DB}" ShortID="289219380">
+									<Language>SFX</Language>
+									<AudioFile>Red Cube Max.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Red Cube Max" ID="{CF3ED395-D978-47C7-A1B0-A63B17BAC2DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Red Sphere Max" ID="{DF0E283D-860F-4357-B410-F5E5296E299E}" ShortID="126235375">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Red Sphere Max" ID="{EF441CAE-19D7-47A7-AEBD-BF62880CC63B}" ShortID="601360734">
+									<Language>SFX</Language>
+									<AudioFile>Red Sphere Max.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Red Sphere Max" ID="{EF441CAE-19D7-47A7-AEBD-BF62880CC63B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Yellow Pyramide Max" ID="{33E312DC-BDFA-4ED2-9E7B-B9563C7318E5}" ShortID="1023074604">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Yellow Pyramide Max" ID="{C4D4674A-709A-4CB9-83C0-93AC3F30486B}" ShortID="633710390">
+									<Language>SFX</Language>
+									<AudioFile>Yellow Pyramide Max.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Yellow Pyramide Max" ID="{C4D4674A-709A-4CB9-83C0-93AC3F30486B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

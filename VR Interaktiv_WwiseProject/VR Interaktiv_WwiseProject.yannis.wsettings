@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{CC64FCDC-8509-49F1-9C9F-DF7A6B7A6E3B}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\yannis\Desktop\Vr Bumms"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\yannis\Desktop\Vr Bumms\vr wwise one shots"/>
 				<Property Name="Event Action List\{0CDD5028-88C2-4708-8252-06050CC36062}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{119B727C-FC99-4DB8-8BE6-B63D42A7D5A3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{133F6D54-FFF1-4624-9A5C-0AA28F94DAD7}\x64_Expand States" Type="string" Value=""/>
