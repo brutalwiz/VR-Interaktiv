@@ -21,6 +21,7 @@ public class MoonRotation : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         anim.Play("Impact");
+        AkSoundEngine.PostEvent("Play_Moon_response", gameObject);
         Debug.Log("Play ANIM IMPACT");
     }
 }

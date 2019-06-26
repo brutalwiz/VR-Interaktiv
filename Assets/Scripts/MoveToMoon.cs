@@ -35,6 +35,7 @@ public class MoveToMoon : MonoBehaviour
     void OnTriggerEnter(Collider c){
         if(c.gameObject.tag == "Moon"){
             //Wenn OSC Objectscript gefunden wurde -> Sende Fadein befehl an Max
+            AkSoundEngine.SetRTPCValue(RTPCName, 100f, gameObject);
             if (osc != null)
             {
                 Debug.Log("FIRE OSC!");
@@ -68,12 +69,5 @@ public class MoveToMoon : MonoBehaviour
         ActionEvent.Post(gameObject);
 
     }
-    void enableMaterial(){
-        //TODO: CHANGE MATERIAL
-    }
-    void disableMaterial(){
-        //TODO: CHANGE MATERIAL
-    }
-
     
 }
