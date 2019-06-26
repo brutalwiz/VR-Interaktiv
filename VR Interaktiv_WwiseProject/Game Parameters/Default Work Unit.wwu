@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{06189417-C4B2-4BBF-912A-4FC95C93971B}" SchemaVersion="94">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{06189417-C4B2-4BBF-912A-4FC95C93971B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{06189417-C4B2-4BBF-912A-4FC95C93971B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Blue_3_Waves" ID="{59ABBE3B-7E09-4BD3-A4CB-85CD868AC3C2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Blue_Wave" ID="{5D1F6BCC-2D4A-412C-BB89-1C1B93FFBF76}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Dark_Blue_Sphere" ID="{8FF2C18D-8A18-4DBD-A6B5-D40EE27A54F7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Green_Noodle" ID="{E5DB7BB9-7AF2-47B9-821D-34640DA16843}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Green_Pulsating_Sphere_Cluster" ID="{92B40524-BCF3-4068-97E3-37E5966986FE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Orange_Pulsating_Sphere_Cluster" ID="{ADEB063B-5F64-470D-84C5-D1CF37AEEA1A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Red_Cube" ID="{2BD4C2E1-3205-4C6A-AFF3-76B3F3C70FFA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Red_Sphere" ID="{C21D1A33-E8B9-4C40-A8A5-34DB84EB96F8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Yellow_Pyramide" ID="{09902D43-0947-4BDA-AAE7-FBA7A89E236D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Orange_Blanket" ID="{031DFD4D-2204-4D3E-BC1D-7E2B5A3CC995}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{CC64FCDC-8509-49F1-9C9F-DF7A6B7A6E3B}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\yannis\Desktop\Vr Bumms\vr wwise one shots"/>
+				<Property Name="Event Action List\{03AC34CF-01C8-490A-A439-F361D0FF3F4C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0CDD5028-88C2-4708-8252-06050CC36062}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{119B727C-FC99-4DB8-8BE6-B63D42A7D5A3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{133F6D54-FFF1-4624-9A5C-0AA28F94DAD7}\x64_Expand States" Type="string" Value=""/>
@@ -39,6 +40,7 @@
 				<Property Name="Event Action List\{D102583A-5BC2-47A9-BD7B-A4196C3B6189}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D530D9B3-1DD8-4083-BDDE-2EEB75745E3B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D9D09981-F77A-420C-B418-463614FC6C44}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DCDD619E-67DB-46E1-8B9D-5D68E2F8ABF6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E797D8EB-AEB7-4E57-ABF7-887F46844AB9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ECA59989-90F1-4F90-8358-EBAF5215978E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F03A6A39-DE54-4855-83EE-6DBD354B724A}\x64_Expand States" Type="string" Value=""/>
@@ -66,7 +68,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="1OIYBrfMPkywEvt49fxJXg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>

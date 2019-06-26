@@ -9,26 +9,7 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="VR_INT_SoundBank" ID="{0618E2D4-CCB7-4C3E-B012-FB78F5FC495E}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_Red_Sphere_Loop" ID="{9BC1FDBD-AE52-409A-84D9-FA0AC47FDEAF}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Red_Sphere_Idle" ID="{94E4FAB8-5D40-4161-931F-6C658B7A2C50}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Blue_3_Waves_Loop" ID="{FB779E59-F676-418F-9135-43A559274F9F}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Blue_3_Waves_Idle" ID="{6940EFE6-1805-41CC-901B-149669E94EDA}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Yellow_Pyramide_Loop" ID="{D9D09981-F77A-420C-B418-463614FC6C44}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Green_Nudel_Loop" ID="{BF3721BD-CE69-423D-B1A5-E4FBF326E966}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Blue_Wave_Idle" ID="{B3A7868A-46F7-444E-BF76-612E2842ECC7}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Green_Pulsating_Sphere_Cluster_Loop" ID="{AEB7259F-6FB9-454E-8693-F3BD5D9C1999}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Orange_Pulsating_Sphere_Cluster_Loop" ID="{418C18BC-E460-4813-A29F-0AD009A00A1F}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Dark_Blue_Sphere_Loop" ID="{F03A6A39-DE54-4855-83EE-6DBD354B724A}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Blue_3_Waves_Aktive" ID="{F73FBF2C-0517-4897-8892-DBD4BE966B8A}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Blue_Wave_Loop" ID="{3CBD30EF-FA19-492C-945B-F2466F4941D8}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Red_Sphere_Aktive" ID="{874C5F0A-1D33-4954-9E98-A1DF1E7D16A5}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Ambient" ID="{CF52E99A-C7CB-4B83-82C7-7B905FD33950}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Moon" ID="{FDDC230D-1963-4CF9-96AC-BFFA7AC10289}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Orange_Blanket_Loop" ID="{794C810B-E81D-4F33-B474-DB84101630EE}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Blue_Wave_Aktive" ID="{45DD2F74-63E5-4F85-A28C-ACFE386B2E76}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Red_Cube_Loop" ID="{ECA59989-90F1-4F90-8358-EBAF5215978E}" WorkUnitID="{41FCAA06-9FDF-4905-9A32-6EF2F3D1B1BC}" Filter="7" Origin="Manual"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
