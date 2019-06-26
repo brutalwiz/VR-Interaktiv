@@ -36,16 +36,16 @@ namespace AK
         static const AkUniqueID PLAY_RED_SPHERE_IDLE = 1044629418U;
         static const AkUniqueID PLAY_YELLOW_PYRAMIDE_AKTIVE = 2380954949U;
         static const AkUniqueID PLAY_YELLOW_PYRAMIDE_IDLE = 3784571625U;
-        static const AkUniqueID STOP_BLUE_3_WAVES_LOOP = 1146061958U;
-        static const AkUniqueID STOP_BLUE_WAVE_LOOP = 3641478185U;
-        static const AkUniqueID STOP_DARK_BLUE_SPHERE_LOOP = 3592663298U;
-        static const AkUniqueID STOP_GREEN_NOODLE_LOOP = 594352518U;
-        static const AkUniqueID STOP_GREEN_PULSATING_SPHERE_CLUSTER_LOOP = 2995825455U;
-        static const AkUniqueID STOP_ORANGE_BLANKET_LOOP = 2871615111U;
-        static const AkUniqueID STOP_ORANGE_PULSATING_SPHERE_CLUSTER_LOOP = 59969852U;
-        static const AkUniqueID STOP_RED_CUBE_LOOP = 924534716U;
-        static const AkUniqueID STOP_RED_SPHERE_LOOP = 251614380U;
-        static const AkUniqueID STOP_YELLOW_PYRAMIDE_LOOP = 4077158843U;
+        static const AkUniqueID STOP_BLUE_3_WAVES_IDLE = 1155432114U;
+        static const AkUniqueID STOP_BLUE_WAVE_IDLE = 462094945U;
+        static const AkUniqueID STOP_DARK_BLUE_IDLE = 979472644U;
+        static const AkUniqueID STOP_GREEN_NOODLE_IDLE = 603722674U;
+        static const AkUniqueID STOP_GREEN_PULSATING_SPHERE_CLUSTER_IDLE = 428910599U;
+        static const AkUniqueID STOP_ORANGE_BLANKET_IDLE = 4055001135U;
+        static const AkUniqueID STOP_ORANGE_PULSATING_SPHERE_CLUSTER_IDLE = 1201847016U;
+        static const AkUniqueID STOP_RED_CUBE_IDLE = 2066411880U;
+        static const AkUniqueID STOP_RED_SPHERE_IDLE = 319723832U;
+        static const AkUniqueID STOP_YELLOW_PYRAMIDE_IDLE = 4076159987U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

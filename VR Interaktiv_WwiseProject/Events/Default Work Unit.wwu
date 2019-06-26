@@ -256,141 +256,141 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Blue_3_Waves_Loop" ID="{60AC5405-9CBB-413A-BE7E-48101225B4F9}">
+				<Event Name="Stop_Dark_Blue_Idle" ID="{662195AE-1C14-484D-962D-33ACB2CDCDE9}">
 					<ChildrenList>
-						<Action Name="" ID="{64FD5615-D92E-4E86-933C-6AFE839E8773}" ShortID="208009334">
+						<Action Name="" ID="{A26EBE9E-4E95-43F2-B666-F77936BE9FC3}" ShortID="767137040">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Blue 3 Waves Loop" ID="{2C6BBF4E-D22D-4E23-88D4-EC701DDFFD10}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Dark Blue Idle" ID="{FC6A5919-7F1E-4605-A022-1031E278021E}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Blue_Wave_Loop" ID="{305F2603-2D26-4C7F-8711-80A1FA1FA1B9}">
+				<Event Name="Stop_Green_Noodle_Idle" ID="{90F28141-762D-4F8F-B00B-317E2A470C7E}">
 					<ChildrenList>
-						<Action Name="" ID="{1E8179B5-4ECF-42D4-9DBD-B4C90863908F}" ShortID="600670961">
+						<Action Name="" ID="{21CFD57C-20C7-42A1-972D-81355B51315D}" ShortID="647215360">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Blue Wave Loop" ID="{3783B22F-CB80-4578-BF09-0F018311142C}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Green Noodle Idle" ID="{07345862-B03A-4418-B23F-DDEE12822C39}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Dark_Blue_Sphere_Loop" ID="{64780F2F-19F4-4E53-8D97-E734E4151FBE}">
+				<Event Name="Stop_Green_Pulsating_Sphere_Cluster_Idle" ID="{6F3550D4-45D1-4080-AEF2-92CD7C72CA88}">
 					<ChildrenList>
-						<Action Name="" ID="{32C394E4-9ADA-4CEA-B275-931716E0DE19}" ShortID="991695250">
+						<Action Name="" ID="{420FDFE0-C4A7-4B31-B9E8-ADC534D65771}" ShortID="822297976">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Dark Blue Sphere Loop" ID="{B99702CD-D223-49AC-9A7A-B9BB20BFE5B2}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Green Pulsating Sphere Cluster Idle" ID="{A5026BC7-0D9F-443C-B65B-D3CD4551E68E}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Green_Noodle_Loop" ID="{5BF6DB04-6D94-456F-BD81-FE49E8C4A0BF}">
+				<Event Name="Stop_Orange_Blanket_Idle" ID="{2B1B948F-5A85-4BDC-85BC-2EBF6A005E83}">
 					<ChildrenList>
-						<Action Name="" ID="{FD4D4387-92CA-4EBD-A2E1-9579300EDC70}" ShortID="4538991">
+						<Action Name="" ID="{215C8118-7BA7-4465-A9F7-F30B5D8B4780}" ShortID="660995105">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Green Noodle Loop" ID="{42678A3B-9FC2-4A02-B097-EA4053B071E2}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Orange Blanket Idle" ID="{EB9D8950-B8DC-4837-B29E-7850E5FF0E3B}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Green_Pulsating_Sphere_Cluster_Loop" ID="{1976AB11-FF66-4448-BFFD-3421EDB60D9F}">
+				<Event Name="Stop_Orange_Pulsating_Sphere_Cluster_idle" ID="{A9D657C4-6168-425C-816E-52CD0CA21BB6}">
 					<ChildrenList>
-						<Action Name="" ID="{030DC5D0-7138-4D82-9046-48CBA4BD22FE}" ShortID="624924188">
+						<Action Name="" ID="{B4A53F27-8D4F-47A6-9DE7-CCD8F35EBAC0}" ShortID="404684240">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Green Pulsating Sphere Cluster Loop" ID="{700233AA-0EF6-4BF2-AAE4-ABC10FA7DF16}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Orange Pulsating Sphere Cluster idle" ID="{4E5FA151-4BD0-4C6F-BCC9-36E9CBDC791F}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Orange_Pulsating_Sphere_Cluster_Loop" ID="{E576EB70-7E4F-4A5E-B9C6-526BFD7865FC}">
+				<Event Name="Stop_Red_Cube_Idle" ID="{2DDEF455-8703-434D-8E10-7AEEF5443B2E}">
 					<ChildrenList>
-						<Action Name="" ID="{91FA7418-C979-455B-A817-A709A3838098}" ShortID="999754680">
+						<Action Name="" ID="{E3585951-66FF-4B45-864D-ED9DCABAC4CE}" ShortID="821975984">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Orange Pulsating Sphere Cluster Loop" ID="{80DA969C-C3E6-4BDB-A1D8-1058007BBD3F}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Red Cube Idle" ID="{08FD13C9-CD49-4EA4-A558-B64A3AA3BD7C}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Red_Cube_Loop" ID="{01820F84-47BF-421D-A0A0-85166C719138}">
+				<Event Name="Stop_Yellow_Pyramide_Idle" ID="{93F3F23C-359D-4B71-9487-40051BD4B823}">
 					<ChildrenList>
-						<Action Name="" ID="{85771305-6439-4CB1-A326-6E986B166F8E}" ShortID="929597587">
+						<Action Name="" ID="{35442A63-287F-4DC4-91FC-0DD670189DBF}" ShortID="902375380">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Red Cube Loop" ID="{26EF3480-FACC-4B37-B67D-6A5F898813E1}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Yellow Pyramide Idle" ID="{9665D22B-AB0F-4C1A-8A68-108B5AB35F45}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Red_Sphere_Loop" ID="{61CC61AE-F360-4869-93FA-D19825A1BA89}">
+				<Event Name="Stop_Blue_3_Waves_Idle" ID="{6977C4D4-801E-497B-84D9-F74DF16C2452}">
 					<ChildrenList>
-						<Action Name="" ID="{4B85D1E3-C615-46B9-A65E-E65CF720DD56}" ShortID="891013883">
+						<Action Name="" ID="{2BD8DE4B-34A8-4382-9D06-3B533589948E}" ShortID="62434217">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Red Sphere Loop" ID="{061763E5-565A-4F80-B5A0-CDA80BFF9C84}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Blue 3 Waves Idle" ID="{21EBA10B-5EFD-4412-8CC7-904257D0B45C}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Yellow_Pyramide_Loop" ID="{EB9A0359-9C45-4C0C-8E0E-A169988F1B1F}">
+				<Event Name="Stop_Blue_Wave_Idle" ID="{1389680B-023E-4ECC-BD3D-75E2A39F507F}">
 					<ChildrenList>
-						<Action Name="" ID="{8B43FD1B-3091-4072-8CCD-99353B5459B7}" ShortID="611531104">
+						<Action Name="" ID="{55E056B3-BE18-4287-A9C6-5E8F957D6519}" ShortID="240618199">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Yellow Pyramide Loop" ID="{86CEB961-9A27-4753-8965-74991435337D}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Blue Wave Idle" ID="{682F359D-CA6E-4F49-B0D6-863A742D3B57}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Orange_Blanket_Loop" ID="{CD868C9B-4345-4FCE-9C54-B0730E8BBCE9}">
+				<Event Name="Stop_Red_Sphere_Idle" ID="{7436E52A-6CF4-4709-91FF-7DA2B77ECDA3}">
 					<ChildrenList>
-						<Action Name="" ID="{470CED0E-CABC-4158-A4C7-B0D65AADB44E}" ShortID="84005689">
+						<Action Name="" ID="{9A82CBD9-DD8C-4FAD-A2BF-BDB1FC7E17B8}" ShortID="792669037">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Orange Blanket Loop" ID="{4F3B4D84-E340-490A-B426-E0AAAD271738}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
+									<ObjectRef Name="Red Sphere Idle" ID="{4AF9D7A9-FC64-4A69-885F-6378A4E22B3F}" WorkUnitID="{38D95332-D5E8-40CA-99B0-B119DEC1B27A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

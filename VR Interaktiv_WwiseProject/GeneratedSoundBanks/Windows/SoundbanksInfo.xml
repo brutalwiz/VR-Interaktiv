@@ -44,16 +44,16 @@
 				<Event Id="1044629418" Name="Play_Red_Sphere_Idle" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Idle" MaxAttenuation="15.000000"/>
 				<Event Id="2380954949" Name="Play_Yellow_Pyramide_Aktive" ObjectPath="\Events\Default Work Unit\Play_Yellow_Pyramide_Aktive" MaxAttenuation="35.000000"/>
 				<Event Id="3784571625" Name="Play_Yellow_Pyramide_Idle" ObjectPath="\Events\Default Work Unit\Play_Yellow_Pyramide_Idle" MaxAttenuation="15.000000"/>
-				<Event Id="1146061958" Name="Stop_Blue_3_Waves_Loop" ObjectPath="\Events\Default Work Unit\Stop_Blue_3_Waves_Loop" MaxAttenuation="0.000000"/>
-				<Event Id="3641478185" Name="Stop_Blue_Wave_Loop" ObjectPath="\Events\Default Work Unit\Stop_Blue_Wave_Loop" MaxAttenuation="0.000000"/>
-				<Event Id="3592663298" Name="Stop_Dark_Blue_Sphere_Loop" ObjectPath="\Events\Default Work Unit\Stop_Dark_Blue_Sphere_Loop" MaxAttenuation="0.000000"/>
-				<Event Id="594352518" Name="Stop_Green_Noodle_Loop" ObjectPath="\Events\Default Work Unit\Stop_Green_Noodle_Loop" MaxAttenuation="0.000000"/>
-				<Event Id="2995825455" Name="Stop_Green_Pulsating_Sphere_Cluster_Loop" ObjectPath="\Events\Default Work Unit\Stop_Green_Pulsating_Sphere_Cluster_Loop" MaxAttenuation="0.000000"/>
-				<Event Id="2871615111" Name="Stop_Orange_Blanket_Loop" ObjectPath="\Events\Default Work Unit\Stop_Orange_Blanket_Loop" MaxAttenuation="0.000000"/>
-				<Event Id="59969852" Name="Stop_Orange_Pulsating_Sphere_Cluster_Loop" ObjectPath="\Events\Default Work Unit\Stop_Orange_Pulsating_Sphere_Cluster_Loop" MaxAttenuation="0.000000"/>
-				<Event Id="924534716" Name="Stop_Red_Cube_Loop" ObjectPath="\Events\Default Work Unit\Stop_Red_Cube_Loop" MaxAttenuation="0.000000"/>
-				<Event Id="251614380" Name="Stop_Red_Sphere_Loop" ObjectPath="\Events\Default Work Unit\Stop_Red_Sphere_Loop" MaxAttenuation="0.000000"/>
-				<Event Id="4077158843" Name="Stop_Yellow_Pyramide_Loop" ObjectPath="\Events\Default Work Unit\Stop_Yellow_Pyramide_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="1155432114" Name="Stop_Blue_3_Waves_Idle" ObjectPath="\Events\Default Work Unit\Stop_Blue_3_Waves_Idle" MaxAttenuation="0.000000"/>
+				<Event Id="462094945" Name="Stop_Blue_Wave_Idle" ObjectPath="\Events\Default Work Unit\Stop_Blue_Wave_Idle" MaxAttenuation="0.000000"/>
+				<Event Id="979472644" Name="Stop_Dark_Blue_Idle" ObjectPath="\Events\Default Work Unit\Stop_Dark_Blue_Idle" MaxAttenuation="0.000000"/>
+				<Event Id="603722674" Name="Stop_Green_Noodle_Idle" ObjectPath="\Events\Default Work Unit\Stop_Green_Noodle_Idle" MaxAttenuation="0.000000"/>
+				<Event Id="428910599" Name="Stop_Green_Pulsating_Sphere_Cluster_Idle" ObjectPath="\Events\Default Work Unit\Stop_Green_Pulsating_Sphere_Cluster_Idle" MaxAttenuation="0.000000"/>
+				<Event Id="4055001135" Name="Stop_Orange_Blanket_Idle" ObjectPath="\Events\Default Work Unit\Stop_Orange_Blanket_Idle" MaxAttenuation="0.000000"/>
+				<Event Id="1201847016" Name="Stop_Orange_Pulsating_Sphere_Cluster_idle" ObjectPath="\Events\Default Work Unit\Stop_Orange_Pulsating_Sphere_Cluster_idle" MaxAttenuation="0.000000"/>
+				<Event Id="2066411880" Name="Stop_Red_Cube_Idle" ObjectPath="\Events\Default Work Unit\Stop_Red_Cube_Idle" MaxAttenuation="0.000000"/>
+				<Event Id="319723832" Name="Stop_Red_Sphere_Idle" ObjectPath="\Events\Default Work Unit\Stop_Red_Sphere_Idle" MaxAttenuation="0.000000"/>
+				<Event Id="4076159987" Name="Stop_Yellow_Pyramide_Idle" ObjectPath="\Events\Default Work Unit\Stop_Yellow_Pyramide_Idle" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="2984657" Language="SFX">

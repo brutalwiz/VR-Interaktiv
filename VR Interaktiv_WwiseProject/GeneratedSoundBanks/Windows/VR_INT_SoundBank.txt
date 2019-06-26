@@ -1,36 +1,36 @@
 Event	ID	Name			Wwise Object Path	Notes
-	59969852	Stop_Orange_Pulsating_Sphere_Cluster_Loop			\Default Work Unit\Stop_Orange_Pulsating_Sphere_Cluster_Loop	
 	150458005	Play_Orange_Blanket_Aktive			\Default Work Unit\Play_Orange_Blanket_Aktive	
-	251614380	Stop_Red_Sphere_Loop			\Default Work Unit\Stop_Red_Sphere_Loop	
+	319723832	Stop_Red_Sphere_Idle			\Default Work Unit\Stop_Red_Sphere_Idle	
 	370574138	Play_Red_Cube_Aktive			\Default Work Unit\Play_Red_Cube_Aktive	
+	428910599	Stop_Green_Pulsating_Sphere_Cluster_Idle			\Default Work Unit\Stop_Green_Pulsating_Sphere_Cluster_Idle	
 	440090986	Play_Red_Cube_Idle			\Default Work Unit\Play_Red_Cube_Idle	
-	594352518	Stop_Green_Noodle_Loop			\Default Work Unit\Stop_Green_Noodle_Loop	
+	462094945	Stop_Blue_Wave_Idle			\Default Work Unit\Stop_Blue_Wave_Idle	
+	603722674	Stop_Green_Noodle_Idle			\Default Work Unit\Stop_Green_Noodle_Idle	
 	727450411	Play_Blue_Wave_Aktive			\Default Work Unit\Play_Blue_Wave_Aktive	
-	924534716	Stop_Red_Cube_Loop			\Default Work Unit\Stop_Red_Cube_Loop	
+	979472644	Stop_Dark_Blue_Idle			\Default Work Unit\Stop_Dark_Blue_Idle	
 	1044629418	Play_Red_Sphere_Idle			\Default Work Unit\Play_Red_Sphere_Idle	
 	1126944137	Play_Green_Pulsating_Sphere_Cluster_Idle			\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Idle	
-	1146061958	Stop_Blue_3_Waves_Loop			\Default Work Unit\Stop_Blue_3_Waves_Loop	
+	1155432114	Stop_Blue_3_Waves_Idle			\Default Work Unit\Stop_Blue_3_Waves_Idle	
+	1201847016	Stop_Orange_Pulsating_Sphere_Cluster_idle			\Default Work Unit\Stop_Orange_Pulsating_Sphere_Cluster_idle	
 	1275841447	Play_Blue_Wave_Idle			\Default Work Unit\Play_Blue_Wave_Idle	
 	1296833649	Play_Moon			\Default Work Unit\Play_Moon	
 	1471702656	Play_Green_Pulsating_Sphere_Cluster_Aktiv			\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Aktiv	
 	1562304622	Play_Ambient			\Default Work Unit\Play_Ambient	
 	1750831160	Play_Blue_3_Waves_Aktive			\Default Work Unit\Play_Blue_3_Waves_Aktive	
+	2066411880	Stop_Red_Cube_Idle			\Default Work Unit\Stop_Red_Cube_Idle	
 	2380954949	Play_Yellow_Pyramide_Aktive			\Default Work Unit\Play_Yellow_Pyramide_Aktive	
 	2677711585	Play_Moon_response			\Default Work Unit\Play_Moon_response	
 	2716123513	Play_Orange_Blanket_Idle			\Default Work Unit\Play_Orange_Blanket_Idle	
 	2736068400	Play_Green_Noodle_Idle			\Default Work Unit\Play_Green_Noodle_Idle	
-	2871615111	Stop_Orange_Blanket_Loop			\Default Work Unit\Stop_Orange_Blanket_Loop	
-	2995825455	Stop_Green_Pulsating_Sphere_Cluster_Loop			\Default Work Unit\Stop_Green_Pulsating_Sphere_Cluster_Loop	
 	3113777928	Play_Green_Noodle_Aktive			\Default Work Unit\Play_Green_Noodle_Aktive	
 	3538379842	Play_Orange_Pulsating_Sphere_Cluster_Aktive			\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_Aktive	
-	3592663298	Stop_Dark_Blue_Sphere_Loop			\Default Work Unit\Stop_Dark_Blue_Sphere_Loop	
-	3641478185	Stop_Blue_Wave_Loop			\Default Work Unit\Stop_Blue_Wave_Loop	
 	3650992882	Play_Dark_Blue_Idle			\Default Work Unit\Play_Dark_Blue_Idle	
 	3784571625	Play_Yellow_Pyramide_Idle			\Default Work Unit\Play_Yellow_Pyramide_Idle	
 	3842488354	Play_Dark_Blue_Aktive			\Default Work Unit\Play_Dark_Blue_Aktive	
 	3878163730	Play_Orange_Pulsating_Sphere_Cluster_idle			\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_idle	
 	3952716768	Play_Blue_3_Waves_Idle			\Default Work Unit\Play_Blue_3_Waves_Idle	
-	4077158843	Stop_Yellow_Pyramide_Loop			\Default Work Unit\Stop_Yellow_Pyramide_Loop	
+	4055001135	Stop_Orange_Blanket_Idle			\Default Work Unit\Stop_Orange_Blanket_Idle	
+	4076159987	Stop_Yellow_Pyramide_Idle			\Default Work Unit\Stop_Yellow_Pyramide_Idle	
 	4236985978	Play_Red_Sphere_Aktive			\Default Work Unit\Play_Red_Sphere_Aktive	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

@@ -13,7 +13,7 @@ public class RandomMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        phase = Random.Range(0, 360);
     }
 
     // Update is called once per frame
