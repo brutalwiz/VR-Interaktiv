@@ -55,6 +55,32 @@
 									<ValueList>
 										<Value>-2</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{F973BE90-3C2C-4D3A-845E-5AF792335963}" ShortID="410010703">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Yellow_Pyramide" ID="{09902D43-0947-4BDA-AAE7-FBA7A89E236D}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{55800A75-1AE3-4967-8472-95FDB47F1A81}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -121,6 +147,32 @@
 									<ValueList>
 										<Value>3</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{1F20E765-E966-4E63-BF02-F41BCEA2BBA4}" ShortID="813372239">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Dark_Blue_Sphere" ID="{8FF2C18D-8A18-4DBD-A6B5-D40EE27A54F7}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1D540747-C2E7-4711-A598-D63666FB7765}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -178,7 +230,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Red Quadrat Loop" ID="{F30700F9-7BAC-439E-B163-F7DBEA24CA2C}" ShortID="743576476">
+						<RandomSequenceContainer Name="Red Cube Loop" ID="{F30700F9-7BAC-439E-B163-F7DBEA24CA2C}" ShortID="743576476">
 							<PropertyList>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -187,6 +239,32 @@
 									<ValueList>
 										<Value>-5</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{6A7ABDF2-1A7D-4937-8D1B-7E698D90A45B}" ShortID="704071199">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Red_Cube" ID="{2BD4C2E1-3205-4C6A-AFF3-76B3F3C70FFA}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0A9C7F9F-458D-47B5-BFD6-20DC3DDE4B38}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -244,7 +322,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Green Nudel Loop" ID="{24727282-A307-42A6-9C46-75FFE36DA863}" ShortID="478919663">
+						<RandomSequenceContainer Name="Green Noodle Loop" ID="{24727282-A307-42A6-9C46-75FFE36DA863}" ShortID="478919663">
 							<PropertyList>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -253,6 +331,32 @@
 									<ValueList>
 										<Value>-3</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{E4CEA7CE-7896-42CC-BB56-4D2E54B0CE6B}" ShortID="748145389">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Green_Noodle" ID="{E5DB7BB9-7AF2-47B9-821D-34640DA16843}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{57737641-B994-4A2C-A1D5-F73E6672F589}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -319,6 +423,32 @@
 									<ValueList>
 										<Value>-7</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{5A6A19F7-34F5-4E56-ACCD-8FC3FD419AB2}" ShortID="385111315">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Red_Sphere" ID="{C21D1A33-E8B9-4C40-A8A5-34DB84EB96F8}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{925EED8E-2686-4C03-B08A-169AE5A88E59}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -385,6 +515,32 @@
 									<ValueList>
 										<Value>-1</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{E863F136-176A-4404-A167-21864B995CBF}" ShortID="492716446">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Orange_Pulsating_Sphere_Cluster" ID="{ADEB063B-5F64-470D-84C5-D1CF37AEEA1A}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{67134BB1-7DF9-46EA-B22D-AD08606B8EC6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -451,6 +607,32 @@
 									<ValueList>
 										<Value>-28</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{C1CA6CC5-3FF5-4A8C-92D4-6930F8B619D9}" ShortID="49804081">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Blue_Wave" ID="{5D1F6BCC-2D4A-412C-BB89-1C1B93FFBF76}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{12CCF90B-D1AA-4DE9-B6A7-BAA157D0C616}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -511,6 +693,32 @@
 									<ValueList>
 										<Value>-9</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{BD79A717-6983-4BC1-B037-449D667ACC6E}" ShortID="706835396">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Green_Pulsating_Sphere_Cluster" ID="{92B40524-BCF3-4068-97E3-37E5966986FE}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D912B8AB-E1B6-4F1D-BC9F-6A674C7EF99D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -575,6 +783,32 @@
 									<ValueList>
 										<Value>-5</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{EF117134-31AF-45B5-9683-BD66A18A6B1C}" ShortID="1037784079">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Orange_Blanket" ID="{031DFD4D-2204-4D3E-BC1D-7E2B5A3CC995}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{57792758-9C2E-498C-AD06-397DB743BA0D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -604,6 +838,32 @@
 									<ValueList>
 										<Value>-22</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{429D3426-F78D-4347-9635-CE7B2EBD6D17}" ShortID="996766335">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Blue_3_Waves" ID="{59ABBE3B-7E09-4BD3-A4CB-85CD868AC3C2}" WorkUnitID="{06189417-C4B2-4BBF-912A-4FC95C93971B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5833A325-20AC-429A-B2DC-0E07862357E6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -1184,7 +1444,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1306,6 +1566,11 @@
 						<BlendContainer Name="Red Sphere Idle" ID="{4AF9D7A9-FC64-4A69-885F-6378A4E22B3F}" ShortID="146931226">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1339,7 +1604,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1406,7 +1671,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>1</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1455,6 +1720,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sphere 1 one" ID="{2A80BF5E-87FB-496B-A19C-021103096F87}" ShortID="434910416">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1477,7 +1749,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>1</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1500,13 +1772,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sphere 1 six" ID="{33661FB1-8DE5-4204-A8B1-F58D94827D7A}" ShortID="891091967">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -1555,7 +1820,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>6</Value>
+														<Value>7</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1608,6 +1873,11 @@
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
 												<Value>250</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1663,6 +1933,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1968,7 +2243,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-17</Value>
+												<Value>-23</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2037,6 +2312,11 @@
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2306,6 +2586,11 @@
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2434,6 +2719,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Pad Idle 7" ID="{AA7702B0-49A1-4781-BAC5-E212C92BD994}" ShortID="114849528">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2453,6 +2745,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Pad Idle 8" ID="{68BAFFF8-EE07-4C7F-9348-2C34C76CCDDA}" ShortID="309516179">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2472,6 +2771,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Pad Idle 9" ID="{46859D1D-FC7C-492B-9B97-968D2195E44D}" ShortID="328294908">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2491,6 +2797,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Pad Idle 10" ID="{A77B3C19-EEEA-4BEE-9E7E-FF5D8C7F4FB6}" ShortID="196275106">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2510,6 +2823,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Pad Idle 11" ID="{3B65CFFA-6B3B-48E6-BF93-54A58EC3A7C3}" ShortID="589714045">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2551,6 +2871,11 @@
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2641,6 +2966,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Wobble Idle 5" ID="{DFB28030-71C6-47B7-AC4D-31F03A5AD4D1}" ShortID="105875913">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2679,6 +3011,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Wobble Idle 7" ID="{4B7F4445-4CD5-4D31-AC19-4BF1EB2633AC}" ShortID="905679815">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2698,6 +3037,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Wobble Idle 8" ID="{C1558565-2686-49F3-9A5E-85E39EC4FEC1}" ShortID="648176287">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2717,6 +3063,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Wobble Idle 9" ID="{B610A91D-2D00-4D90-9BAF-C50ABB84F146}" ShortID="214939103">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2853,6 +3206,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Piano03_OneShot" ID="{6679623A-C1E0-4CA7-83D7-ADBC98023484}" ShortID="468593740">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2872,6 +3232,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Piano04_OneShot" ID="{69E7A2D5-43D2-4659-B2DB-47856A78F3D6}" ShortID="280897088">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2891,6 +3258,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Piano05_OneShot" ID="{76CEEB5E-4BAC-4440-858A-5849C8FF48E5}" ShortID="296187769">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2910,6 +3284,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="PianoF06_OneShot" ID="{FC1ECF15-FCA7-4031-9F29-88A93CA61540}" ShortID="873630484">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -2929,6 +3310,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Piano01_OneShot" ID="{C2C8158E-4FD6-4244-AC81-A65F9FF275DD}" ShortID="685570263">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3032,29 +3420,14 @@
 										<ActiveSource Name="Duduk02_OneShot" ID="{121B4CBF-ECDF-48BD-B124-BC5737CBD4BF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk03_OneShot" ID="{0B9E893B-26EC-4358-9227-0E86EB1643E4}" ShortID="599734100">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Duduk03_OneShot" ID="{F9FAAE77-B4C5-4E47-BF03-0939A4AEEC86}" ShortID="1019654429">
-											<Language>SFX</Language>
-											<AudioFile>Duduk03_OneShot.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="998682960"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Duduk03_OneShot" ID="{F9FAAE77-B4C5-4E47-BF03-0939A4AEEC86}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Duduk04_OneShot" ID="{1ABE95AC-5E32-44A7-8231-65B9D3079FAC}" ShortID="960247398">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3077,6 +3450,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Duduk05_OneShot" ID="{B103BADC-E67D-439F-895F-A7496F63487D}" ShortID="934362116">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3143,6 +3523,11 @@
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -3176,6 +3561,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Xylo02_OneShot" ID="{DFD5104B-7576-412D-B85E-9AA8BEC113B1}" ShortID="435063875">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3195,6 +3587,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Xylo03_OneShot" ID="{FE577B2E-EF4E-49CA-A414-4148B8532476}" ShortID="537236186">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3214,6 +3613,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Xylo04_OneShot" ID="{3718DC90-E3EE-44A0-91E7-7BE317999A19}" ShortID="736703678">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3233,6 +3639,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Xylo05_OneShot" ID="{5BEDCC91-7B53-4CD3-AD24-970A4C8E1F32}" ShortID="998681953">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3252,6 +3665,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Xylo06_OneShot" ID="{A55AAD0F-594F-456F-B1D0-998F8835E6F8}" ShortID="857167717">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3292,6 +3712,11 @@
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -3394,6 +3819,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Cello05_OneShot" ID="{A7FF4238-9134-4248-84DF-EAA6FF17A60C}" ShortID="787189585">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3495,6 +3927,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock02_OneShot" ID="{62F564C0-AB5E-4EF7-A47A-7352ABD57D02}" ShortID="283013802">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3514,6 +3953,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock03_OneShot" ID="{59043250-8B31-457E-9B3B-29F34F31C681}" ShortID="744968197">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3533,6 +3979,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock04_OneShot" ID="{DE354CCF-3CA0-40E1-97A8-AD1F484347DB}" ShortID="567274000">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3552,6 +4005,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock05_OneShot" ID="{F5DD4FC4-F37E-4F7D-8DFC-2AF0D918A59D}" ShortID="645548685">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3571,6 +4031,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock06_OneShot" ID="{5341AD19-8A54-473B-A0ED-2C8783E6DEB7}" ShortID="564813627">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3601,7 +4068,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3673,7 +4140,7 @@
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{D9CDED64-E455-458A-A773-DFAEE0C9ED8B}">
@@ -3729,7 +4196,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-3</Value>
+														<Value>-4</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3755,6 +4222,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sphere 1 one" ID="{CC2A9D89-7935-4045-86D0-815F78FE69AA}" ShortID="954313370">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3780,7 +4254,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-4</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3809,7 +4283,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3902,7 +4376,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -3964,12 +4438,11 @@
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{C93B4EBB-FE97-4BF3-88D7-9EC2E3D87A12}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="3"/>
 														</PropertyList>
 													</Modifier>
@@ -3977,6 +4450,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4287,7 +4765,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -4379,7 +4857,8 @@
 										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{0845F387-26A5-4A7E-B943-B4D368774CA9}"/>
@@ -4668,10 +5147,15 @@
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -4956,13 +5440,13 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5149,6 +5633,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Pad Idle 9" ID="{57D252BD-DDFA-4128-907E-701478CC7413}" ShortID="259212993">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5171,6 +5662,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Pad Idle 10" ID="{7DEEEB06-EC6A-493B-8114-43C83A8B2AAC}" ShortID="691486742">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5193,6 +5691,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Pad Idle 11" ID="{AEE82C6F-947D-4E07-8904-AD55068B761F}" ShortID="70648378">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5224,13 +5729,13 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5241,6 +5746,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Piano02_OneShot" ID="{C9CAAFBA-A68F-471E-9872-EDE45A3F1204}" ShortID="488964914">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5263,6 +5775,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Piano03_OneShot" ID="{4440E354-7731-4B54-A81D-23F841B713AA}" ShortID="757502732">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5285,6 +5804,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Piano04_OneShot" ID="{90CE0444-8CC0-4833-B525-3D785AA8C3C4}" ShortID="154135855">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5307,6 +5833,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Piano05_OneShot" ID="{58A3140C-637C-45C5-8D6D-88CACFF64766}" ShortID="725519216">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5329,6 +5862,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="PianoF06_OneShot" ID="{D78616CA-85F5-4737-8F4D-0CFCD1298F5D}" ShortID="84437026">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5351,6 +5891,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Piano01_OneShot" ID="{8E41F985-0E1A-44F3-BCEF-BDD810351B5F}" ShortID="960741065">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5388,7 +5935,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5399,6 +5946,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Duduk01_OneShot" ID="{1A633D1B-48BA-495C-80C2-2EC5DDA0916C}" ShortID="591627763">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5421,6 +5975,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Duduk02_OneShot" ID="{7FD938DA-2ACD-46AB-BB49-97600BD20934}" ShortID="821198014">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5442,29 +6003,14 @@
 										<ActiveSource Name="Duduk02_OneShot" ID="{ABEEE394-EEA7-436B-9A67-2052B7FAA93D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Duduk03_OneShot" ID="{B895F3DD-73E1-4616-BE8A-4B4C21D474C2}" ShortID="316490727">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F90C5859-38BE-4095-B204-ED8DB4484FC3}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Duduk03_OneShot" ID="{893FF0DC-8F0F-4E7F-80AD-81974560604F}" ShortID="883646731">
-											<Language>SFX</Language>
-											<AudioFile>Duduk03_OneShot.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="998682960"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Duduk03_OneShot" ID="{893FF0DC-8F0F-4E7F-80AD-81974560604F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Duduk04_OneShot" ID="{36143A9E-649D-4715-98D5-A28A236231B9}" ShortID="180801387">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5487,6 +6033,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Duduk05_OneShot" ID="{31DD0CDA-4636-4ABC-A912-A82CE586772F}" ShortID="213774038">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5509,6 +6062,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Duduk06_OneShot" ID="{FDD1CC65-44CB-474D-9E87-C46FEFD1A157}" ShortID="265146583">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5538,10 +6098,15 @@
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5552,6 +6117,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Xylo01_OneShot" ID="{0A72FD30-8FF5-47D2-86F0-8B3802912CCD}" ShortID="612980800">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5574,6 +6146,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Xylo02_OneShot" ID="{076AF9BE-ED7A-4D12-B156-73804581826D}" ShortID="609882740">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5596,6 +6175,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Xylo03_OneShot" ID="{77870D09-3E4B-45A4-AF01-133DE0F7ECC5}" ShortID="212302129">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5618,6 +6204,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Xylo04_OneShot" ID="{1AE55C16-AB76-478C-B1BD-67B887A8C1CE}" ShortID="924625165">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5640,6 +6233,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Xylo05_OneShot" ID="{B392D5D6-7660-4259-96C9-D660633E059C}" ShortID="172492990">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5699,10 +6299,15 @@
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5713,6 +6318,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Cello01_OneShot" ID="{B99B6F85-FA91-4F60-967E-B233BD243DA2}" ShortID="1027779989">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5735,6 +6347,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Cello02_OneShot" ID="{E6643563-B49C-479A-872F-ED58F7CB6870}" ShortID="559539444">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5757,6 +6376,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Cello03_OneShot" ID="{50CAA346-0000-4506-A70F-E809593E5339}" ShortID="275203990">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5779,6 +6405,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Cello04_OneShot" ID="{FDC92AC9-CD29-4E1E-8208-012906AF4622}" ShortID="43396578">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5801,6 +6434,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Cello05_OneShot" ID="{953C05A5-9427-4D9D-966B-6F2079F1A293}" ShortID="840104921">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5828,6 +6468,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Cello06_OneShot" ID="{1A44BC1B-8064-42DA-86A3-C347A81EB920}" ShortID="929061283">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5859,13 +6506,13 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Sphere" ID="{E0DD114A-E5AC-4DFA-AE8F-DAF7F198B376}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
+									<ObjectRef Name="Aktive" ID="{D81D0DAA-50AE-4409-8462-A6262671D3E8}" WorkUnitID="{59E5FD07-14B2-43EB-8DC0-378F7B8702E2}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5898,6 +6545,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock02_OneShot" ID="{F661F0E5-0D92-481C-A762-CF79EF755CCD}" ShortID="1037103292">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5920,6 +6574,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock03_OneShot" ID="{C31D1D0A-953C-4162-8030-EBCCEBA7056E}" ShortID="284061106">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5942,6 +6603,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock04_OneShot" ID="{C4FAE07B-45B4-4FB3-A715-47AF26CBE9D0}" ShortID="363609703">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5964,6 +6632,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock05_OneShot" ID="{7FA81656-E68A-4C33-B646-790909DABBFB}" ShortID="866632543">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
@@ -5986,6 +6661,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Glock06_OneShot" ID="{6BB8DE96-7A39-49B3-9A9A-4CE03C72910C}" ShortID="310010854">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CB3AB4A-C789-49F8-89BC-88511FF5705B}"/>
