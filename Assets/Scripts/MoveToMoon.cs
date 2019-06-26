@@ -13,7 +13,8 @@ public class MoveToMoon : MonoBehaviour
     public string RTPCName;
     public AK.Wwise.Event ActionEvent;
     public AK.Wwise.Event StopLoopEvent;
-
+    bool fade = false;
+    float rtpcVal = 0;
 
     public bool moving;
     // Start is called before the first frame update
@@ -35,7 +36,8 @@ public class MoveToMoon : MonoBehaviour
     void OnTriggerEnter(Collider c){
         if(c.gameObject.tag == "Moon"){
             //Wenn OSC Objectscript gefunden wurde -> Sende Fadein befehl an Max
-            AkSoundEngine.SetRTPCValue(RTPCName, 100f, gameObject);
+            fade = true;
+            
             if (osc != null)
             {
                 Debug.Log("FIRE OSC!");
@@ -50,7 +52,7 @@ public class MoveToMoon : MonoBehaviour
             }
 
             //Zerstöre THIS 2 sek nach berühren des Mondes
-            Destroy(gameObject,2);
+            
         }
     }
     // Update is called once per frame
@@ -60,6 +62,17 @@ public class MoveToMoon : MonoBehaviour
             //Bewegung zum Mond
             transform.position = Vector3.Lerp(transform.position,moon.transform.position,Time.deltaTime*moveSpeed);
             moveSpeed += 0.0001f;
+        }
+        if (fade && rtpcVal<100)
+        {
+            AkSoundEngine.SetRTPCValue(RTPCName, rtpcVal, gameObject);
+            rtpcVal += 0.84f;
+            if (rtpcVal > 100)
+            {
+                AkSoundEngine.SetRTPCValue(RTPCName, 100f, gameObject);
+                fade = false;
+                Destroy(gameObject, 2);
+            }
         }
     }
 
