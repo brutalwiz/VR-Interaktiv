@@ -1,69 +1,150 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3577473	Play_Green_Pulsating_Sphere_Cluster_Loop			\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Loop	
-	10851086	Play_Red_Sphere_Loop			\Default Work Unit\Play_Red_Sphere_Loop	
-	418351965	Play_Green_Nudel_Loop			\Default Work Unit\Play_Green_Nudel_Loop	
+	59969852	Stop_Orange_Pulsating_Sphere_Cluster_Loop			\Default Work Unit\Stop_Orange_Pulsating_Sphere_Cluster_Loop	
+	150458005	Play_Orange_Blanket_Aktive			\Default Work Unit\Play_Orange_Blanket_Aktive	
+	251614380	Stop_Red_Sphere_Loop			\Default Work Unit\Stop_Red_Sphere_Loop	
+	370574138	Play_Red_Cube_Aktive			\Default Work Unit\Play_Red_Cube_Aktive	
+	440090986	Play_Red_Cube_Idle			\Default Work Unit\Play_Red_Cube_Idle	
+	594352518	Stop_Green_Noodle_Loop			\Default Work Unit\Stop_Green_Noodle_Loop	
 	727450411	Play_Blue_Wave_Aktive			\Default Work Unit\Play_Blue_Wave_Aktive	
+	924534716	Stop_Red_Cube_Loop			\Default Work Unit\Stop_Red_Cube_Loop	
 	1044629418	Play_Red_Sphere_Idle			\Default Work Unit\Play_Red_Sphere_Idle	
+	1126944137	Play_Green_Pulsating_Sphere_Cluster_Idle			\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Idle	
+	1146061958	Stop_Blue_3_Waves_Loop			\Default Work Unit\Stop_Blue_3_Waves_Loop	
 	1275841447	Play_Blue_Wave_Idle			\Default Work Unit\Play_Blue_Wave_Idle	
 	1296833649	Play_Moon			\Default Work Unit\Play_Moon	
+	1471702656	Play_Green_Pulsating_Sphere_Cluster_Aktiv			\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Aktiv	
 	1562304622	Play_Ambient			\Default Work Unit\Play_Ambient	
-	1603099281	Play_Orange_Blanket_Loop			\Default Work Unit\Play_Orange_Blanket_Loop	
 	1750831160	Play_Blue_3_Waves_Aktive			\Default Work Unit\Play_Blue_3_Waves_Aktive	
-	1779913369	Play_Red_Quadrat_Loop			\Default Work Unit\Play_Red_Quadrat_Loop	
-	2661204961	Play_Yellow_Pyramide_Loop			\Default Work Unit\Play_Yellow_Pyramide_Loop	
-	3032472648	Play_Dark_Blue_Sphere_Loop			\Default Work Unit\Play_Dark_Blue_Sphere_Loop	
-	3842756303	Play_Blue_Wave_Loop			\Default Work Unit\Play_Blue_Wave_Loop	
-	3882047460	Play_Blue_3_Waves_Loop			\Default Work Unit\Play_Blue_3_Waves_Loop	
-	3910370534	Play_Orange_Pulsating_Sphere_Cluster_Loop			\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_Loop	
+	2380954949	Play_Yellow_Pyramide_Aktive			\Default Work Unit\Play_Yellow_Pyramide_Aktive	
+	2677711585	Play_Moon_response			\Default Work Unit\Play_Moon_response	
+	2716123513	Play_Orange_Blanket_Idle			\Default Work Unit\Play_Orange_Blanket_Idle	
+	2736068400	Play_Green_Noodle_Idle			\Default Work Unit\Play_Green_Noodle_Idle	
+	2871615111	Stop_Orange_Blanket_Loop			\Default Work Unit\Stop_Orange_Blanket_Loop	
+	2995825455	Stop_Green_Pulsating_Sphere_Cluster_Loop			\Default Work Unit\Stop_Green_Pulsating_Sphere_Cluster_Loop	
+	3113777928	Play_Green_Noodle_Aktive			\Default Work Unit\Play_Green_Noodle_Aktive	
+	3538379842	Play_Orange_Pulsating_Sphere_Cluster_Aktive			\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_Aktive	
+	3592663298	Stop_Dark_Blue_Sphere_Loop			\Default Work Unit\Stop_Dark_Blue_Sphere_Loop	
+	3641478185	Stop_Blue_Wave_Loop			\Default Work Unit\Stop_Blue_Wave_Loop	
+	3650992882	Play_Dark_Blue_Idle			\Default Work Unit\Play_Dark_Blue_Idle	
+	3784571625	Play_Yellow_Pyramide_Idle			\Default Work Unit\Play_Yellow_Pyramide_Idle	
+	3842488354	Play_Dark_Blue_Aktive			\Default Work Unit\Play_Dark_Blue_Aktive	
+	3878163730	Play_Orange_Pulsating_Sphere_Cluster_idle			\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_idle	
 	3952716768	Play_Blue_3_Waves_Idle			\Default Work Unit\Play_Blue_3_Waves_Idle	
+	4077158843	Stop_Yellow_Pyramide_Loop			\Default Work Unit\Stop_Yellow_Pyramide_Loop	
 	4236985978	Play_Red_Sphere_Aktive			\Default Work Unit\Play_Red_Sphere_Aktive	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	243151924	Orange_Pulsating_Sphere_Cluster			\Default Work Unit\Orange_Pulsating_Sphere_Cluster	
+	629372170	Red_Cube			\Default Work Unit\Red_Cube	
+	818859383	Blue_Wave			\Default Work Unit\Blue_Wave	
+	868919084	Dark_Blue_Sphere			\Default Work Unit\Dark_Blue_Sphere	
+	1260208832	Green_Noodle			\Default Work Unit\Green_Noodle	
+	1348629375	Orange_Blanket			\Default Work Unit\Orange_Blanket	
+	2249019740	Blue_3_Waves			\Default Work Unit\Blue_3_Waves	
+	3169013010	Red_Sphere			\Default Work Unit\Red_Sphere	
+	3328475477	Yellow_Pyramide			\Default Work Unit\Yellow_Pyramide	
+	4201243403	Green_Pulsating_Sphere_Cluster			\Default Work Unit\Green_Pulsating_Sphere_Cluster	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	2984657	Sphere 2 three	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 three_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 three		1302776
-	46133414	Wave 1	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wave 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Loop\Wave 1		8467328
-	48645291	Sphere 2 eight	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 eight_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 eight		1302776
-	64309575	Sphere 1 seven	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 seven_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Idle\Sphere_1_Random\Sphere 1 seven		3745236
-	72910802	Wobble 2	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Green Pulsating Sphere Cluster Loop\Wobble 2		8467328
-	143704307	Sphere 2 ten	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 ten_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 ten		1302776
-	158454384	Sphere 1 two	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 two_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Idle\Sphere_1_Random\Sphere 1 two		3745236
-	162902184	Glock 2	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orange Pulsating Sphere Cluster Loop\Glock 2		9172928
-	192273346	Sphere 3 six	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 six_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Idle\Sphere_3_Random\Sphere 3 six		2605420
-	193645010	3 Waves 1	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\3 Waves 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Loop\3 Waves 1		8467328
-	203899253	Sphere 3 three	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 three_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Idle\Sphere_3_Random\Sphere 3 three		2605420
-	253267792	Sphere 3 eight	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 eight_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Idle\Sphere_3_Random\Sphere 3 eight		2605420
-	273809253	Sphere 3 seven	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 seven_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Idle\Sphere_3_Random\Sphere 3 seven		2605420
-	284653109	Sphere 1 six	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 six_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Idle\Sphere_1_Random\Sphere 1 six		3745236
-	307537630	3 Waves 2	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\3 Waves 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Loop\3 Waves 2		9172928
-	387845678	Cello 1	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dark Blue Sphere Loop\Cello 1		8467328
-	446498284	Marim 1	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Marim 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Green Nudel Loop\Marim 1		8467328
-	479448335	Sphere 2 four	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 four_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 four		1302776
-	498376134	Sphere 2 five	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 five_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 five		1302776
-	498780886	Piano 2	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Piano 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Quadrat Loop\Piano 2		9172928
-	520184491	Wave 2	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wave 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Loop\Wave 2		9878528
-	521374175	Orange Blanket Loop	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Loop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orange Blanket Loop		17640128
-	586245849	Sphere 2 seven	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 seven_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 seven		1302776
-	623187325	Sphere 1 four	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 four_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Idle\Sphere_1_Random\Sphere 1 four		3745236
-	646349425	Sphere 2	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Loop\Sphere 2		9878528
-	657156345	Sphere 3 nine	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 nine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Idle\Sphere_3_Random\Sphere 3 nine		2605420
-	711667456	Sphere 2 nine	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 nine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 nine		1302776
-	713841833	Sphere 1	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Loop\Sphere 1		8467440
-	730743241	Sphere 1 one	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 one_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Idle\Sphere_1_Random\Sphere 1 one		3745236
-	733576940	Duduk 1	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Duduk 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Yellow Pyramide Loop\Duduk 1		8467328
-	763511347	Sphere 1 five	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 five_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Idle\Sphere_1_Random\Sphere 1 five		3745236
-	771920741	Marim 2	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Marim 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Green Nudel Loop\Marim 2		9172928
-	779417841	Sphere 2 six	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 six_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 six		1302776
-	781036563	Sphere 1 three	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 three_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Idle\Sphere_1_Random\Sphere 1 three		3745236
-	806535787	Glock 1	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orange Pulsating Sphere Cluster Loop\Glock 1		8467328
-	840852509	Duduk 2	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Duduk 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Yellow Pyramide Loop\Duduk 2		9172928
-	841560329	Ambient	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\VR_Ambient_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient		5644864
-	859629225	Piano 1	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Piano 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Quadrat Loop\Piano 1		8467328
-	868454718	Sphere 2 two	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 two_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 two		1302776
-	884555054	Sphere 3 four	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 four_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Idle\Sphere_3_Random\Sphere 3 four		2605420
-	949941482	Sphere 3 one	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 one_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Idle\Sphere_3_Random\Sphere 3 one		2605420
-	977390048	Sphere_1_Background	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\VR_Moon_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Red Sphere Idle\Sphere_1_Background		5644864
-	1009817707	Sphere 2 one	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 one_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue Wave Idle\Sphere_2_Random\Sphere 2 one		1302776
-	1023574111	Sphere 3 five	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 five_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Idle\Sphere_3_Random\Sphere 3 five		2605420
-	1030783568	Cello 2	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dark Blue Sphere Loop\Cello 2		9172928
-	1039046511	Wobble 1	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Green Pulsating Sphere Cluster Loop\Wobble 1		16228928
-	1046579650	Sphere 3 two	C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 two_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blue 3 Waves Idle\Sphere_3_Random\Sphere 3 two		2605420
+	2984657	Sphere 2 three	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 three_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 three		1302776
+	32016163	Pad Idle 4	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 4		1764128
+	48645291	Sphere 2 eight	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 eight_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 eight		1302776
+	55749568	Wobble Idle 6	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 6		1058528
+	62477184	Pad Idle 3	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 3		1764128
+	64309575	Sphere 1 seven	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 seven_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Red Sphere Aktive\Sphere_1_Random\Sphere 1 seven		3745236
+	72910802	Wobble 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Green Pulsating Sphere Cluster Loop\Wobble 2		8467328
+	79996278	Piano04_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Piano04_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Red Cube Idle\Piano04_OneShot		512068
+	101994835	Wobble Idle 4	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 4		1058528
+	107051675	Duduk01_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Duduk01_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Yellow Pyramide Aktive\Duduk01_OneShot		1024068
+	123705625	Duduk02_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Duduk02_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Yellow Pyramide Aktive\Duduk02_OneShot		1024068
+	132776430	Wobble Idle 12	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 12		1058528
+	143704307	Sphere 2 ten	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 ten_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 ten		1302776
+	158454384	Sphere 1 two	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 two_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Red Sphere Aktive\Sphere_1_Random\Sphere 1 two		3745236
+	162902184	Glock 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Orange Pulsating Sphere Cluster Loop\Glock 2		9172928
+	171562059	Pad Idle 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 2		1764128
+	176727413	Xylo02_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Xylo02_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Pulsating Sphere Cluster idle\Xylo02_OneShot		512068
+	192273346	Sphere 3 six	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 six_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Blue 3 Waves Aktive\Sphere_3_Random\Sphere 3 six		2605420
+	193645010	3 Waves 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\3 Waves 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Blue 3 Waves Loop\3 Waves 1		8467328
+	203899253	Sphere 3 three	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 three_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Blue 3 Waves Aktive\Sphere_3_Random\Sphere 3 three		2605420
+	216882053	Pad Idle 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 1		1764128
+	217639783	Piano02_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Piano02_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Red Cube Idle\Piano02_OneShot		512068
+	253267792	Sphere 3 eight	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 eight_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Blue 3 Waves Aktive\Sphere_3_Random\Sphere 3 eight		2605420
+	255977819	Pad Idle 7	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 7		1764128
+	273809253	Sphere 3 seven	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 seven_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Blue 3 Waves Aktive\Sphere_3_Random\Sphere 3 seven		2605420
+	274203232	Glock04_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock04_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Noodle Aktive\Glock04_OneShot		512068
+	284653109	Sphere 1 six	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 six_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Red Sphere Aktive\Sphere_1_Random\Sphere 1 six		3745236
+	303352871	Duduk06_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Duduk06_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Yellow Pyramide Aktive\Duduk06_OneShot		1024068
+	307537630	3 Waves 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\3 Waves 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Blue 3 Waves Loop\3 Waves 2		9172928
+	319881886	Pad Idle 11	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 11		2822528
+	355726883	Wobble Idle 11	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 11		1058528
+	374992756	Pad Idle 5	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 5		1764128
+	387845678	Cello 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Dark Blue Sphere Loop\Cello 1		8467328
+	401784760	Wobble Idle 5	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 5		1058528
+	431723465	Wobble Idle 3	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 3		1058528
+	431761815	Cello06_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello06_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Dark Blue Aktive\Cello06_OneShot		1024068
+	446498284	Marim 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Marim 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Green Noodle Loop\Marim 1		8467328
+	458075809	Wobble Idle 8	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 8		1058528
+	459572607	Xylo01_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Xylo01_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Pulsating Sphere Cluster idle\Xylo01_OneShot		512068
+	479448335	Sphere 2 four	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 four_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 four		1302776
+	482250320	Pad Idle 10	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 10		1764128
+	495882161	Cello02_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello02_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Dark Blue Aktive\Cello02_OneShot		1024068
+	498376134	Sphere 2 five	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 five_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 five		1302776
+	498780886	Piano 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Piano 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Red Cube Loop\Piano 2		9172928
+	517122232	Piano01_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Piano01_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Red Cube Idle\Piano01_OneShot		512068
+	529291730	Cello01_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello01_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Dark Blue Aktive\Cello01_OneShot		1024068
+	542325871	Pad Idle 9	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 9		1764128
+	544328648	Glock01_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock01_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Noodle Aktive\Glock01_OneShot		512068
+	586245849	Sphere 2 seven	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 seven_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 seven		1302776
+	618133686	Cello03_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello03_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Dark Blue Aktive\Cello03_OneShot		1024068
+	621024928	Piano05_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Piano05_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Red Cube Idle\Piano05_OneShot		512068
+	623187325	Sphere 1 four	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 four_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Red Sphere Aktive\Sphere_1_Random\Sphere 1 four		3745236
+	638773412	Glock06_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock06_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Noodle Aktive\Glock06_OneShot		512068
+	646349425	Sphere 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Red Sphere Loop\Sphere 2		9878528
+	657156345	Sphere 3 nine	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 nine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Blue 3 Waves Aktive\Sphere_3_Random\Sphere 3 nine		2605420
+	668233115	Glock03_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock03_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Noodle Aktive\Glock03_OneShot		512068
+	668242375	Duduk05_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Duduk05_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Yellow Pyramide Aktive\Duduk05_OneShot		1024068
+	681023215	Wobble Idle 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 2		1058528
+	701294446	Moon_response	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Moon_response_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon_response		768068
+	703704115	Wobble Idle 10	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 10		1058528
+	708421901	Xylo06_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Xylo06_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Pulsating Sphere Cluster idle\Xylo06_OneShot		512068
+	711667456	Sphere 2 nine	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 nine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 nine		1302776
+	713841833	Sphere 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Red Sphere Loop\Sphere 1		8467440
+	717499210	Wobble Idle 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 1		1058528
+	721047405	PianoF06_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\PianoF06_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Red Cube Idle\PianoF06_OneShot		512068
+	730743241	Sphere 1 one	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 one_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Red Sphere Aktive\Sphere_1_Random\Sphere 1 one		3745236
+	731816969	Pad Idle 6	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 6		1764128
+	733576940	Duduk 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Duduk 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Yellow Pyramide Loop\Duduk 1		8467328
+	736028139	Duduk04_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Duduk04_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Yellow Pyramide Aktive\Duduk04_OneShot		1024068
+	763511347	Sphere 1 five	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 five_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Red Sphere Aktive\Sphere_1_Random\Sphere 1 five		3745236
+	771920741	Marim 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Marim 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Green Noodle Loop\Marim 2		9172928
+	779417841	Sphere 2 six	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 six_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 six		1302776
+	781036563	Sphere 1 three	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 1 three_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Red Sphere Aktive\Sphere_1_Random\Sphere 1 three		3745236
+	790482449	Pad Idle 8	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Idle 8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Blanket Idle\Pad Idle 8		1764128
+	806535787	Glock 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Orange Pulsating Sphere Cluster Loop\Glock 1		8467328
+	822125532	Cello04_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello04_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Dark Blue Aktive\Cello04_OneShot		1024068
+	840852509	Duduk 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Duduk 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Yellow Pyramide Loop\Duduk 2		9172928
+	841560329	Ambient	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\VR_Ambient_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient		5644864
+	844671320	Glock02_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock02_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Noodle Aktive\Glock02_OneShot		512068
+	859629225	Piano 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Piano 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Red Cube Loop\Piano 1		8467328
+	867873791	Wobble Idle 7	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 7		1058528
+	868454718	Sphere 2 two	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 two_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 two		1302776
+	870433392	Xylo05_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Xylo05_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Pulsating Sphere Cluster idle\Xylo05_OneShot		512068
+	876462326	Xylo04_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Xylo04_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Pulsating Sphere Cluster idle\Xylo04_OneShot		512068
+	884555054	Sphere 3 four	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 four_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Blue 3 Waves Aktive\Sphere_3_Random\Sphere 3 four		2605420
+	893630209	Blue Wave 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Blue Wave 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Blue Wave Loop\Blue Wave 2		8467328
+	894761558	Piano03_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Piano03_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Red Cube Idle\Piano03_OneShot		512068
+	895248130	Cello05_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello05_OneShot_374E43B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Dark Blue Aktive\Cello05_OneShot		512068
+	924729947	Wobble Idle 9	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble Idle 9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Pulsating Sphere Cluster Aktiv\Wobble Idle 9		1058528
+	934109907	Orange Blanket Loop	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Pad Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Orange Blanket Loop		17640128
+	949941482	Sphere 3 one	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 one_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Blue 3 Waves Aktive\Sphere_3_Random\Sphere 3 one		2605420
+	966924796	Blue Wave 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Blue Wave 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Blue Wave Loop\Blue Wave 1		8467328
+	977390048	Sphere_1_Background	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\VR_Moon_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Red Sphere Aktive\Sphere_1_Background		5644864
+	992549004	Xylo03_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Xylo03_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Orange Pulsating Sphere Cluster idle\Xylo03_OneShot		512068
+	1000340277	Glock05_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Glock05_OneShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Green Noodle Aktive\Glock05_OneShot		512068
+	1009817707	Sphere 2 one	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 2 one_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Blue Wave Idle\Sphere_2_Random\Sphere 2 one		1302776
+	1022904846	Cello05_OneShot	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello05_OneShot_B972CE43.wem		\Actor-Mixer Hierarchy\Default Work Unit\Idle\Dark Blue Idle\Cello05_OneShot		512068
+	1023574111	Sphere 3 five	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 five_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Blue 3 Waves Aktive\Sphere_3_Random\Sphere 3 five		2605420
+	1030783568	Cello 2	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Cello 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Dark Blue Sphere Loop\Cello 2		9172928
+	1039046511	Wobble 1	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Wobble 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moon\Green Pulsating Sphere Cluster Loop\Wobble 1		16228928
+	1046579650	Sphere 3 two	C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\SFX\Sphere 3 two_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aktive\Blue 3 Waves Aktive\Sphere_3_Random\Sphere 3 two		2605420
 

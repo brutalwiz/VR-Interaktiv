@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class MoveToMoon : MonoBehaviour
 {
-    float moveSpeed = 0.1f;
+    float moveSpeed = 0.01f;
     GameObject moon;
     Transform moonTransform;
     Vector3 moonDir;
     private OSC osc;
     public int loopNmbr;
+    public string RTPCName;
+    public AK.Wwise.Event ActionEvent;
+    public AK.Wwise.Event StopLoopEvent;
+
 
     public bool moving;
     // Start is called before the first frame update
@@ -54,11 +58,15 @@ public class MoveToMoon : MonoBehaviour
         if(moving){
             //Bewegung zum Mond
             transform.position = Vector3.Lerp(transform.position,moon.transform.position,Time.deltaTime*moveSpeed);
+            moveSpeed += 0.0001f;
         }
     }
 
     void moveTo() {
         moving = true;
+        StopLoopEvent.Post(gameObject);
+        ActionEvent.Post(gameObject);
+
     }
     void enableMaterial(){
         //TODO: CHANGE MATERIAL

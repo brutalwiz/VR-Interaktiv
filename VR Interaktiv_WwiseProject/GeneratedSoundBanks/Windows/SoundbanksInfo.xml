@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\yannis\Documents\GitHub\VR-Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,36 +22,59 @@
 			<Path>VR_INT_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1562304622" Name="Play_Ambient" ObjectPath="\Events\Default Work Unit\Play_Ambient"/>
-				<Event Id="1750831160" Name="Play_Blue_3_Waves_Aktive" ObjectPath="\Events\Default Work Unit\Play_Blue_3_Waves_Aktive" MaxAttenuation="30.000000"/>
-				<Event Id="3952716768" Name="Play_Blue_3_Waves_Idle" ObjectPath="\Events\Default Work Unit\Play_Blue_3_Waves_Idle" MaxAttenuation="30.000000"/>
-				<Event Id="3882047460" Name="Play_Blue_3_Waves_Loop" ObjectPath="\Events\Default Work Unit\Play_Blue_3_Waves_Loop"/>
-				<Event Id="727450411" Name="Play_Blue_Wave_Aktive" ObjectPath="\Events\Default Work Unit\Play_Blue_Wave_Aktive" MaxAttenuation="30.000000"/>
-				<Event Id="1275841447" Name="Play_Blue_Wave_Idle" ObjectPath="\Events\Default Work Unit\Play_Blue_Wave_Idle" MaxAttenuation="30.000000"/>
-				<Event Id="3842756303" Name="Play_Blue_Wave_Loop" ObjectPath="\Events\Default Work Unit\Play_Blue_Wave_Loop"/>
-				<Event Id="3032472648" Name="Play_Dark_Blue_Sphere_Loop" ObjectPath="\Events\Default Work Unit\Play_Dark_Blue_Sphere_Loop"/>
-				<Event Id="418351965" Name="Play_Green_Nudel_Loop" ObjectPath="\Events\Default Work Unit\Play_Green_Nudel_Loop"/>
-				<Event Id="3577473" Name="Play_Green_Pulsating_Sphere_Cluster_Loop" ObjectPath="\Events\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Loop"/>
+				<Event Id="1750831160" Name="Play_Blue_3_Waves_Aktive" ObjectPath="\Events\Default Work Unit\Play_Blue_3_Waves_Aktive" MaxAttenuation="35.000000"/>
+				<Event Id="3952716768" Name="Play_Blue_3_Waves_Idle" ObjectPath="\Events\Default Work Unit\Play_Blue_3_Waves_Idle" MaxAttenuation="15.000000"/>
+				<Event Id="727450411" Name="Play_Blue_Wave_Aktive" ObjectPath="\Events\Default Work Unit\Play_Blue_Wave_Aktive" MaxAttenuation="35.000000"/>
+				<Event Id="1275841447" Name="Play_Blue_Wave_Idle" ObjectPath="\Events\Default Work Unit\Play_Blue_Wave_Idle" MaxAttenuation="15.000000"/>
+				<Event Id="3842488354" Name="Play_Dark_Blue_Aktive" ObjectPath="\Events\Default Work Unit\Play_Dark_Blue_Aktive" MaxAttenuation="35.000000"/>
+				<Event Id="3650992882" Name="Play_Dark_Blue_Idle" ObjectPath="\Events\Default Work Unit\Play_Dark_Blue_Idle" MaxAttenuation="15.000000"/>
+				<Event Id="3113777928" Name="Play_Green_Noodle_Aktive" ObjectPath="\Events\Default Work Unit\Play_Green_Noodle_Aktive" MaxAttenuation="35.000000"/>
+				<Event Id="2736068400" Name="Play_Green_Noodle_Idle" ObjectPath="\Events\Default Work Unit\Play_Green_Noodle_Idle" MaxAttenuation="15.000000"/>
+				<Event Id="1471702656" Name="Play_Green_Pulsating_Sphere_Cluster_Aktiv" ObjectPath="\Events\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Aktiv" MaxAttenuation="35.000000"/>
+				<Event Id="1126944137" Name="Play_Green_Pulsating_Sphere_Cluster_Idle" ObjectPath="\Events\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Idle" MaxAttenuation="15.000000"/>
 				<Event Id="1296833649" Name="Play_Moon" ObjectPath="\Events\Default Work Unit\Play_Moon" MaxAttenuation="320.000000"/>
-				<Event Id="1603099281" Name="Play_Orange_Blanket_Loop" ObjectPath="\Events\Default Work Unit\Play_Orange_Blanket_Loop"/>
-				<Event Id="3910370534" Name="Play_Orange_Pulsating_Sphere_Cluster_Loop" ObjectPath="\Events\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_Loop"/>
-				<Event Id="1779913369" Name="Play_Red_Quadrat_Loop" ObjectPath="\Events\Default Work Unit\Play_Red_Quadrat_Loop"/>
-				<Event Id="4236985978" Name="Play_Red_Sphere_Aktive" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Aktive" MaxAttenuation="30.000000"/>
-				<Event Id="1044629418" Name="Play_Red_Sphere_Idle" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Idle" MaxAttenuation="30.000000"/>
-				<Event Id="10851086" Name="Play_Red_Sphere_Loop" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Loop"/>
-				<Event Id="2661204961" Name="Play_Yellow_Pyramide_Loop" ObjectPath="\Events\Default Work Unit\Play_Yellow_Pyramide_Loop"/>
+				<Event Id="2677711585" Name="Play_Moon_response" ObjectPath="\Events\Default Work Unit\Play_Moon_response"/>
+				<Event Id="150458005" Name="Play_Orange_Blanket_Aktive" ObjectPath="\Events\Default Work Unit\Play_Orange_Blanket_Aktive" MaxAttenuation="35.000000"/>
+				<Event Id="2716123513" Name="Play_Orange_Blanket_Idle" ObjectPath="\Events\Default Work Unit\Play_Orange_Blanket_Idle" MaxAttenuation="15.000000"/>
+				<Event Id="3538379842" Name="Play_Orange_Pulsating_Sphere_Cluster_Aktive" ObjectPath="\Events\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_Aktive" MaxAttenuation="35.000000"/>
+				<Event Id="3878163730" Name="Play_Orange_Pulsating_Sphere_Cluster_idle" ObjectPath="\Events\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_idle" MaxAttenuation="15.000000"/>
+				<Event Id="370574138" Name="Play_Red_Cube_Aktive" ObjectPath="\Events\Default Work Unit\Play_Red_Cube_Aktive" MaxAttenuation="35.000000"/>
+				<Event Id="440090986" Name="Play_Red_Cube_Idle" ObjectPath="\Events\Default Work Unit\Play_Red_Cube_Idle" MaxAttenuation="15.000000"/>
+				<Event Id="4236985978" Name="Play_Red_Sphere_Aktive" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Aktive" MaxAttenuation="35.000000"/>
+				<Event Id="1044629418" Name="Play_Red_Sphere_Idle" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Idle" MaxAttenuation="15.000000"/>
+				<Event Id="2380954949" Name="Play_Yellow_Pyramide_Aktive" ObjectPath="\Events\Default Work Unit\Play_Yellow_Pyramide_Aktive" MaxAttenuation="35.000000"/>
+				<Event Id="3784571625" Name="Play_Yellow_Pyramide_Idle" ObjectPath="\Events\Default Work Unit\Play_Yellow_Pyramide_Idle" MaxAttenuation="15.000000"/>
+				<Event Id="1146061958" Name="Stop_Blue_3_Waves_Loop" ObjectPath="\Events\Default Work Unit\Stop_Blue_3_Waves_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="3641478185" Name="Stop_Blue_Wave_Loop" ObjectPath="\Events\Default Work Unit\Stop_Blue_Wave_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="3592663298" Name="Stop_Dark_Blue_Sphere_Loop" ObjectPath="\Events\Default Work Unit\Stop_Dark_Blue_Sphere_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="594352518" Name="Stop_Green_Noodle_Loop" ObjectPath="\Events\Default Work Unit\Stop_Green_Noodle_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="2995825455" Name="Stop_Green_Pulsating_Sphere_Cluster_Loop" ObjectPath="\Events\Default Work Unit\Stop_Green_Pulsating_Sphere_Cluster_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="2871615111" Name="Stop_Orange_Blanket_Loop" ObjectPath="\Events\Default Work Unit\Stop_Orange_Blanket_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="59969852" Name="Stop_Orange_Pulsating_Sphere_Cluster_Loop" ObjectPath="\Events\Default Work Unit\Stop_Orange_Pulsating_Sphere_Cluster_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="924534716" Name="Stop_Red_Cube_Loop" ObjectPath="\Events\Default Work Unit\Stop_Red_Cube_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="251614380" Name="Stop_Red_Sphere_Loop" ObjectPath="\Events\Default Work Unit\Stop_Red_Sphere_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="4077158843" Name="Stop_Yellow_Pyramide_Loop" ObjectPath="\Events\Default Work Unit\Stop_Yellow_Pyramide_Loop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="2984657" Language="SFX">
 					<ShortName>Sphere 2 three.wav</ShortName>
 					<Path>SFX\Sphere 2 three_10C4C929.wem</Path>
 				</File>
-				<File Id="46133414" Language="SFX">
-					<ShortName>Wave 1.wav</ShortName>
-					<Path>SFX\Wave 1_10C4C929.wem</Path>
+				<File Id="32016163" Language="SFX">
+					<ShortName>Pad Idle 4.wav</ShortName>
+					<Path>SFX\Pad Idle 4_10C4C929.wem</Path>
 				</File>
 				<File Id="48645291" Language="SFX">
 					<ShortName>Sphere 2 eight.wav</ShortName>
 					<Path>SFX\Sphere 2 eight_10C4C929.wem</Path>
+				</File>
+				<File Id="55749568" Language="SFX">
+					<ShortName>Wobble Idle 6.wav</ShortName>
+					<Path>SFX\Wobble Idle 6_10C4C929.wem</Path>
+				</File>
+				<File Id="62477184" Language="SFX">
+					<ShortName>Pad Idle 3.wav</ShortName>
+					<Path>SFX\Pad Idle 3_10C4C929.wem</Path>
 				</File>
 				<File Id="64309575" Language="SFX">
 					<ShortName>Sphere 1 seven.wav</ShortName>
@@ -60,6 +83,26 @@
 				<File Id="72910802" Language="SFX">
 					<ShortName>Wobble 2.wav</ShortName>
 					<Path>SFX\Wobble 2_10C4C929.wem</Path>
+				</File>
+				<File Id="79996278" Language="SFX">
+					<ShortName>Piano04_OneShot.wav</ShortName>
+					<Path>SFX\Piano04_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="101994835" Language="SFX">
+					<ShortName>Wobble Idle 4.wav</ShortName>
+					<Path>SFX\Wobble Idle 4_10C4C929.wem</Path>
+				</File>
+				<File Id="107051675" Language="SFX">
+					<ShortName>Duduk01_OneShot.wav</ShortName>
+					<Path>SFX\Duduk01_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="123705625" Language="SFX">
+					<ShortName>Duduk02_OneShot.wav</ShortName>
+					<Path>SFX\Duduk02_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="132776430" Language="SFX">
+					<ShortName>Wobble Idle 12.wav</ShortName>
+					<Path>SFX\Wobble Idle 12_10C4C929.wem</Path>
 				</File>
 				<File Id="143704307" Language="SFX">
 					<ShortName>Sphere 2 ten.wav</ShortName>
@@ -73,6 +116,14 @@
 					<ShortName>Glock 2.wav</ShortName>
 					<Path>SFX\Glock 2_10C4C929.wem</Path>
 				</File>
+				<File Id="171562059" Language="SFX">
+					<ShortName>Pad Idle 2.wav</ShortName>
+					<Path>SFX\Pad Idle 2_10C4C929.wem</Path>
+				</File>
+				<File Id="176727413" Language="SFX">
+					<ShortName>Xylo02_OneShot.wav</ShortName>
+					<Path>SFX\Xylo02_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="192273346" Language="SFX">
 					<ShortName>Sphere 3 six.wav</ShortName>
 					<Path>SFX\Sphere 3 six_10C4C929.wem</Path>
@@ -85,33 +136,93 @@
 					<ShortName>Sphere 3 three.wav</ShortName>
 					<Path>SFX\Sphere 3 three_10C4C929.wem</Path>
 				</File>
+				<File Id="216882053" Language="SFX">
+					<ShortName>Pad Idle 1.wav</ShortName>
+					<Path>SFX\Pad Idle 1_10C4C929.wem</Path>
+				</File>
+				<File Id="217639783" Language="SFX">
+					<ShortName>Piano02_OneShot.wav</ShortName>
+					<Path>SFX\Piano02_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="253267792" Language="SFX">
 					<ShortName>Sphere 3 eight.wav</ShortName>
 					<Path>SFX\Sphere 3 eight_10C4C929.wem</Path>
+				</File>
+				<File Id="255977819" Language="SFX">
+					<ShortName>Pad Idle 7.wav</ShortName>
+					<Path>SFX\Pad Idle 7_10C4C929.wem</Path>
 				</File>
 				<File Id="273809253" Language="SFX">
 					<ShortName>Sphere 3 seven.wav</ShortName>
 					<Path>SFX\Sphere 3 seven_10C4C929.wem</Path>
 				</File>
+				<File Id="274203232" Language="SFX">
+					<ShortName>Glock04_OneShot.wav</ShortName>
+					<Path>SFX\Glock04_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="284653109" Language="SFX">
 					<ShortName>Sphere 1 six.wav</ShortName>
 					<Path>SFX\Sphere 1 six_10C4C929.wem</Path>
+				</File>
+				<File Id="303352871" Language="SFX">
+					<ShortName>Duduk06_OneShot.wav</ShortName>
+					<Path>SFX\Duduk06_OneShot_10C4C929.wem</Path>
 				</File>
 				<File Id="307537630" Language="SFX">
 					<ShortName>3 Waves 2.wav</ShortName>
 					<Path>SFX\3 Waves 2_10C4C929.wem</Path>
 				</File>
+				<File Id="319881886" Language="SFX">
+					<ShortName>Pad Idle 11.wav</ShortName>
+					<Path>SFX\Pad Idle 11_10C4C929.wem</Path>
+				</File>
+				<File Id="355726883" Language="SFX">
+					<ShortName>Wobble Idle 11.wav</ShortName>
+					<Path>SFX\Wobble Idle 11_10C4C929.wem</Path>
+				</File>
+				<File Id="374992756" Language="SFX">
+					<ShortName>Pad Idle 5.wav</ShortName>
+					<Path>SFX\Pad Idle 5_10C4C929.wem</Path>
+				</File>
 				<File Id="387845678" Language="SFX">
 					<ShortName>Cello 1.wav</ShortName>
 					<Path>SFX\Cello 1_10C4C929.wem</Path>
+				</File>
+				<File Id="401784760" Language="SFX">
+					<ShortName>Wobble Idle 5.wav</ShortName>
+					<Path>SFX\Wobble Idle 5_10C4C929.wem</Path>
+				</File>
+				<File Id="431723465" Language="SFX">
+					<ShortName>Wobble Idle 3.wav</ShortName>
+					<Path>SFX\Wobble Idle 3_10C4C929.wem</Path>
+				</File>
+				<File Id="431761815" Language="SFX">
+					<ShortName>Cello06_OneShot.wav</ShortName>
+					<Path>SFX\Cello06_OneShot_10C4C929.wem</Path>
 				</File>
 				<File Id="446498284" Language="SFX">
 					<ShortName>Marim 1.wav</ShortName>
 					<Path>SFX\Marim 1_10C4C929.wem</Path>
 				</File>
+				<File Id="458075809" Language="SFX">
+					<ShortName>Wobble Idle 8.wav</ShortName>
+					<Path>SFX\Wobble Idle 8_10C4C929.wem</Path>
+				</File>
+				<File Id="459572607" Language="SFX">
+					<ShortName>Xylo01_OneShot.wav</ShortName>
+					<Path>SFX\Xylo01_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="479448335" Language="SFX">
 					<ShortName>Sphere 2 four.wav</ShortName>
 					<Path>SFX\Sphere 2 four_10C4C929.wem</Path>
+				</File>
+				<File Id="482250320" Language="SFX">
+					<ShortName>Pad Idle 10.wav</ShortName>
+					<Path>SFX\Pad Idle 10_10C4C929.wem</Path>
+				</File>
+				<File Id="495882161" Language="SFX">
+					<ShortName>Cello02_OneShot.wav</ShortName>
+					<Path>SFX\Cello02_OneShot_10C4C929.wem</Path>
 				</File>
 				<File Id="498376134" Language="SFX">
 					<ShortName>Sphere 2 five.wav</ShortName>
@@ -121,21 +232,41 @@
 					<ShortName>Piano 2.wav</ShortName>
 					<Path>SFX\Piano 2_10C4C929.wem</Path>
 				</File>
-				<File Id="520184491" Language="SFX">
-					<ShortName>Wave 2.wav</ShortName>
-					<Path>SFX\Wave 2_10C4C929.wem</Path>
+				<File Id="517122232" Language="SFX">
+					<ShortName>Piano01_OneShot.wav</ShortName>
+					<Path>SFX\Piano01_OneShot_10C4C929.wem</Path>
 				</File>
-				<File Id="521374175" Language="SFX">
-					<ShortName>Pad Loop.wav</ShortName>
-					<Path>SFX\Pad Loop_10C4C929.wem</Path>
+				<File Id="529291730" Language="SFX">
+					<ShortName>Cello01_OneShot.wav</ShortName>
+					<Path>SFX\Cello01_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="542325871" Language="SFX">
+					<ShortName>Pad Idle 9.wav</ShortName>
+					<Path>SFX\Pad Idle 9_10C4C929.wem</Path>
+				</File>
+				<File Id="544328648" Language="SFX">
+					<ShortName>Glock01_OneShot.wav</ShortName>
+					<Path>SFX\Glock01_OneShot_10C4C929.wem</Path>
 				</File>
 				<File Id="586245849" Language="SFX">
 					<ShortName>Sphere 2 seven.wav</ShortName>
 					<Path>SFX\Sphere 2 seven_10C4C929.wem</Path>
 				</File>
+				<File Id="618133686" Language="SFX">
+					<ShortName>Cello03_OneShot.wav</ShortName>
+					<Path>SFX\Cello03_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="621024928" Language="SFX">
+					<ShortName>Piano05_OneShot.wav</ShortName>
+					<Path>SFX\Piano05_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="623187325" Language="SFX">
 					<ShortName>Sphere 1 four.wav</ShortName>
 					<Path>SFX\Sphere 1 four_10C4C929.wem</Path>
+				</File>
+				<File Id="638773412" Language="SFX">
+					<ShortName>Glock06_OneShot.wav</ShortName>
+					<Path>SFX\Glock06_OneShot_10C4C929.wem</Path>
 				</File>
 				<File Id="646349425" Language="SFX">
 					<ShortName>Sphere 2.wav</ShortName>
@@ -145,6 +276,30 @@
 					<ShortName>Sphere 3 nine.wav</ShortName>
 					<Path>SFX\Sphere 3 nine_10C4C929.wem</Path>
 				</File>
+				<File Id="668233115" Language="SFX">
+					<ShortName>Glock03_OneShot.wav</ShortName>
+					<Path>SFX\Glock03_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="668242375" Language="SFX">
+					<ShortName>Duduk05_OneShot.wav</ShortName>
+					<Path>SFX\Duduk05_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="681023215" Language="SFX">
+					<ShortName>Wobble Idle 2.wav</ShortName>
+					<Path>SFX\Wobble Idle 2_10C4C929.wem</Path>
+				</File>
+				<File Id="701294446" Language="SFX">
+					<ShortName>Moon_response.wav</ShortName>
+					<Path>SFX\Moon_response_10C4C929.wem</Path>
+				</File>
+				<File Id="703704115" Language="SFX">
+					<ShortName>Wobble Idle 10.wav</ShortName>
+					<Path>SFX\Wobble Idle 10_10C4C929.wem</Path>
+				</File>
+				<File Id="708421901" Language="SFX">
+					<ShortName>Xylo06_OneShot.wav</ShortName>
+					<Path>SFX\Xylo06_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="711667456" Language="SFX">
 					<ShortName>Sphere 2 nine.wav</ShortName>
 					<Path>SFX\Sphere 2 nine_10C4C929.wem</Path>
@@ -153,13 +308,29 @@
 					<ShortName>Sphere 1.wav</ShortName>
 					<Path>SFX\Sphere 1_10C4C929.wem</Path>
 				</File>
+				<File Id="717499210" Language="SFX">
+					<ShortName>Wobble Idle 1.wav</ShortName>
+					<Path>SFX\Wobble Idle 1_10C4C929.wem</Path>
+				</File>
+				<File Id="721047405" Language="SFX">
+					<ShortName>PianoF06_OneShot.wav</ShortName>
+					<Path>SFX\PianoF06_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="730743241" Language="SFX">
 					<ShortName>Sphere 1 one.wav</ShortName>
 					<Path>SFX\Sphere 1 one_10C4C929.wem</Path>
 				</File>
+				<File Id="731816969" Language="SFX">
+					<ShortName>Pad Idle 6.wav</ShortName>
+					<Path>SFX\Pad Idle 6_10C4C929.wem</Path>
+				</File>
 				<File Id="733576940" Language="SFX">
 					<ShortName>Duduk 1.wav</ShortName>
 					<Path>SFX\Duduk 1_10C4C929.wem</Path>
+				</File>
+				<File Id="736028139" Language="SFX">
+					<ShortName>Duduk04_OneShot.wav</ShortName>
+					<Path>SFX\Duduk04_OneShot_10C4C929.wem</Path>
 				</File>
 				<File Id="763511347" Language="SFX">
 					<ShortName>Sphere 1 five.wav</ShortName>
@@ -177,9 +348,17 @@
 					<ShortName>Sphere 1 three.wav</ShortName>
 					<Path>SFX\Sphere 1 three_10C4C929.wem</Path>
 				</File>
+				<File Id="790482449" Language="SFX">
+					<ShortName>Pad Idle 8.wav</ShortName>
+					<Path>SFX\Pad Idle 8_10C4C929.wem</Path>
+				</File>
 				<File Id="806535787" Language="SFX">
 					<ShortName>Glock 1.wav</ShortName>
 					<Path>SFX\Glock 1_10C4C929.wem</Path>
+				</File>
+				<File Id="822125532" Language="SFX">
+					<ShortName>Cello04_OneShot.wav</ShortName>
+					<Path>SFX\Cello04_OneShot_10C4C929.wem</Path>
 				</File>
 				<File Id="840852509" Language="SFX">
 					<ShortName>Duduk 2.wav</ShortName>
@@ -189,29 +368,81 @@
 					<ShortName>VR_Ambient.wav</ShortName>
 					<Path>SFX\VR_Ambient_D79FB2B7.wem</Path>
 				</File>
+				<File Id="844671320" Language="SFX">
+					<ShortName>Glock02_OneShot.wav</ShortName>
+					<Path>SFX\Glock02_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="859629225" Language="SFX">
 					<ShortName>Piano 1.wav</ShortName>
 					<Path>SFX\Piano 1_10C4C929.wem</Path>
+				</File>
+				<File Id="867873791" Language="SFX">
+					<ShortName>Wobble Idle 7.wav</ShortName>
+					<Path>SFX\Wobble Idle 7_10C4C929.wem</Path>
 				</File>
 				<File Id="868454718" Language="SFX">
 					<ShortName>Sphere 2 two.wav</ShortName>
 					<Path>SFX\Sphere 2 two_10C4C929.wem</Path>
 				</File>
+				<File Id="870433392" Language="SFX">
+					<ShortName>Xylo05_OneShot.wav</ShortName>
+					<Path>SFX\Xylo05_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="876462326" Language="SFX">
+					<ShortName>Xylo04_OneShot.wav</ShortName>
+					<Path>SFX\Xylo04_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="884555054" Language="SFX">
 					<ShortName>Sphere 3 four.wav</ShortName>
 					<Path>SFX\Sphere 3 four_10C4C929.wem</Path>
+				</File>
+				<File Id="893630209" Language="SFX">
+					<ShortName>Blue Wave 2.wav</ShortName>
+					<Path>SFX\Blue Wave 2_10C4C929.wem</Path>
+				</File>
+				<File Id="894761558" Language="SFX">
+					<ShortName>Piano03_OneShot.wav</ShortName>
+					<Path>SFX\Piano03_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="895248130" Language="SFX">
+					<ShortName>Cello05_OneShot.wav</ShortName>
+					<Path>SFX\Cello05_OneShot_374E43B1.wem</Path>
+				</File>
+				<File Id="924729947" Language="SFX">
+					<ShortName>Wobble Idle 9.wav</ShortName>
+					<Path>SFX\Wobble Idle 9_10C4C929.wem</Path>
+				</File>
+				<File Id="934109907" Language="SFX">
+					<ShortName>Pad Loop.wav</ShortName>
+					<Path>SFX\Pad Loop_D79FB2B7.wem</Path>
 				</File>
 				<File Id="949941482" Language="SFX">
 					<ShortName>Sphere 3 one.wav</ShortName>
 					<Path>SFX\Sphere 3 one_10C4C929.wem</Path>
 				</File>
+				<File Id="966924796" Language="SFX">
+					<ShortName>Blue Wave 1.wav</ShortName>
+					<Path>SFX\Blue Wave 1_10C4C929.wem</Path>
+				</File>
 				<File Id="977390048" Language="SFX">
 					<ShortName>VR_Moon.wav</ShortName>
 					<Path>SFX\VR_Moon_D79FB2B7.wem</Path>
 				</File>
+				<File Id="992549004" Language="SFX">
+					<ShortName>Xylo03_OneShot.wav</ShortName>
+					<Path>SFX\Xylo03_OneShot_10C4C929.wem</Path>
+				</File>
+				<File Id="1000340277" Language="SFX">
+					<ShortName>Glock05_OneShot.wav</ShortName>
+					<Path>SFX\Glock05_OneShot_10C4C929.wem</Path>
+				</File>
 				<File Id="1009817707" Language="SFX">
 					<ShortName>Sphere 2 one.wav</ShortName>
 					<Path>SFX\Sphere 2 one_10C4C929.wem</Path>
+				</File>
+				<File Id="1022904846" Language="SFX">
+					<ShortName>Cello05_OneShot.wav</ShortName>
+					<Path>SFX\Cello05_OneShot_B972CE43.wem</Path>
 				</File>
 				<File Id="1023574111" Language="SFX">
 					<ShortName>Sphere 3 five.wav</ShortName>
