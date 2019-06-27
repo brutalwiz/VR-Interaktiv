@@ -7,10 +7,23 @@ public class MoonRotation : MonoBehaviour
     // Start is called before the first frame update
     public float rotSpeed = 2.0f;
     private Animation anim;
-
+    private OSC osc;
     public int maxSounds = 0;
     void Start()
     {
+        osc = GameObject.Find("OSC").GetComponent<OSC>();
+        if (osc != null)
+        {
+            Debug.Log("FIRE OSC!");
+            OscMessage message = new OscMessage();
+            message.address = "/Reset";
+            message.values.Add(1);
+            osc.Send(message);
+        }
+        else
+        {
+            Debug.LogError("OSC Object for " + gameObject.name + " not found!");
+        }
         anim = gameObject.GetComponent<Animation>();
         anim["Impact"].layer = 123;
     }
