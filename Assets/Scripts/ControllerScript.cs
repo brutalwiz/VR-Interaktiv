@@ -24,6 +24,7 @@ public class ControllerScript : MonoBehaviour
                     /*go.transform.SendMessage("disableMaterial");
                     go = hit.collider.gameObject;
                     go.transform.SendMessage("enableMaterial");*/
+                    go = hit.collider.gameObject;
                     Debug.Log("ON VR RAYCAST ENTER!");
                 }
                 if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))

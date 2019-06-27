@@ -17,11 +17,15 @@ public class MoveToMoon : MonoBehaviour
     float rtpcVal = 0;
 
     public bool moving;
+    private int soundsCount=0;
+
+    private bool destruction = false;
     // Start is called before the first frame update
     void Start()
     {
         moving = false;
         moon = GameObject.Find("Moon");
+        
         //Sucht OSC Game Object mit OSC Script
         osc = GameObject.Find("OSC").GetComponent<OSC>();
         if(moon != null){
@@ -56,23 +60,27 @@ public class MoveToMoon : MonoBehaviour
         }
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(moving){
             //Bewegung zum Mond
             transform.position = Vector3.Lerp(transform.position,moon.transform.position,Time.deltaTime*moveSpeed);
-            moveSpeed += 0.0001f;
+            moveSpeed += 0.0005f;
         }
         if (fade && rtpcVal<100)
         {
-            AkSoundEngine.SetRTPCValue(RTPCName, rtpcVal, gameObject);
+            AkSoundEngine.SetRTPCValue(RTPCName, rtpcVal);
             rtpcVal += 0.84f;
             if (rtpcVal > 100)
             {
-                AkSoundEngine.SetRTPCValue(RTPCName, 100f, gameObject);
+                AkSoundEngine.SetRTPCValue(RTPCName, 100f);
                 fade = false;
                 Destroy(gameObject, 2);
             }
+        }
+        if(destruction){
+            transform.position = transform.position + new Vector3(0,-1,0)*Time.deltaTime*20;
+            moveSpeed += 0.001f;
         }
     }
 
@@ -80,7 +88,11 @@ public class MoveToMoon : MonoBehaviour
         moving = true;
         StopLoopEvent.Post(gameObject);
         ActionEvent.Post(gameObject);
+    }
 
+    void selfDestruction(){
+        destruction = true;
+        Destroy(gameObject,7);
     }
     
 }

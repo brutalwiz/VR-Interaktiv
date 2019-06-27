@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\KandinskyVR\VR-Interaktiv\VR Interaktiv_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\KandinskyVR\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\KandinskyVR\VR-Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\KandinskyVR\VR-Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,28 +22,28 @@
 			<Path>VR_INT_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1562304622" Name="Play_Ambient" ObjectPath="\Events\Default Work Unit\Play_Ambient"/>
-				<Event Id="1750831160" Name="Play_Blue_3_Waves_Aktive" ObjectPath="\Events\Default Work Unit\Play_Blue_3_Waves_Aktive" MaxAttenuation="35.000000"/>
-				<Event Id="3952716768" Name="Play_Blue_3_Waves_Idle" ObjectPath="\Events\Default Work Unit\Play_Blue_3_Waves_Idle" MaxAttenuation="15.000000"/>
-				<Event Id="727450411" Name="Play_Blue_Wave_Aktive" ObjectPath="\Events\Default Work Unit\Play_Blue_Wave_Aktive" MaxAttenuation="35.000000"/>
-				<Event Id="1275841447" Name="Play_Blue_Wave_Idle" ObjectPath="\Events\Default Work Unit\Play_Blue_Wave_Idle" MaxAttenuation="15.000000"/>
-				<Event Id="3842488354" Name="Play_Dark_Blue_Aktive" ObjectPath="\Events\Default Work Unit\Play_Dark_Blue_Aktive" MaxAttenuation="35.000000"/>
-				<Event Id="3650992882" Name="Play_Dark_Blue_Idle" ObjectPath="\Events\Default Work Unit\Play_Dark_Blue_Idle" MaxAttenuation="15.000000"/>
-				<Event Id="3113777928" Name="Play_Green_Noodle_Aktive" ObjectPath="\Events\Default Work Unit\Play_Green_Noodle_Aktive" MaxAttenuation="35.000000"/>
-				<Event Id="2736068400" Name="Play_Green_Noodle_Idle" ObjectPath="\Events\Default Work Unit\Play_Green_Noodle_Idle" MaxAttenuation="15.000000"/>
-				<Event Id="1471702656" Name="Play_Green_Pulsating_Sphere_Cluster_Aktiv" ObjectPath="\Events\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Aktiv" MaxAttenuation="35.000000"/>
-				<Event Id="1126944137" Name="Play_Green_Pulsating_Sphere_Cluster_Idle" ObjectPath="\Events\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Idle" MaxAttenuation="15.000000"/>
-				<Event Id="1296833649" Name="Play_Moon" ObjectPath="\Events\Default Work Unit\Play_Moon" MaxAttenuation="320.000000"/>
+				<Event Id="1750831160" Name="Play_Blue_3_Waves_Aktive" ObjectPath="\Events\Default Work Unit\Play_Blue_3_Waves_Aktive" MaxAttenuation="45.000000"/>
+				<Event Id="3952716768" Name="Play_Blue_3_Waves_Idle" ObjectPath="\Events\Default Work Unit\Play_Blue_3_Waves_Idle" MaxAttenuation="25.000000"/>
+				<Event Id="727450411" Name="Play_Blue_Wave_Aktive" ObjectPath="\Events\Default Work Unit\Play_Blue_Wave_Aktive" MaxAttenuation="45.000000"/>
+				<Event Id="1275841447" Name="Play_Blue_Wave_Idle" ObjectPath="\Events\Default Work Unit\Play_Blue_Wave_Idle" MaxAttenuation="25.000000"/>
+				<Event Id="3842488354" Name="Play_Dark_Blue_Aktive" ObjectPath="\Events\Default Work Unit\Play_Dark_Blue_Aktive" MaxAttenuation="45.000000"/>
+				<Event Id="3650992882" Name="Play_Dark_Blue_Idle" ObjectPath="\Events\Default Work Unit\Play_Dark_Blue_Idle" MaxAttenuation="25.000000"/>
+				<Event Id="3113777928" Name="Play_Green_Noodle_Aktive" ObjectPath="\Events\Default Work Unit\Play_Green_Noodle_Aktive" MaxAttenuation="45.000000"/>
+				<Event Id="2736068400" Name="Play_Green_Noodle_Idle" ObjectPath="\Events\Default Work Unit\Play_Green_Noodle_Idle" MaxAttenuation="25.000000"/>
+				<Event Id="1471702656" Name="Play_Green_Pulsating_Sphere_Cluster_Aktiv" ObjectPath="\Events\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Aktiv" MaxAttenuation="45.000000"/>
+				<Event Id="1126944137" Name="Play_Green_Pulsating_Sphere_Cluster_Idle" ObjectPath="\Events\Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Idle" MaxAttenuation="25.000000"/>
+				<Event Id="1296833649" Name="Play_Moon" ObjectPath="\Events\Default Work Unit\Play_Moon" MaxAttenuation="420.000000"/>
 				<Event Id="2677711585" Name="Play_Moon_response" ObjectPath="\Events\Default Work Unit\Play_Moon_response"/>
-				<Event Id="150458005" Name="Play_Orange_Blanket_Aktive" ObjectPath="\Events\Default Work Unit\Play_Orange_Blanket_Aktive" MaxAttenuation="35.000000"/>
-				<Event Id="2716123513" Name="Play_Orange_Blanket_Idle" ObjectPath="\Events\Default Work Unit\Play_Orange_Blanket_Idle" MaxAttenuation="15.000000"/>
-				<Event Id="3538379842" Name="Play_Orange_Pulsating_Sphere_Cluster_Aktive" ObjectPath="\Events\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_Aktive" MaxAttenuation="35.000000"/>
-				<Event Id="3878163730" Name="Play_Orange_Pulsating_Sphere_Cluster_idle" ObjectPath="\Events\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_idle" MaxAttenuation="15.000000"/>
-				<Event Id="370574138" Name="Play_Red_Cube_Aktive" ObjectPath="\Events\Default Work Unit\Play_Red_Cube_Aktive" MaxAttenuation="35.000000"/>
-				<Event Id="440090986" Name="Play_Red_Cube_Idle" ObjectPath="\Events\Default Work Unit\Play_Red_Cube_Idle" MaxAttenuation="15.000000"/>
-				<Event Id="4236985978" Name="Play_Red_Sphere_Aktive" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Aktive" MaxAttenuation="35.000000"/>
-				<Event Id="1044629418" Name="Play_Red_Sphere_Idle" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Idle" MaxAttenuation="15.000000"/>
-				<Event Id="2380954949" Name="Play_Yellow_Pyramide_Aktive" ObjectPath="\Events\Default Work Unit\Play_Yellow_Pyramide_Aktive" MaxAttenuation="35.000000"/>
-				<Event Id="3784571625" Name="Play_Yellow_Pyramide_Idle" ObjectPath="\Events\Default Work Unit\Play_Yellow_Pyramide_Idle" MaxAttenuation="15.000000"/>
+				<Event Id="150458005" Name="Play_Orange_Blanket_Aktive" ObjectPath="\Events\Default Work Unit\Play_Orange_Blanket_Aktive" MaxAttenuation="45.000000"/>
+				<Event Id="2716123513" Name="Play_Orange_Blanket_Idle" ObjectPath="\Events\Default Work Unit\Play_Orange_Blanket_Idle" MaxAttenuation="25.000000"/>
+				<Event Id="3538379842" Name="Play_Orange_Pulsating_Sphere_Cluster_Aktive" ObjectPath="\Events\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_Aktive" MaxAttenuation="45.000000"/>
+				<Event Id="3878163730" Name="Play_Orange_Pulsating_Sphere_Cluster_idle" ObjectPath="\Events\Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_idle" MaxAttenuation="25.000000"/>
+				<Event Id="370574138" Name="Play_Red_Cube_Aktive" ObjectPath="\Events\Default Work Unit\Play_Red_Cube_Aktive" MaxAttenuation="45.000000"/>
+				<Event Id="440090986" Name="Play_Red_Cube_Idle" ObjectPath="\Events\Default Work Unit\Play_Red_Cube_Idle" MaxAttenuation="25.000000"/>
+				<Event Id="4236985978" Name="Play_Red_Sphere_Aktive" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Aktive" MaxAttenuation="45.000000"/>
+				<Event Id="1044629418" Name="Play_Red_Sphere_Idle" ObjectPath="\Events\Default Work Unit\Play_Red_Sphere_Idle" MaxAttenuation="25.000000"/>
+				<Event Id="2380954949" Name="Play_Yellow_Pyramide_Aktive" ObjectPath="\Events\Default Work Unit\Play_Yellow_Pyramide_Aktive" MaxAttenuation="45.000000"/>
+				<Event Id="3784571625" Name="Play_Yellow_Pyramide_Idle" ObjectPath="\Events\Default Work Unit\Play_Yellow_Pyramide_Idle" MaxAttenuation="25.000000"/>
 				<Event Id="1155432114" Name="Stop_Blue_3_Waves_Idle" ObjectPath="\Events\Default Work Unit\Stop_Blue_3_Waves_Idle" MaxAttenuation="0.000000"/>
 				<Event Id="462094945" Name="Stop_Blue_Wave_Idle" ObjectPath="\Events\Default Work Unit\Stop_Blue_Wave_Idle" MaxAttenuation="0.000000"/>
 				<Event Id="979472644" Name="Stop_Dark_Blue_Idle" ObjectPath="\Events\Default Work Unit\Stop_Dark_Blue_Idle" MaxAttenuation="0.000000"/>
