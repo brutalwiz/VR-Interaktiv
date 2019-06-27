@@ -39,7 +39,7 @@ public class MoonRotation : MonoBehaviour
         AkSoundEngine.PostEvent("Play_Moon_response", gameObject);
         Debug.Log("Play ANIM IMPACT");
         maxSounds++;
-        if(maxSounds >= 2){
+        if(maxSounds >= 6){
              GameObject[] allLoopObjects = GameObject.FindGameObjectsWithTag("LoopObject");
             for(int i = 0;i<allLoopObjects.Length;i++){
                 allLoopObjects[i].transform.SendMessage("selfDestruction");

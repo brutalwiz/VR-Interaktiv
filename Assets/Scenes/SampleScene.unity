@@ -3977,7 +3977,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 40
+      scalar: 43
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -10062,9 +10062,9 @@ MonoBehaviour:
   x: 0.5
   y: 0
   z: 0
-  magnitude: 0.005
+  magnitude: 0.002
   freq: 0.5
-  randomRotation: 1
+  randomRotation: 0
 --- !u!114 &1672378244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11456,11 +11456,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -6140863737541704206, guid: 8e5e3c5d7dfe2be42a791c5e02c5ee98,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6470d5d48affb054084f3a50b269d5c9, type: 2}
     - target: {fileID: -4216859302048453862, guid: 8e5e3c5d7dfe2be42a791c5e02c5ee98,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11516,6 +11511,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6140863737541704206, guid: 8e5e3c5d7dfe2be42a791c5e02c5ee98,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6470d5d48affb054084f3a50b269d5c9, type: 2}
     - target: {fileID: 2125656731480777799, guid: 8e5e3c5d7dfe2be42a791c5e02c5ee98,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
