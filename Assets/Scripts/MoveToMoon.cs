@@ -20,11 +20,17 @@ public class MoveToMoon : MonoBehaviour
     private int soundsCount=0;
 
     private bool destruction = false;
+
+    GameObject player;
+    Transform playerTransform;
+    Vector3 playerDirection;
     // Start is called before the first frame update
     void Start()
     {
         moving = false;
         moon = GameObject.Find("Moon");
+
+        player = GameObject.Find("OVRPlayerController");
         
         //Sucht OSC Game Object mit OSC Script
         osc = GameObject.Find("OSC").GetComponent<OSC>();
@@ -34,6 +40,15 @@ public class MoveToMoon : MonoBehaviour
             moonDir = moonDir / moonDir.magnitude;
         }else{
             Debug.Log("MOON NOT FOUND!");
+        }
+
+        if (player != null)
+        {
+            Transform playerTransform = player.transform;
+        }
+        else
+        {
+            Debug.LogError("PLAYER NOT FOUND!");
         }
     }
 
@@ -79,8 +94,8 @@ public class MoveToMoon : MonoBehaviour
             }
         }
         if(destruction){
-            transform.position = transform.position + new Vector3(0,-1,0)*Time.deltaTime*20;
-            moveSpeed += 0.001f;
+            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, -1 * 3 * Time.deltaTime);
+            transform.localScale = transform.localScale * 0.99f;
         }
     }
 
@@ -92,7 +107,7 @@ public class MoveToMoon : MonoBehaviour
 
     void selfDestruction(){
         destruction = true;
-        Destroy(gameObject,7);
+        Destroy(gameObject,10);
     }
     
 }

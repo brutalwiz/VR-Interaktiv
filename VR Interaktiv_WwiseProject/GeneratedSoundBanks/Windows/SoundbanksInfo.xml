@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\KandinskyVR\VR-Interaktiv\VR Interaktiv_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\KandinskyVR\VR-Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\KandinskyVR\VR-Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\KandinskyVR\VR-Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\cryin\Documents\VR Interaktiv\VR Interaktiv_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

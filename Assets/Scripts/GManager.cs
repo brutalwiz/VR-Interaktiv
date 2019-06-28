@@ -79,6 +79,18 @@ public class GManager : MonoBehaviour
         {
             Debug.LogError("OSC Object for " + gameObject.name + " not found!");
         }
+        AkSoundEngine.SetRTPCValue("Blue_3_Waves", 0);
+        AkSoundEngine.SetRTPCValue("Blue_Wave", 0);
+        AkSoundEngine.SetRTPCValue("Dark_Blue_Sphere", 0);
+        AkSoundEngine.SetRTPCValue("Green_Noodle", 0);
+        AkSoundEngine.SetRTPCValue("Green_Pulsating_Sphere_Cluster", 0);
+        AkSoundEngine.SetRTPCValue("Orange_Blanket", 0);
+        AkSoundEngine.SetRTPCValue("Orange_Pulsating_Sphere_Cluster", 0);
+        AkSoundEngine.SetRTPCValue("Red_Cube", 0);
+        AkSoundEngine.SetRTPCValue("Red_Sphere", 0);
+        AkSoundEngine.SetRTPCValue("Yellow_Pyramide", 0);
+
+
         SceneManager.LoadScene("SampleScene");
     }
 }
