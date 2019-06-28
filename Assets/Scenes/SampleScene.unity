@@ -97,7 +97,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -321,7 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2c6349a7dbe3c41adae3c3dc8e8bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: ae8d9d44
   useOtherObject: 0
   data:
     idInternal: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
+  unloadTriggerList: 
   bankNameInternal: 
   valueGuidInternal: 
 --- !u!1001 &106450721
@@ -2119,7 +2119,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1.83672e-40}
+  m_BoundingSphereOverride: {x: 4.836e-42, y: 6e-44, z: 5.68e-43, w: -1.51678095e+26}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
