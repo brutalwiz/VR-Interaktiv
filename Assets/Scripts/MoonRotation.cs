@@ -42,6 +42,14 @@ public class MoonRotation : MonoBehaviour
         if(maxSounds >= 6){
              GameObject[] allLoopObjects = GameObject.FindGameObjectsWithTag("LoopObject");
             for(int i = 0;i<allLoopObjects.Length;i++){
+                if(allLoopObjects[i].GetComponent<BoxCollider>() != null)
+                {
+                    allLoopObjects[i].GetComponent<BoxCollider>().enabled = false;
+                }
+                if (allLoopObjects[i].GetComponent<SphereCollider>() != null)
+                {
+                    allLoopObjects[i].GetComponent<SphereCollider>().enabled = false;
+                }
                 allLoopObjects[i].transform.SendMessage("selfDestruction");
             }
         }

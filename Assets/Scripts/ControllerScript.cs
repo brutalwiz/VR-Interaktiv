@@ -21,9 +21,6 @@ public class ControllerScript : MonoBehaviour
         if(Physics.Raycast(transform.position,transform.forward,out hit)){
             if(hit.collider != null){
                 if(go != hit.collider.gameObject){
-                    /*go.transform.SendMessage("disableMaterial");
-                    go = hit.collider.gameObject;
-                    go.transform.SendMessage("enableMaterial");*/
                     go = hit.collider.gameObject;
                     Debug.Log("ON VR RAYCAST ENTER!");
                 }
@@ -35,7 +32,6 @@ public class ControllerScript : MonoBehaviour
         }else{
             if(go != null){
                 //Raycast Exit
-                //go.transform.SendMessage("disableMaterial");
                 go = empty;
             }
         }

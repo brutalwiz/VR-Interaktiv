@@ -37,6 +37,8 @@ public class GManager : MonoBehaviour
             spawnPoints[rng] = spawnPoints[i];
             spawnPoints[i] = TEMP;
         }
+
+        //Assing all Moon Objects a random spawn position from the list opf spawn defining objects
         for(int i = 0; i< moonObjects.Length; i++)
         {
             if(spawnPoints.Length < moonObjects.Length)
@@ -67,6 +69,7 @@ public class GManager : MonoBehaviour
 
     void ResetGame()
     {
+        //Sending Reset command to maxMsp
         if (osc != null)
         {
             Debug.Log("FIRE OSC!");
@@ -79,6 +82,7 @@ public class GManager : MonoBehaviour
         {
             Debug.LogError("OSC Object for " + gameObject.name + " not found!");
         }
+        //Resetting all RTPC's
         AkSoundEngine.SetRTPCValue("Blue_3_Waves", 0);
         AkSoundEngine.SetRTPCValue("Blue_Wave", 0);
         AkSoundEngine.SetRTPCValue("Dark_Blue_Sphere", 0);
