@@ -6,4 +6,6 @@ This Project was inspired by the Painting "Kleine Welten VI" by Wassily Kandinsk
 The Installation is based on the Unity3D game enginge for core development, Wwise Middleware for
 audio implementation and MaxMSP for additional audio outputs (communication from Unity to Max via OSC).
 
+https://thomasfredericks.github.io/UnityOSC/ -> OSC Library for Unity
+
 4th Semester Project for B.A. Sound and Musicproduction at Univesity of Applied Sciences Darmstadt/Germany
