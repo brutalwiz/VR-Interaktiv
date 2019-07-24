@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Big and Tasty
   productName: VR Interaktiv
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -46,8 +46,8 @@ PlayerSettings:
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
-  m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 0
+  m_StereoRenderingPath: 1
+  m_ActiveColorSpace: 1
   m_MTRendering: 1
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
@@ -158,12 +158,13 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.oculus.UnitySample
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
-  AndroidPreferredInstallLocation: 1
+  AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
@@ -301,7 +302,7 @@ PlayerSettings:
     m_Automatic: 1
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
-    m_Enabled: 0
+    m_Enabled: 1
     m_Devices:
     - Oculus
     - OpenVR
@@ -543,8 +544,8 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
     1: CROSS_PLATFORM_INPUT;UNITY_POST_PROCESSING_STACK_V2
-    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_POST_PROCESSING_STACK_V2
+    4: CROSS_PLATFORM_INPUT
+    7: CROSS_PLATFORM_INPUT;UNITY_POST_PROCESSING_STACK_V2
     13: UNITY_POST_PROCESSING_STACK_V2
     14: MOBILE_INPUT
     19: UNITY_POST_PROCESSING_STACK_V2
@@ -612,7 +613,31 @@ PlayerSettings:
   XboxOneGameRating: {}
   XboxOneIsContentPackage: 0
   XboxOneEnableGPUVariability: 1
-  XboxOneSockets: {}
+  XboxOneSockets:
+    WwiseCommandSocket:
+      m_Name: WwiseCommandSocket
+      m_Port: 24025
+      m_Protocol: 0
+      m_Usages: 00000000010000000400000007000000
+      m_TemplateName: WwiseCommand
+      m_SessionRequirment: 0
+      m_DeviceUsages: 00000000
+    WwiseDiscoverySocket:
+      m_Name: WwiseDiscoverySocket
+      m_Port: 24024
+      m_Protocol: 1
+      m_Usages: 00000000010000000400000007000000
+      m_TemplateName: WwiseDiscovery
+      m_SessionRequirment: 0
+      m_DeviceUsages: 00000000
+    WwiseNotificationSocket:
+      m_Name: WwiseNotificationSocket
+      m_Port: 24026
+      m_Protocol: 0
+      m_Usages: 00000000010000000400000007000000
+      m_TemplateName: WwiseNotification
+      m_SessionRequirment: 0
+      m_DeviceUsages: 00000000
   XboxOneSplashScreen: {fileID: 0}
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0

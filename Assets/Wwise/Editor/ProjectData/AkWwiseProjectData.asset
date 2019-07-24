@@ -1,0 +1,580 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615156adc9803f841b62380a5ed96ca8, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2376ea692c27814c8850e1c918845586
+    GuidInternal: 
+    m_lastTime: -8586431391750072663
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 59580cf9be389540b204ed8db4484fc3
+    GuidInternal: 
+    m_lastTime: -8586431391756993059
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 4058feddba9f664194b07ec100ca0c2f
+    GuidInternal: 
+    m_lastTime: -8586400321098395878
+    List:
+    - name: Master_SoundBank
+      guid: 11ce518a1d0ffc45aa5be2f7bf3b26a5
+      id: 2469504869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\Master_SoundBank
+    - name: VR_INT_SoundBank
+      guid: d4e21806b7cc3e4cb012fb78f5fc495e
+      id: 1423992789
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VR_INT_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\VR_INT_SoundBank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 06aafc41df9f05499a326ef2f3d1b1bc
+    GuidInternal: 
+    m_lastTime: -8586400321098286164
+    List:
+    - name: Play_Ambient
+      guid: 1b86d23ce04c6040ad61e4894aa01c5e
+      id: 1562304622
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Ambient
+        ObjectType: 3
+      Path: Default Work Unit\Play_Ambient
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Blue_3_Waves_Aktive
+      guid: 0a44f70572cd8446b02dcd472be1589c
+      id: 1750831160
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Blue_3_Waves_Aktive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Blue_3_Waves_Aktive
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Blue_3_Waves_Idle
+      guid: 149780dad13b9d4cab7cf4abca9df4d9
+      id: 3952716768
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Blue_3_Waves_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Blue_3_Waves_Idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Blue_Wave_Aktive
+      guid: f534f422a4c7114eba88bce5cd5b2f39
+      id: 727450411
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Blue_Wave_Aktive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Blue_Wave_Aktive
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Blue_Wave_Idle
+      guid: d9006112c1e1044a8e5cef5fc5ad2ed7
+      id: 1275841447
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Blue_Wave_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Blue_Wave_Idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Dark_Blue_Aktive
+      guid: 6e89b05aa7bc15489694f508f1dcbe2d
+      id: 3842488354
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Dark_Blue_Aktive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Dark_Blue_Aktive
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Dark_Blue_Idle
+      guid: b576d6bf710ec44c82234d0c2b6b9658
+      id: 3650992882
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Dark_Blue_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Dark_Blue_Idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Green_Noodle_Aktive
+      guid: 791e9c004b011a47aac012bf9360d25d
+      id: 3113777928
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Green_Noodle_Aktive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Green_Noodle_Aktive
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Green_Noodle_Idle
+      guid: 25d8eb42b6bd854fbbdc2e437c180899
+      id: 2736068400
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Green_Noodle_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Green_Noodle_Idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Green_Pulsating_Sphere_Cluster_Aktiv
+      guid: 985cdec5620b1c4dae87653f279cc87e
+      id: 1471702656
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Green_Pulsating_Sphere_Cluster_Aktiv
+        ObjectType: 3
+      Path: Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Aktiv
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Green_Pulsating_Sphere_Cluster_Idle
+      guid: 6437dd55a25a824ebba3cdbbf75b7cde
+      id: 1126944137
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Green_Pulsating_Sphere_Cluster_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Green_Pulsating_Sphere_Cluster_Idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Moon
+      guid: cf34ac03c8010a49a439f361d0ff3f4c
+      id: 1296833649
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Moon
+        ObjectType: 3
+      Path: Default Work Unit\Play_Moon
+      maxAttenuation: 320000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Moon_response
+      guid: caf8086792e03b4ba2fa49a4d345b562
+      id: 2677711585
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Moon_response
+        ObjectType: 3
+      Path: Default Work Unit\Play_Moon_response
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Orange_Blanket_Aktive
+      guid: 83f095b715fb624994eee947dc263f69
+      id: 150458005
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Orange_Blanket_Aktive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Orange_Blanket_Aktive
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Orange_Blanket_Idle
+      guid: d0e7bcef32819440bb5f830fc8748053
+      id: 2716123513
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Orange_Blanket_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Orange_Blanket_Idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Orange_Pulsating_Sphere_Cluster_Aktive
+      guid: 78fad70f473441468e6a3caf205fd4cb
+      id: 3538379842
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Orange_Pulsating_Sphere_Cluster_Aktive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_Aktive
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Orange_Pulsating_Sphere_Cluster_idle
+      guid: 31407003fbb8dc40953fd392e9ec739a
+      id: 3878163730
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Orange_Pulsating_Sphere_Cluster_idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Orange_Pulsating_Sphere_Cluster_idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Red_Cube_Aktive
+      guid: c833e092afd27349b9c55c923a554d8c
+      id: 370574138
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Red_Cube_Aktive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Red_Cube_Aktive
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Red_Cube_Idle
+      guid: 997437693edcbd458dcc50dedb322d70
+      id: 440090986
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Red_Cube_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Red_Cube_Idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Red_Sphere_Aktive
+      guid: ab6f45dea27f2941a4291a63c331ca41
+      id: 4236985978
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Red_Sphere_Aktive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Red_Sphere_Aktive
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Red_Sphere_Idle
+      guid: 2d029e6e7e44b64394d4d1717f7e2e1d
+      id: 1044629418
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Red_Sphere_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Red_Sphere_Idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Yellow_Pyramide_Aktive
+      guid: d7a47e2d52d52744b2984270ba91ddbb
+      id: 2380954949
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Yellow_Pyramide_Aktive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Yellow_Pyramide_Aktive
+      maxAttenuation: 35000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Yellow_Pyramide_Idle
+      guid: 049cb80cc609ae48b8d0b1c56869b1e0
+      id: 3784571625
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Yellow_Pyramide_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Play_Yellow_Pyramide_Idle
+      maxAttenuation: 15000000
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Blue_3_Waves_Idle
+      guid: d4c477691e807b4984d9f74df16c2452
+      id: 1155432114
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Blue_3_Waves_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Blue_3_Waves_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Blue_Wave_Idle
+      guid: 0b6889133e02cc4ebd3d75e2a39f507f
+      id: 462094945
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Blue_Wave_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Blue_Wave_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Dark_Blue_Idle
+      guid: ae952166141c4d48962d33acb2cdcde9
+      id: 979472644
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Dark_Blue_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Dark_Blue_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Green_Noodle_Idle
+      guid: 4181f2902d768f4fb00b317e2a470c7e
+      id: 603722674
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Green_Noodle_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Green_Noodle_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Green_Pulsating_Sphere_Cluster_Idle
+      guid: d450356fd1458040aef292cd7c72ca88
+      id: 428910599
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Green_Pulsating_Sphere_Cluster_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Green_Pulsating_Sphere_Cluster_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Orange_Blanket_Idle
+      guid: 8f941b2b855adc4b85bc2ebf6a005e83
+      id: 4055001135
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Orange_Blanket_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Orange_Blanket_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Orange_Pulsating_Sphere_Cluster_idle
+      guid: c457d6a968615c42816e52cd0ca21bb6
+      id: 1201847016
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Orange_Pulsating_Sphere_Cluster_idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Orange_Pulsating_Sphere_Cluster_idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Red_Cube_Idle
+      guid: 55f4de2d03874d438e107aeef5443b2e
+      id: 2066411880
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Red_Cube_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Red_Cube_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Red_Sphere_Idle
+      guid: 2ae53674f46c094791ff7da2b77ecda3
+      id: 319723832
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Red_Sphere_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Red_Sphere_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Yellow_Pyramide_Idle
+      guid: 3cf2f3939d35714b948740051bd4b823
+      id: 4076159987
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Yellow_Pyramide_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Yellow_Pyramide_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 17941806b2c4bf4b912a4fc95c93971b
+    GuidInternal: 
+    m_lastTime: -8586400470810890284
+    List:
+    - name: Blue_3_Waves
+      guid: 3bbeab59097ed34ba4cb85cd868ac3c2
+      id: 2249019740
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Blue_3_Waves
+        ObjectType: 13
+      Path: Default Work Unit\Blue_3_Waves
+    - name: Blue_Wave
+      guid: cc6b1f5d4a2d2c41bb891c1b93ffbf76
+      id: 818859383
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Blue_Wave
+        ObjectType: 13
+      Path: Default Work Unit\Blue_Wave
+    - name: Dark_Blue_Sphere
+      guid: 8dc1f28f188abd4da6b5d40ee27a54f7
+      id: 868919084
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dark_Blue_Sphere
+        ObjectType: 13
+      Path: Default Work Unit\Dark_Blue_Sphere
+    - name: Green_Noodle
+      guid: b97bdbe5f27ab947821d34640da16843
+      id: 1260208832
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Green_Noodle
+        ObjectType: 13
+      Path: Default Work Unit\Green_Noodle
+    - name: Green_Pulsating_Sphere_Cluster
+      guid: 2405b492f3bc684097e337e5966986fe
+      id: 4201243403
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Green_Pulsating_Sphere_Cluster
+        ObjectType: 13
+      Path: Default Work Unit\Green_Pulsating_Sphere_Cluster
+    - name: Orange_Blanket
+      guid: 4dfd1d0304223e4dbc1d7e2b5a3cc995
+      id: 1348629375
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Orange_Blanket
+        ObjectType: 13
+      Path: Default Work Unit\Orange_Blanket
+    - name: Orange_Pulsating_Sphere_Cluster
+      guid: 3b06ebad645f0d4784c5d1cf37aeea1a
+      id: 243151924
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Orange_Pulsating_Sphere_Cluster
+        ObjectType: 13
+      Path: Default Work Unit\Orange_Pulsating_Sphere_Cluster
+    - name: Red_Cube
+      guid: e1c2d42b05326a4caff376b3f3c70ffa
+      id: 629372170
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Red_Cube
+        ObjectType: 13
+      Path: Default Work Unit\Red_Cube
+    - name: Red_Sphere
+      guid: 331a1dc2b9e8404ca8a534db84eb96f8
+      id: 3169013010
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Red_Sphere
+        ObjectType: 13
+      Path: Default Work Unit\Red_Sphere
+    - name: Yellow_Pyramide
+      guid: 432d90094709da4baae7fba7a89e236d
+      id: 3328475477
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Yellow_Pyramide
+        ObjectType: 13
+      Path: Default Work Unit\Yellow_Pyramide
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2245af45ae7a1742bf590cbd7eb87a28
+    GuidInternal: 
+    m_lastTime: -8586431391750142667
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7e892bc627ae874f81b0a5a50b03074c
+    GuidInternal: 
+    m_lastTime: -8586431391750132666
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: b839f982da4b784ebb046f6a7606cfef
+    GuidInternal: 
+    m_lastTime: -8586431391750132666
+    List: []
+  ExpandedItems:
+  - /VR Interaktiv_WwiseProject
+  - /VR Interaktiv_WwiseProject/Events
+  - /VR Interaktiv_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

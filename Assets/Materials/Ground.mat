@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ground
-  m_Shader: {fileID: -6465566751694194690, guid: 553a04f04b902f04db75391c4ee45d60,
+  m_Shader: {fileID: -6465566751694194690, guid: 8db44249c0ec1c34289bdb28467a349a,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -56,15 +56,26 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_AEF406F2_Texture:
+        m_Texture: {fileID: 2800000, guid: 58a059b07b093a745b47c2191525ddce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_EE7153CF_Texture:
+        m_Texture: {fileID: 2800000, guid: 58a059b07b093a745b47c2191525ddce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_1E0C2785: 0.47
+    - Vector1_5737C811: 0.094
+    - Vector1_7907F2C9: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _GlossMapScale: 0.113
+    - _Glossiness: 0.346
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.081
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -74,5 +85,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
